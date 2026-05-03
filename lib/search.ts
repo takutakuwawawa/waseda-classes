@@ -67,3 +67,23 @@ export async function searchClasses(params: SearchParams) {
     pageSize: PAGE_SIZE,
   };
 }
+
+// 個別の授業を id で取得（詳細ページ用）
+export async function getClassById(id: string): Promise<ClassWithSlots | null> {
+  const { data, error } = await supabase
+    .from("classes")
+    .select(
+      `
+      *,
+      class_slots ( term, day_of_week, period )
+      `
+    )
+    .eq("id", id)
+    .maybeSingle();
+
+  if (error) {
+    console.error("getClassById error:", error);
+    return null;
+  }
+  return (data as ClassWithSlots | null) ?? null;
+}

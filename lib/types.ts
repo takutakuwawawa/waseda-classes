@@ -5,6 +5,7 @@ export type ClassRow = {
   name: string;
   teacher: string | null;
   faculty: string;
+  faculty_slug: string | null;
   term: string | null;
   campus: string | null;
   credits: number | null;
@@ -14,6 +15,23 @@ export type ClassRow = {
   summary: string | null;
   classroom: string | null;
   year: number | null;
+  // シラバス詳細
+  subtitle: string | null;
+  goal: string | null;
+  study_outside: string | null;
+  schedule_plan: string | null;
+  textbook: string | null;
+  reference: string | null;
+  grading_method: string | null;
+  notes_url: string | null;
+  course_code_full: string | null;
+  major_field: string | null;
+  middle_field: string | null;
+  minor_field: string | null;
+  level: string | null;
+  subject_category: string | null;
+  year_assignment: string | null;
+  method_type: string | null;
 };
 
 // class_slots テーブルの行型
@@ -32,18 +50,30 @@ export type ClassWithSlots = ClassRow & {
 
 // 検索パラメータ
 export type SearchParams = {
-  q?: string;             // フリーワード
-  faculty?: string;       // 学部
-  term?: string;          // 学期
-  day?: string;           // 曜日（1〜7）
-  period?: string;        // 時限（1〜7）
-  page?: string;          // ページ番号（1始まり）
+  q?: string;
+  faculty?: string;
+  term?: string;
+  day?: string;
+  period?: string;
+  page?: string;
 };
 
 // UI用の選択肢
 export const FACULTIES = [
-  "政経", "法", "教育", "商", "社学",
-  "人科", "スポーツ", "国際教養", "文構", "文",
+  "政経",
+  "法学",
+  "教育",
+  "商",
+  "社学",
+  "人科",
+  "スポーツ",
+  "国際教養",
+  "文構",
+  "文",
+  "人通",
+  "基幹",
+  "創造",
+  "先進",
 ] as const;
 
 export const TERMS = ["春学期", "秋学期", "通年"] as const;
