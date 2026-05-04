@@ -51,8 +51,16 @@ export type SearchParams = {
   day?: string;
   period?: string;
   methodType?: string;
+  sort?: string;
   page?: string;
 };
+
+export type SortKey =
+  | "name"
+  | "teacher"
+  | "faculty"
+  | "credits-desc"
+  | "credits-asc";
 
 export const FACULTIES = [
   "政経",
@@ -98,3 +106,11 @@ export const CLASS_MODALITIES = [
   { label: "フルオンデマンド", value: "【オンライン】フルオンデマンド" },
   { label: "リアルタイム配信", value: "【オンライン】リアルタイム配信" },
 ] as const;
+
+export const SORT_OPTIONS: { label: string; value: SortKey }[] = [
+  { label: "科目名順", value: "name" },
+  { label: "教員名順", value: "teacher" },
+  { label: "学部順", value: "faculty" },
+  { label: "単位数 多い順", value: "credits-desc" },
+  { label: "単位数 少ない順", value: "credits-asc" },
+];

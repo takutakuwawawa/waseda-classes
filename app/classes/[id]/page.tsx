@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AppHeader } from "@/components/AppHeader";
 import { ClassDetailTabs } from "@/components/ClassDetailTabs";
 import { getClassById } from "@/lib/search";
 
@@ -8,9 +9,9 @@ const DAY_LABELS = ["", "月", "火", "水", "木", "金", "土", "日"];
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
-    <section className="rounded-lg border border-zinc-800 bg-zinc-900/40 p-4">
-      <h2 className="mb-2 text-sm font-semibold text-zinc-300">{title}</h2>
-      <div className="whitespace-pre-wrap break-words text-sm leading-relaxed text-zinc-200">
+    <section className="rounded-md border border-[var(--line)] bg-[var(--surface)] p-4">
+      <h2 className="mb-2 text-sm font-semibold text-[var(--text)]">{title}</h2>
+      <div className="whitespace-pre-wrap break-words text-sm leading-relaxed text-[var(--text-muted)]">
         {children}
       </div>
     </section>
@@ -21,9 +22,9 @@ function MetaRow({ label, value }: { label: string; value: string | null }) {
   if (!value) return null;
 
   return (
-    <div className="flex gap-3 border-b border-zinc-800/60 py-1.5 text-sm last:border-b-0">
-      <span className="w-24 shrink-0 text-zinc-500">{label}</span>
-      <span className="break-words text-zinc-200">{value}</span>
+    <div className="flex gap-3 border-b border-[var(--line)] py-1.5 text-sm last:border-b-0">
+      <span className="w-24 shrink-0 text-[var(--text-faint)]">{label}</span>
+      <span className="break-words font-medium text-[var(--text)]">{value}</span>
     </div>
   );
 }
@@ -83,41 +84,43 @@ export default async function ClassDetailPage({
   );
 
   return (
-    <main className="min-h-dvh bg-zinc-950 text-zinc-100">
-      <div className="mx-auto max-w-3xl px-4 py-6">
+    <main className="min-h-dvh bg-[var(--bg)] text-[var(--text)]">
+      <AppHeader />
+
+      <div className="mx-auto max-w-5xl px-5 pb-10 pt-20">
         <Link
           href="/"
-          className="inline-block text-sm text-zinc-400 hover:text-zinc-200"
+          className="inline-block text-sm font-medium text-[var(--text-muted)] transition-colors hover:text-[var(--text)]"
         >
           ← 検索に戻る
         </Link>
 
-        <header className="mt-4 mb-5">
+        <header className="my-5 rounded-md border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
           <div className="mb-2 flex flex-wrap gap-2 text-xs">
-            <span className="rounded-md bg-zinc-800 px-2 py-0.5 text-zinc-300">
+            <span className="rounded bg-[var(--accent)] px-2 py-0.5 font-semibold text-[var(--chip-text)]">
               {row.faculty}
             </span>
             {row.term && (
-              <span className="rounded-md bg-zinc-800 px-2 py-0.5 text-zinc-300">
+              <span className="rounded border border-[var(--line)] bg-[var(--control)] px-2 py-0.5 text-[var(--text-muted)]">
                 {row.term}
               </span>
             )}
             {row.year && (
-              <span className="rounded-md bg-zinc-800 px-2 py-0.5 text-zinc-300">
+              <span className="rounded border border-[var(--line)] bg-[var(--control)] px-2 py-0.5 text-[var(--text-muted)]">
                 {row.year}年度
               </span>
             )}
           </div>
-          <h1 className="text-xl font-bold leading-tight">{row.name}</h1>
+          <h1 className="text-2xl font-bold leading-tight">{row.name}</h1>
           {row.subtitle && (
-            <p className="mt-1 text-sm text-zinc-400">{row.subtitle}</p>
+            <p className="mt-1 text-sm text-[var(--text-muted)]">{row.subtitle}</p>
           )}
-          <p className="mt-2 text-sm text-zinc-300">
+          <p className="mt-3 text-sm font-medium text-[var(--text)]">
             {row.teacher ?? "教員未定"}
           </p>
         </header>
 
-        <section className="mb-4 rounded-lg border border-zinc-800 bg-zinc-900/40 p-4">
+        <section className="mb-5 rounded-md border border-[var(--line)] bg-[var(--surface)] p-5">
           <MetaRow label="曜日時限" value={slotsLabel} />
           <MetaRow label="使用教室" value={row.classroom} />
           <MetaRow label="キャンパス" value={row.campus} />

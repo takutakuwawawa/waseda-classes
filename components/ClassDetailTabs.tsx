@@ -25,7 +25,7 @@ export function ClassDetailTabs({
 
   return (
     <div>
-      <div className="mb-4 border-b border-zinc-800">
+      <div className="mb-4 border-b border-[var(--line)]">
         <div className="flex gap-1">
           {TABS.map((tab) => (
             <button
@@ -34,8 +34,8 @@ export function ClassDetailTabs({
               onClick={() => setActiveTab(tab.id)}
               className={`border-b-2 px-4 py-2 text-sm font-medium transition-colors ${
                 activeTab === tab.id
-                  ? "border-zinc-100 text-zinc-100"
-                  : "border-transparent text-zinc-500 hover:text-zinc-300"
+                  ? "border-[var(--accent)] text-[var(--text)]"
+                  : "border-transparent text-[var(--text-faint)] hover:text-[var(--text-muted)]"
               }`}
             >
               {tab.label}

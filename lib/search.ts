@@ -1,12 +1,25 @@
 import { supabase } from "./supabase";
-import type { ClassWithSlots, SearchParams } from "./types";
+import type { ClassWithSlots, SearchParams, SortKey } from "./types";
 
 const PAGE_SIZE = 20;
+
+const SORT_KEYS = new Set<SortKey>([
+  "name",
+  "teacher",
+  "faculty",
+  "credits-desc",
+  "credits-asc",
+]);
+
+function normalizeSort(sort: string | undefined): SortKey {
+  return SORT_KEYS.has(sort as SortKey) ? (sort as SortKey) : "name";
+}
 
 export async function searchClasses(params: SearchParams) {
   const page = Math.max(1, parseInt(params.page ?? "1", 10) || 1);
   const from = (page - 1) * PAGE_SIZE;
   const to = from + PAGE_SIZE - 1;
+  const sort = normalizeSort(params.sort);
 
   const hasSlotFilter = Boolean(params.day || params.period);
   const slotsSelect = hasSlotFilter
@@ -45,7 +58,34 @@ export async function searchClasses(params: SearchParams) {
     query = query.or(`name.ilike.%${q}%,teacher.ilike.%${q}%`);
   }
 
-  query = query.order("name", { ascending: true }).range(from, to);
+  switch (sort) {
+    case "teacher":
+      query = query
+        .order("teacher", { ascending: true, nullsFirst: false })
+        .order("name", { ascending: true });
+      break;
+    case "faculty":
+      query = query
+        .order("faculty", { ascending: true })
+        .order("name", { ascending: true });
+      break;
+    case "credits-desc":
+      query = query
+        .order("credits", { ascending: false, nullsFirst: false })
+        .order("name", { ascending: true });
+      break;
+    case "credits-asc":
+      query = query
+        .order("credits", { ascending: true, nullsFirst: false })
+        .order("name", { ascending: true });
+      break;
+    case "name":
+    default:
+      query = query.order("name", { ascending: true });
+      break;
+  }
+
+  query = query.range(from, to);
 
   const { data, error, count } = await query;
   if (error) throw error;

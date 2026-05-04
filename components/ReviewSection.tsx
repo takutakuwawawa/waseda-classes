@@ -142,7 +142,7 @@ export function ReviewSection({ classId }: { classId: string }) {
 
   return (
     <div className="space-y-4">
-      <div className="rounded-lg border border-zinc-800 bg-zinc-900/50 p-4">
+      <div className="rounded-md border border-[var(--line)] bg-[var(--surface)] p-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="text-3xl font-bold">
@@ -151,11 +151,11 @@ export function ReviewSection({ classId }: { classId: string }) {
             <div>
               <div className="text-sm text-yellow-400">
                 {"★".repeat(Math.round(avgRating))}
-                <span className="text-zinc-700">
+                <span className="text-[var(--text-faint)] opacity-45">
                   {"★".repeat(5 - Math.round(avgRating))}
                 </span>
               </div>
-              <div className="mt-1 text-xs text-zinc-500">
+              <div className="mt-1 text-xs text-[var(--text-faint)]">
                 {reviews.length} 件のレビュー
               </div>
             </div>
@@ -163,7 +163,7 @@ export function ReviewSection({ classId }: { classId: string }) {
           <button
             type="button"
             onClick={() => setShowForm(!showForm)}
-            className="rounded-lg bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-900 transition-colors hover:bg-zinc-300"
+            className="rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--accent-strong)]"
           >
             {showForm ? "閉じる" : "レビューを書く"}
           </button>
@@ -173,10 +173,10 @@ export function ReviewSection({ classId }: { classId: string }) {
       {showForm && (
         <form
           onSubmit={handleSubmit}
-          className="space-y-5 rounded-lg border border-zinc-800 bg-zinc-900/50 p-4"
+          className="space-y-5 rounded-md border border-[var(--line)] bg-[var(--surface)] p-4"
         >
           <div>
-            <label className="mb-2 block text-sm font-medium text-zinc-300">
+            <label className="mb-2 block text-sm font-medium text-[var(--text)]">
               評価 <span className="text-red-400">*</span>
             </label>
             <div className="flex gap-1">
@@ -187,7 +187,7 @@ export function ReviewSection({ classId }: { classId: string }) {
                   onClick={() => setRating(n)}
                   className="text-2xl transition-transform hover:scale-110"
                 >
-                  <span className={n <= rating ? "text-yellow-400" : "text-zinc-700"}>
+                  <span className={n <= rating ? "text-yellow-400" : "text-[var(--text-faint)] opacity-45"}>
                     ★
                   </span>
                 </button>
@@ -197,13 +197,13 @@ export function ReviewSection({ classId }: { classId: string }) {
 
           <div className="flex gap-3">
             <div className="flex-1">
-              <label className="mb-2 block text-sm font-medium text-zinc-300">
+              <label className="mb-2 block text-sm font-medium text-[var(--text)]">
                 履修年度 <span className="text-red-400">*</span>
               </label>
               <select
                 value={takenYear}
                 onChange={(e) => setTakenYear(parseInt(e.target.value, 10))}
-                className="w-full rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-zinc-100"
+                className="w-full rounded-md border border-[var(--line)] bg-[var(--control)] px-3 py-2 text-sm text-[var(--text)] outline-none focus:border-[var(--line-strong)]"
               >
                 {YEAR_OPTIONS.map((year) => (
                   <option key={year} value={year}>
@@ -213,13 +213,13 @@ export function ReviewSection({ classId }: { classId: string }) {
               </select>
             </div>
             <div className="flex-1">
-              <label className="mb-2 block text-sm font-medium text-zinc-300">
+              <label className="mb-2 block text-sm font-medium text-[var(--text)]">
                 学期 <span className="text-red-400">*</span>
               </label>
               <select
                 value={takenTerm}
                 onChange={(e) => setTakenTerm(e.target.value)}
-                className="w-full rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-zinc-100"
+                className="w-full rounded-md border border-[var(--line)] bg-[var(--control)] px-3 py-2 text-sm text-[var(--text)] outline-none focus:border-[var(--line-strong)]"
               >
                 {TERMS.map((term) => (
                   <option key={term} value={term}>
@@ -231,7 +231,7 @@ export function ReviewSection({ classId }: { classId: string }) {
           </div>
 
           <div>
-            <label className="mb-2 block text-sm font-medium text-zinc-300">
+            <label className="mb-2 block text-sm font-medium text-[var(--text)]">
               レビュー本文（{body.length}/1000文字）
               <span className="text-red-400">*</span>
             </label>
@@ -240,21 +240,21 @@ export function ReviewSection({ classId }: { classId: string }) {
               onChange={(e) => setBody(e.target.value)}
               rows={4}
               placeholder="授業の感想を10文字以上で書いてください"
-              className="w-full resize-none rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-500"
+              className="w-full resize-none rounded-md border border-[var(--line)] bg-[var(--control)] px-3 py-2 text-sm text-[var(--text)] outline-none placeholder:text-[var(--text-faint)] focus:border-[var(--line-strong)]"
             />
           </div>
 
-          <div className="border-t border-zinc-800 pt-4">
-            <h3 className="mb-3 text-sm font-medium text-zinc-300">
+          <div className="border-t border-[var(--line)] pt-4">
+            <h3 className="mb-3 text-sm font-medium text-[var(--text)]">
               試験情報（任意）
             </h3>
             <div className="space-y-3">
               <div>
-                <label className="mb-1 block text-xs text-zinc-400">試験形式</label>
+                <label className="mb-1 block text-xs text-[var(--text-muted)]">試験形式</label>
                 <select
                   value={examFormat}
                   onChange={(e) => setExamFormat(e.target.value)}
-                  className="w-full rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-zinc-100"
+                  className="w-full rounded-md border border-[var(--line)] bg-[var(--control)] px-3 py-2 text-sm text-[var(--text)] outline-none focus:border-[var(--line-strong)]"
                 >
                   <option value="">未指定</option>
                   {EXAM_FORMATS.map((format) => (
@@ -267,11 +267,11 @@ export function ReviewSection({ classId }: { classId: string }) {
 
               <div className="flex gap-3">
                 <div className="flex-1">
-                  <label className="mb-1 block text-xs text-zinc-400">持込</label>
+                  <label className="mb-1 block text-xs text-[var(--text-muted)]">持込</label>
                   <select
                     value={bringIn}
                     onChange={(e) => setBringIn(e.target.value)}
-                    className="w-full rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-zinc-100"
+                    className="w-full rounded-md border border-[var(--line)] bg-[var(--control)] px-3 py-2 text-sm text-[var(--text)] outline-none focus:border-[var(--line-strong)]"
                   >
                     <option value="">未指定</option>
                     {BRING_IN_OPTIONS.map((option) => (
@@ -282,7 +282,7 @@ export function ReviewSection({ classId }: { classId: string }) {
                   </select>
                 </div>
                 <div className="flex-1">
-                  <label className="mb-1 block text-xs text-zinc-400">試験時間(分)</label>
+                  <label className="mb-1 block text-xs text-[var(--text-muted)]">試験時間(分)</label>
                   <input
                     type="number"
                     value={examMinutes}
@@ -290,7 +290,7 @@ export function ReviewSection({ classId }: { classId: string }) {
                     placeholder="例: 90"
                     min="0"
                     max="600"
-                    className="w-full rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-500"
+                    className="w-full rounded-md border border-[var(--line)] bg-[var(--control)] px-3 py-2 text-sm text-[var(--text)] outline-none placeholder:text-[var(--text-faint)] focus:border-[var(--line-strong)]"
                   />
                 </div>
               </div>
@@ -298,7 +298,7 @@ export function ReviewSection({ classId }: { classId: string }) {
               <RatingDots
                 label="時間のキツさ"
                 value={timeIntensity}
-                activeClassName="text-fuchsia-500"
+                activeClassName="text-rose-600"
                 symbol="◆"
                 onChange={setTimeIntensity}
               />
@@ -312,11 +312,11 @@ export function ReviewSection({ classId }: { classId: string }) {
 
               <div>
                 <div className="mb-2 flex items-center justify-between">
-                  <label className="text-xs text-zinc-400">出題形式の比率</label>
+                  <label className="text-xs text-[var(--text-muted)]">出題形式の比率</label>
                   <button
                     type="button"
                     onClick={() => setIncludeBalance(!includeBalance)}
-                    className="text-xs text-zinc-400 hover:text-zinc-200"
+                    className="text-xs text-[var(--text-muted)] hover:text-[var(--text)]"
                   >
                     {includeBalance ? "未指定にする" : "指定する"}
                   </button>
@@ -354,16 +354,16 @@ export function ReviewSection({ classId }: { classId: string }) {
                           [&::-moz-range-thumb]:cursor-pointer
                           [&::-moz-range-thumb]:rounded-full
                           [&::-moz-range-thumb]:border-2
-                          [&::-moz-range-thumb]:border-zinc-700
-                          [&::-moz-range-thumb]:bg-zinc-100
+                          [&::-moz-range-thumb]:border-[var(--line)]
+                          [&::-moz-range-thumb]:bg-[var(--text)]
                           [&::-webkit-slider-thumb]:h-4
                           [&::-webkit-slider-thumb]:w-4
                           [&::-webkit-slider-thumb]:cursor-pointer
                           [&::-webkit-slider-thumb]:appearance-none
                           [&::-webkit-slider-thumb]:rounded-full
                           [&::-webkit-slider-thumb]:border-2
-                          [&::-webkit-slider-thumb]:border-zinc-700
-                          [&::-webkit-slider-thumb]:bg-zinc-100"
+                          [&::-webkit-slider-thumb]:border-[var(--line)]
+                          [&::-webkit-slider-thumb]:bg-[var(--text)]"
                       />
                     </div>
                   </>
@@ -373,7 +373,7 @@ export function ReviewSection({ classId }: { classId: string }) {
           </div>
 
           {message && (
-            <div className="rounded-lg bg-zinc-800 p-3 text-sm text-zinc-300">
+            <div className="rounded-md border border-[var(--line)] bg-[var(--control)] p-3 text-sm text-[var(--text)]">
               {message}
             </div>
           )}
@@ -381,7 +381,7 @@ export function ReviewSection({ classId }: { classId: string }) {
           <button
             type="submit"
             disabled={submitting}
-            className="w-full rounded-lg bg-zinc-100 px-4 py-2.5 text-sm font-medium text-zinc-900 transition-colors hover:bg-zinc-300 disabled:cursor-not-allowed disabled:opacity-50"
+            className="w-full rounded-md bg-[var(--accent)] px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[var(--accent-strong)] disabled:cursor-not-allowed disabled:opacity-50"
           >
             {submitting ? "投稿中..." : "投稿する"}
           </button>
@@ -418,7 +418,7 @@ function RatingDots({
 }) {
   return (
     <div>
-      <label className="mb-1 block text-xs text-zinc-400">{label}</label>
+      <label className="mb-1 block text-xs text-[var(--text-muted)]">{label}</label>
       <div className="flex items-center gap-1">
         {[1, 2, 3, 4, 5].map((n) => (
           <button
@@ -427,7 +427,7 @@ function RatingDots({
             onClick={() => onChange(n === value ? 0 : n)}
             className="text-xl transition-transform hover:scale-110"
           >
-            <span className={n <= value ? activeClassName : "text-zinc-700"}>
+            <span className={n <= value ? activeClassName : "text-[var(--text-faint)] opacity-45"}>
               {symbol}
             </span>
           </button>
@@ -439,7 +439,7 @@ function RatingDots({
 
 function EmptyState({ children }: { children: React.ReactNode }) {
   return (
-    <div className="rounded-lg border border-zinc-800 bg-zinc-900/50 p-8 text-center text-sm text-zinc-500">
+    <div className="rounded-md border border-[var(--line)] bg-[var(--surface)] p-8 text-center text-sm text-[var(--text-faint)]">
       {children}
     </div>
   );
@@ -455,34 +455,34 @@ function ReviewItem({ review }: { review: Review }) {
     review.mark_writing_balance != null;
 
   return (
-    <li className="rounded-lg border border-zinc-800 bg-zinc-900/50 p-4">
+    <li className="rounded-md border border-[var(--line)] bg-[var(--surface)] p-4">
       <div className="mb-2 flex items-center justify-between">
         <div className="text-sm text-yellow-400">
           {"★".repeat(review.rating)}
-          <span className="text-zinc-700">{"★".repeat(5 - review.rating)}</span>
+          <span className="text-[var(--text-faint)] opacity-45">{"★".repeat(5 - review.rating)}</span>
         </div>
-        <div className="text-xs text-zinc-500">
+        <div className="text-xs text-[var(--text-faint)]">
           {review.taken_year}年度 {review.taken_term}
         </div>
       </div>
-      <p className="whitespace-pre-wrap text-sm leading-relaxed text-zinc-300">
+      <p className="whitespace-pre-wrap text-sm leading-relaxed text-[var(--text)]">
         {review.body}
       </p>
 
       {hasExamInfo && (
-        <div className="mt-3 space-y-2 border-t border-zinc-800 pt-3">
-          <div className="text-xs font-medium text-zinc-500">試験情報</div>
-          <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-zinc-400">
+        <div className="mt-3 space-y-2 border-t border-[var(--line)] pt-3">
+          <div className="text-xs font-medium text-[var(--text-faint)]">試験情報</div>
+          <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-[var(--text-muted)]">
             {review.exam_format && <span>形式: {review.exam_format}</span>}
             {review.bring_in && <span>持込: {review.bring_in}</span>}
             {review.exam_minutes != null && <span>時間: {review.exam_minutes}分</span>}
             {review.time_intensity != null && (
               <span>
                 時間キツさ:{" "}
-                <span className="text-fuchsia-500">
+                <span className="text-rose-600">
                   {"◆".repeat(review.time_intensity)}
                 </span>
-                <span className="text-zinc-700">
+                <span className="text-[var(--text-faint)] opacity-45">
                   {"◆".repeat(5 - review.time_intensity)}
                 </span>
               </span>
@@ -493,7 +493,7 @@ function ReviewItem({ review }: { review: Review }) {
                 <span className="text-orange-400">
                   {"◆".repeat(review.difficulty)}
                 </span>
-                <span className="text-zinc-700">
+                <span className="text-[var(--text-faint)] opacity-45">
                   {"◆".repeat(5 - review.difficulty)}
                 </span>
               </span>
@@ -509,7 +509,7 @@ function ReviewItem({ review }: { review: Review }) {
                   記述 {100 - review.mark_writing_balance}%
                 </span>
               </div>
-              <div className="flex h-1.5 overflow-hidden rounded-full bg-zinc-800">
+              <div className="flex h-1.5 overflow-hidden rounded-full bg-[var(--control)]">
                 <div
                   className="bg-blue-400"
                   style={{ width: `${review.mark_writing_balance}%` }}
@@ -525,7 +525,7 @@ function ReviewItem({ review }: { review: Review }) {
       )}
 
       {review.helpful_count > 0 && (
-        <div className="mt-2 text-xs text-zinc-500">
+        <div className="mt-2 text-xs text-[var(--text-faint)]">
           ♡ {review.helpful_count} 人が参考になったと回答
         </div>
       )}
