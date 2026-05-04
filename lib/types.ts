@@ -1,4 +1,3 @@
-// classes テーブルの行型
 export type ClassRow = {
   id: string;
   course_codes: string[];
@@ -15,7 +14,6 @@ export type ClassRow = {
   summary: string | null;
   classroom: string | null;
   year: number | null;
-  // シラバス詳細
   subtitle: string | null;
   goal: string | null;
   study_outside: string | null;
@@ -34,21 +32,18 @@ export type ClassRow = {
   method_type: string | null;
 };
 
-// class_slots テーブルの行型
 export type ClassSlot = {
   id: number;
   class_id: string;
   term: string;
-  day_of_week: number; // 1=月, 2=火, ..., 7=日
-  period: number;      // 1〜7
+  day_of_week: number;
+  period: number;
 };
 
-// classes に slots をネストさせた型（検索結果用）
 export type ClassWithSlots = ClassRow & {
   class_slots: Pick<ClassSlot, "term" | "day_of_week" | "period">[];
 };
 
-// 検索パラメータ
 export type SearchParams = {
   q?: string;
   faculty?: string;
@@ -58,7 +53,6 @@ export type SearchParams = {
   page?: string;
 };
 
-// UI用の選択肢
 export const FACULTIES = [
   "政経",
   "法学",

@@ -1,13 +1,11 @@
 """
 シラバスCSVを Supabase に投入するスクリプト
-
 使い方:
-    python upload_to_supabase.py <faculty> [spring|fall]
-
+  python upload_to_supabase.py <faculty> [spring|fall]
 例:
-    python upload_to_supabase.py social_sciences spring
-    python upload_to_supabase.py letters spring
-    python upload_to_supabase.py culture_community spring
+  python upload_to_supabase.py social_sciences spring
+  python upload_to_supabase.py letters spring
+  python upload_to_supabase.py culture_community spring
 """
 
 import csv
@@ -18,8 +16,8 @@ import time
 import requests
 from dotenv import load_dotenv
 
-
 load_dotenv()
+
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
 
@@ -31,20 +29,20 @@ BATCH_SIZE = 100
 
 # 学部: slug -> 表示名
 FACULTIES = {
-    "politics_economics":   "政経",
-    "law":                  "法学",
-    "education":            "教育",
-    "commerce":             "商",
-    "social_sciences":      "社学",
-    "human_sciences":       "人科",
-    "sport_sciences":       "スポーツ",
-    "international":        "国際教養",
-    "culture_community":    "文構",
-    "letters":              "文",
+    "politics_economics": "政経",
+    "law": "法学",
+    "education": "教育",
+    "commerce": "商",
+    "social_sciences": "社学",
+    "human_sciences": "人科",
+    "sport_sciences": "スポーツ",
+    "international": "国際教養",
+    "culture_community": "文構",
+    "letters": "文",
     "human_correspondence": "人通",
-    "fundamental_sci":      "基幹",
-    "creative_sci":         "創造",
-    "advanced_sci":         "先進",
+    "fundamental_sci": "基幹",
+    "creative_sci": "創造",
+    "advanced_sci": "先進",
 }
 
 TERM_CONFIG = {
@@ -52,7 +50,7 @@ TERM_CONFIG = {
     "fall":   {"default_term": "秋学期"},
 }
 
-
+# classes 用: upsert
 HEADERS = {
     "apikey": SUPABASE_KEY,
     "Authorization": f"Bearer {SUPABASE_KEY}",
@@ -60,32 +58,51 @@ HEADERS = {
     "Prefer": "resolution=merge-duplicates,return=minimal",
 }
 
+# class_slots 用: 純 INSERT（id がないので merge-duplicates は使えない）
+HEADERS_INSERT = {
+    "apikey": SUPABASE_KEY,
+    "Authorization": f"Bearer {SUPABASE_KEY}",
+    "Content-Type": "application/json",
+    "Prefer": "return=minimal",
+}
+
+# DELETE 用
 DELETE_HEADERS = {
     "apikey": SUPABASE_KEY,
     "Authorization": f"Bearer {SUPABASE_KEY}",
     "Content-Type": "application/json",
 }
 
-
 # ---------------- パース ----------------
 DAY_MAP = {"月": 1, "火": 2, "水": 3, "木": 4, "金": 5, "土": 6, "日": 7}
-ZEN_TO_HAN = str.maketrans("0123456789", "0123456789")
-
+KANJI_NUM_MAP = {
+    "一": 1,
+    "二": 2,
+    "三": 3,
+    "四": 4,
+    "五": 5,
+    "六": 6,
+    "七": 7,
+}
+ZEN_TO_HAN = str.maketrans("０１２３４５６７８９①②③④⑤⑥⑦", "01234567891234567")
 
 def parse_schedule(schedule: str) -> list[tuple[int, int]]:
     if not schedule:
         return []
-    s = schedule.translate(ZEN_TO_HAN)
-    pattern = re.compile(r"([月火水木金土日])\s*(\d+)\s*時限")
+    s = str(schedule).translate(ZEN_TO_HAN)
+    s = re.sub(r"\s+", " ", s)
+    pattern = re.compile(r"([月火水木金土日])\s*([1-7一二三四五六七])\s*(?:時限|限|時限目|限目)?")
     matches = pattern.findall(s)
     slots = []
     seen = set()
-    for day_kanji, period_str in matches:
+    for day_kanji, period_raw in matches:
         day = DAY_MAP.get(day_kanji)
-        try:
-            period = int(period_str)
-        except ValueError:
-            continue
+        period = KANJI_NUM_MAP.get(period_raw)
+        if period is None:
+            try:
+                period = int(period_raw)
+            except ValueError:
+                continue
         if day is None or not (1 <= period <= 7):
             continue
         key = (day, period)
@@ -95,12 +112,10 @@ def parse_schedule(schedule: str) -> list[tuple[int, int]]:
         slots.append(key)
     return slots
 
-
 def parse_course_codes(raw: str) -> list[str]:
     if not raw:
         return []
     return [c for c in raw.split() if c]
-
 
 def parse_year(raw: str) -> int | None:
     try:
@@ -108,13 +123,11 @@ def parse_year(raw: str) -> int | None:
     except (ValueError, TypeError):
         return None
 
-
 def parse_credits(raw: str) -> float | None:
-    """'2' や '2.0' を float に。空や非数値は None"""
     if not raw:
         return None
     s = str(raw).strip()
-    s = re.sub(r"[^\d.]", "", s)  # 「2単位」のような文字は削る
+    s = re.sub(r"[^\d.]", "", s)
     if not s:
         return None
     try:
@@ -122,16 +135,15 @@ def parse_credits(raw: str) -> float | None:
     except ValueError:
         return None
 
-
 def empty_to_none(s: str | None) -> str | None:
     if s is None:
         return None
     s = s.strip()
     return s if s else None
 
-
 # ---------------- Supabase 通信 ----------------
 def post_batch(table: str, rows: list[dict]) -> None:
+    """classes 用 upsert"""
     if not rows:
         return
     url = f"{SUPABASE_URL}/rest/v1/{table}"
@@ -141,29 +153,37 @@ def post_batch(table: str, rows: list[dict]) -> None:
         print("    レスポンス:", res.text[:500])
         sys.exit(1)
 
-
-def delete_classes_by_faculty_slug(faculty_slug: str) -> None:
-    """指定faculty_slugのclassesを削除（再投入時のクリーンアップ用）"""
-    url = f"{SUPABASE_URL}/rest/v1/classes"
-    params = {"faculty_slug": f"eq.{faculty_slug}"}
-    res = requests.delete(url, headers=DELETE_HEADERS, params=params, timeout=60)
+def insert_batch(table: str, rows: list[dict]) -> None:
+    """class_slots 用 純 INSERT"""
+    if not rows:
+        return
+    url = f"{SUPABASE_URL}/rest/v1/{table}"
+    res = requests.post(url, headers=HEADERS_INSERT, json=rows, timeout=60)
     if res.status_code >= 300:
-        print(f"⚠ classes(faculty_slug={faculty_slug}) の削除に失敗: HTTP {res.status_code}")
+        print(f"❌ {table} への投入に失敗: HTTP {res.status_code}")
         print("    レスポンス:", res.text[:500])
-    else:
-        print(f"      → faculty_slug='{faculty_slug}' の既存classesを削除")
+        sys.exit(1)
 
-
-def delete_slots_by_term(term_label: str) -> None:
-    url = f"{SUPABASE_URL}/rest/v1/class_slots"
-    params = {"term": f"eq.{term_label}"}
-    res = requests.delete(url, headers=DELETE_HEADERS, params=params, timeout=60)
-    if res.status_code >= 300:
-        print(f"⚠ class_slots(term={term_label}) の削除に失敗: HTTP {res.status_code}")
-        print("    レスポンス:", res.text[:500])
-    else:
-        print(f"      → term='{term_label}' の既存slot削除")
-
+def delete_slots_by_class_ids(class_ids: list[str]) -> None:
+    """指定した class_id リストの slots を削除（学部単位で消す）"""
+    if not class_ids:
+        return
+    # Supabase の in フィルタ: ?class_id=in.(id1,id2,...)
+    # 件数が多いと URL が長くなるので 500 件ずつ分割
+    chunk_size = 500
+    total_deleted = 0
+    for i in range(0, len(class_ids), chunk_size):
+        chunk = class_ids[i:i + chunk_size]
+        ids_str = ",".join(chunk)
+        url = f"{SUPABASE_URL}/rest/v1/class_slots"
+        params = {"class_id": f"in.({ids_str})"}
+        res = requests.delete(url, headers=DELETE_HEADERS, params=params, timeout=60)
+        if res.status_code >= 300:
+            print(f"⚠ class_slots 削除に失敗: HTTP {res.status_code}")
+            print("    レスポンス:", res.text[:300])
+        else:
+            total_deleted += len(chunk)
+    print(f"    → {total_deleted} class_id 分の既存 slot を削除")
 
 # ---------------- メイン ----------------
 def main():
@@ -201,6 +221,7 @@ def main():
     skipped_no_id = 0
     seen_ids = set()
     duplicate_ids = 0
+    unparsed_schedules: list[tuple[str, str, str]] = []
 
     for r in rows:
         p_key = r.get("p_key", "").strip()
@@ -216,7 +237,6 @@ def main():
         year = parse_year(r.get("year", ""))
         term = r.get("term", "").strip() or None
 
-        # 詳細フィールド: 空なら None
         classes_payload.append({
             "id": p_key,
             "course_codes": course_codes,
@@ -230,7 +250,6 @@ def main():
             "class_format": empty_to_none(r.get("method_type")),
             "language": empty_to_none(r.get("language")),
             "syllabus_url": None,
-            # シラバス詳細
             "summary": empty_to_none(r.get("summary")) or empty_to_none(r.get("summary_excerpt")),
             "classroom": empty_to_none(r.get("classroom")),
             "year": year,
@@ -252,7 +271,16 @@ def main():
             "method_type": empty_to_none(r.get("method_type")),
         })
 
-        for day, period in parse_schedule(r.get("schedule", "")):
+        schedule = r.get("schedule", "")
+        parsed_slots = parse_schedule(schedule)
+        if schedule.strip() and not parsed_slots and "無" not in schedule:
+            unparsed_schedules.append((
+                p_key,
+                r.get("name", "").strip(),
+                schedule.strip(),
+            ))
+
+        for day, period in parsed_slots:
             slots_payload.append({
                 "class_id": p_key,
                 "term": term or default_term,
@@ -266,13 +294,18 @@ def main():
         print(f"    ⚠ p_key 空: {skipped_no_id} 件")
     if duplicate_ids:
         print(f"    ⚠ p_key 重複スキップ: {duplicate_ids} 件")
+    if unparsed_schedules:
+        print(f"    ⚠ schedule を slot 化できなかった行: {len(unparsed_schedules)} 件")
+        for p_key, name, schedule in unparsed_schedules[:10]:
+            print(f"      - {p_key} / {name}: {schedule}")
+        if len(unparsed_schedules) > 10:
+            print(f"      ...ほか {len(unparsed_schedules) - 10} 件")
 
-    print("[3/5] 既存slotを学期単位で削除")
-    used_terms = set(s["term"] for s in slots_payload)
-    print(f"    対象 term: {used_terms}")
-    for t in used_terms:
-        delete_slots_by_term(t)
-        time.sleep(0.3)
+    # [3/5] この学部の class_id に紐づく slots だけ削除
+    print("[3/5] 既存slotを学部単位で削除")
+    all_class_ids = [r["id"] for r in classes_payload]
+    delete_slots_by_class_ids(all_class_ids)
+    time.sleep(0.5)
 
     print("[4/5] classes をアップロード（merge-duplicates でUPSERT）")
     for i in range(0, len(classes_payload), BATCH_SIZE):
@@ -281,14 +314,14 @@ def main():
         print(f"      → {i + len(batch)} / {len(classes_payload)}")
         time.sleep(0.3)
 
-    print("[5/5] class_slots をアップロード")
+    print("[5/5] class_slots をアップロード（純 INSERT）")
     for i in range(0, len(slots_payload), BATCH_SIZE):
         batch = slots_payload[i:i + BATCH_SIZE]
-        post_batch("class_slots", batch)
+        insert_batch("class_slots", batch)
         print(f"      → {i + len(batch)} / {len(slots_payload)}")
         time.sleep(0.3)
 
-    print(f"\n✅ 完了: {faculty_label} / {term_key}")
+    print(f"\nDone: {faculty_label} / {term_key}")
 
 
 if __name__ == "__main__":

@@ -1,20 +1,16 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ClassDetailTabs } from "@/components/ClassDetailTabs";
 import { getClassById } from "@/lib/search";
 
 const DAY_LABELS = ["", "月", "火", "水", "木", "金", "土", "日"];
 
-function Section({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
+function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
     <section className="rounded-lg border border-zinc-800 bg-zinc-900/40 p-4">
       <h2 className="mb-2 text-sm font-semibold text-zinc-300">{title}</h2>
-      <div className="text-sm text-zinc-200 whitespace-pre-wrap leading-relaxed break-words">
+      <div className="whitespace-pre-wrap break-words text-sm leading-relaxed text-zinc-200">
         {children}
       </div>
     </section>
@@ -23,10 +19,11 @@ function Section({
 
 function MetaRow({ label, value }: { label: string; value: string | null }) {
   if (!value) return null;
+
   return (
-    <div className="flex gap-3 py-1.5 text-sm border-b border-zinc-800/60 last:border-b-0">
+    <div className="flex gap-3 border-b border-zinc-800/60 py-1.5 text-sm last:border-b-0">
       <span className="w-24 shrink-0 text-zinc-500">{label}</span>
-      <span className="text-zinc-200 break-words">{value}</span>
+      <span className="break-words text-zinc-200">{value}</span>
     </div>
   );
 }
@@ -49,9 +46,41 @@ export default async function ClassDetailPage({
               ? a.period - b.period
               : a.day_of_week - b.day_of_week
           )
-          .map((s) => `${DAY_LABELS[s.day_of_week]}${s.period}`)
+          .map((slot) => `${DAY_LABELS[slot.day_of_week]}${slot.period}`)
           .join(" / ")
       : "—";
+
+  const overview = (
+    <div className="space-y-4">
+      {row.summary && <Section title="授業概要">{row.summary}</Section>}
+      {row.goal && <Section title="授業の到達目標">{row.goal}</Section>}
+      {row.schedule_plan && (
+        <Section title="授業計画">{row.schedule_plan}</Section>
+      )}
+      {row.study_outside && (
+        <Section title="事前・事後学習">{row.study_outside}</Section>
+      )}
+      {row.textbook && <Section title="教科書">{row.textbook}</Section>}
+      {row.reference && <Section title="参考文献">{row.reference}</Section>}
+      {row.grading_method && (
+        <Section title="成績評価方法">{row.grading_method}</Section>
+      )}
+      {row.notes_url && <Section title="備考・関連URL">{row.notes_url}</Section>}
+
+      {row.syllabus_url && (
+        <div className="pt-2">
+          <a
+            href={row.syllabus_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-blue-400 hover:underline"
+          >
+            公式シラバスを開く ↗
+          </a>
+        </div>
+      )}
+    </div>
+  );
 
   return (
     <main className="min-h-dvh bg-zinc-950 text-zinc-100">
@@ -88,7 +117,6 @@ export default async function ClassDetailPage({
           </p>
         </header>
 
-        {/* 基本情報 */}
         <section className="mb-4 rounded-lg border border-zinc-800 bg-zinc-900/40 p-4">
           <MetaRow label="曜日時限" value={slotsLabel} />
           <MetaRow label="使用教室" value={row.classroom} />
@@ -114,36 +142,7 @@ export default async function ClassDetailPage({
           />
         </section>
 
-        {/* シラバス本文 */}
-        <div className="space-y-4">
-          {row.summary && <Section title="授業概要">{row.summary}</Section>}
-          {row.goal && <Section title="授業の到達目標">{row.goal}</Section>}
-          {row.schedule_plan && (
-            <Section title="授業計画">{row.schedule_plan}</Section>
-          )}
-          {row.study_outside && (
-            <Section title="事前・事後学習">{row.study_outside}</Section>
-          )}
-          {row.textbook && <Section title="教科書">{row.textbook}</Section>}
-          {row.reference && <Section title="参考文献">{row.reference}</Section>}
-          {row.grading_method && (
-            <Section title="成績評価方法">{row.grading_method}</Section>
-          )}
-          {row.notes_url && <Section title="備考・関連URL">{row.notes_url}</Section>}
-        </div>
-
-        {row.syllabus_url && (
-          <div className="mt-6">
-            <a
-              href={row.syllabus_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-blue-400 hover:underline"
-            >
-              公式シラバスを開く ↗
-            </a>
-          </div>
-        )}
+        <ClassDetailTabs row={row} overview={overview} />
       </div>
     </main>
   );
