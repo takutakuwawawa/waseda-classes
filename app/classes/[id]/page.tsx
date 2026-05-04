@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AppHeader } from "@/components/AppHeader";
 import { ClassDetailTabs } from "@/components/ClassDetailTabs";
+import { PlanButton } from "@/components/PlanButton";
 import { getClassById } from "@/lib/search";
 
 const DAY_LABELS = ["", "月", "火", "水", "木", "金", "土", "日"];
@@ -111,13 +112,20 @@ export default async function ClassDetailPage({
               </span>
             )}
           </div>
-          <h1 className="text-2xl font-bold leading-tight">{row.name}</h1>
-          {row.subtitle && (
-            <p className="mt-1 text-sm text-[var(--text-muted)]">{row.subtitle}</p>
-          )}
-          <p className="mt-3 text-sm font-medium text-[var(--text)]">
-            {row.teacher ?? "教員未定"}
-          </p>
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+            <div className="min-w-0">
+              <h1 className="text-2xl font-bold leading-tight">{row.name}</h1>
+              {row.subtitle && (
+                <p className="mt-1 text-sm text-[var(--text-muted)]">
+                  {row.subtitle}
+                </p>
+              )}
+              <p className="mt-3 text-sm font-medium text-[var(--text)]">
+                {row.teacher ?? "教員未定"}
+              </p>
+            </div>
+            <PlanButton classId={row.id} />
+          </div>
         </header>
 
         <section className="mb-5 rounded-md border border-[var(--line)] bg-[var(--surface)] p-5">

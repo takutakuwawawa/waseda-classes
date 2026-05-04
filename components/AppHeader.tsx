@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { AuthMenu } from "@/components/AuthMenu";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 export function AppHeader() {
@@ -27,9 +28,7 @@ export function AppHeader() {
           <span className="hidden sm:inline">ブックマーク</span>
           <span className="hidden sm:inline">履修プラン</span>
           <ThemeToggle />
-          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[var(--accent)] text-xs font-semibold text-white">
-            M
-          </span>
+          <AuthMenu />
         </nav>
       </div>
     </div>
