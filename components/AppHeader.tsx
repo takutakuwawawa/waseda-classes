@@ -26,7 +26,12 @@ export function AppHeader() {
         </Link>
         <nav className="flex items-center gap-3 text-sm text-[var(--text-muted)] sm:gap-5">
           <span className="hidden sm:inline">ブックマーク</span>
-          <span className="hidden sm:inline">履修プラン</span>
+          <Link
+            href="/planner"
+            className="hidden font-semibold transition-colors hover:text-[var(--text)] sm:inline"
+          >
+            履修プラン
+          </Link>
           <ThemeToggle />
           <AuthMenu />
         </nav>
