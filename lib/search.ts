@@ -18,7 +18,7 @@ export async function searchClasses(params: SearchParams) {
     .select(
       `
       id, course_codes, name, teacher, faculty, term, campus,
-      credits, class_format, language, syllabus_url, summary,
+      credits, class_format, method_type, language, syllabus_url, summary,
       classroom, year,
       ${slotsSelect}
       `,
@@ -36,6 +36,9 @@ export async function searchClasses(params: SearchParams) {
   }
   if (params.term) {
     query = query.eq("term", params.term);
+  }
+  if (params.methodType) {
+    query = query.eq("method_type", params.methodType);
   }
   if (params.q && params.q.trim()) {
     const q = params.q.trim();

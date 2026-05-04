@@ -50,6 +50,7 @@ export type SearchParams = {
   term?: string;
   day?: string;
   period?: string;
+  methodType?: string;
   page?: string;
 };
 
@@ -83,3 +84,17 @@ export const DAYS = [
 ] as const;
 
 export const PERIODS = [1, 2, 3, 4, 5, 6, 7] as const;
+
+export const CLASS_MODALITIES = [
+  { label: "対面", value: "【対面】" },
+  {
+    label: "対面ハイブリッド",
+    value: "【対面】ハイブリッド（対面回数半数以上）",
+  },
+  {
+    label: "オンラインハイブリッド",
+    value: "【オンライン】ハイブリッド（対面回数半数未満）",
+  },
+  { label: "フルオンデマンド", value: "【オンライン】フルオンデマンド" },
+  { label: "リアルタイム配信", value: "【オンライン】リアルタイム配信" },
+] as const;

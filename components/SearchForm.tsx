@@ -2,7 +2,13 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState, useTransition } from "react";
-import { FACULTIES, TERMS, DAYS, PERIODS } from "@/lib/types";
+import {
+  CLASS_MODALITIES,
+  DAYS,
+  FACULTIES,
+  PERIODS,
+  TERMS,
+} from "@/lib/types";
 
 export function SearchForm() {
   const router = useRouter();
@@ -14,6 +20,7 @@ export function SearchForm() {
   const [term, setTerm] = useState(params.get("term") ?? "");
   const [day, setDay] = useState(params.get("day") ?? "");
   const [period, setPeriod] = useState(params.get("period") ?? "");
+  const [methodType, setMethodType] = useState(params.get("methodType") ?? "");
 
   function buildQuery(overrides?: Partial<Record<string, string>>) {
     const next = new URLSearchParams();
@@ -23,10 +30,11 @@ export function SearchForm() {
       term,
       day,
       period,
+      methodType,
       ...overrides,
     };
-    Object.entries(values).forEach(([k, v]) => {
-      if (v) next.set(k, v);
+    Object.entries(values).forEach(([key, value]) => {
+      if (value) next.set(key, value);
     });
     return next.toString();
   }
@@ -45,6 +53,7 @@ export function SearchForm() {
     setTerm("");
     setDay("");
     setPeriod("");
+    setMethodType("");
     startTransition(() => router.push("/"));
   }
 
@@ -67,26 +76,46 @@ export function SearchForm() {
 
       <div className="flex flex-wrap gap-2">
         <Select value={faculty} onChange={setFaculty} placeholder="学部">
-          {FACULTIES.map((f) => (
-            <option key={f} value={f}>{f}</option>
+          {FACULTIES.map((facultyName) => (
+            <option key={facultyName} value={facultyName}>
+              {facultyName}
+            </option>
           ))}
         </Select>
 
         <Select value={term} onChange={setTerm} placeholder="学期">
-          {TERMS.map((t) => (
-            <option key={t} value={t}>{t}</option>
+          {TERMS.map((termName) => (
+            <option key={termName} value={termName}>
+              {termName}
+            </option>
           ))}
         </Select>
 
         <Select value={day} onChange={setDay} placeholder="曜日">
-          {DAYS.map((d) => (
-            <option key={d.value} value={String(d.value)}>{d.label}</option>
+          {DAYS.map((dayOption) => (
+            <option key={dayOption.value} value={String(dayOption.value)}>
+              {dayOption.label}
+            </option>
           ))}
         </Select>
 
         <Select value={period} onChange={setPeriod} placeholder="時限">
-          {PERIODS.map((p) => (
-            <option key={p} value={String(p)}>{p}限</option>
+          {PERIODS.map((periodValue) => (
+            <option key={periodValue} value={String(periodValue)}>
+              {periodValue}限
+            </option>
+          ))}
+        </Select>
+
+        <Select
+          value={methodType}
+          onChange={setMethodType}
+          placeholder="授業方法"
+        >
+          {CLASS_MODALITIES.map((modality) => (
+            <option key={modality.value} value={modality.value}>
+              {modality.label}
+            </option>
           ))}
         </Select>
 
@@ -109,7 +138,7 @@ function Select({
   children,
 }: {
   value: string;
-  onChange: (v: string) => void;
+  onChange: (value: string) => void;
   placeholder: string;
   children: React.ReactNode;
 }) {
