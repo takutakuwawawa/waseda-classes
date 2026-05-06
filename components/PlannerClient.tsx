@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import { AiChatPanel } from "@/components/AiChatPanel";
 import type { ClassWithSlots } from "@/lib/types";
 
 type SavedClassRow = {
@@ -46,6 +47,7 @@ export function PlannerClient() {
   const [loading, setLoading] = useState(true);
   const [items, setItems] = useState<SavedClassRow[]>([]);
   const [message, setMessage] = useState<string | null>(null);
+  const [isChatOpen, setIsChatOpen] = useState(false);
 
   useEffect(() => {
     let alive = true;
@@ -121,108 +123,125 @@ export function PlannerClient() {
   }
 
   return (
-    <div className="grid gap-5 lg:grid-cols-[1.4fr_0.9fr]">
-      <section className="rounded-md border border-[var(--line)] bg-[var(--surface)] p-4">
-        <h2 className="mb-4 text-sm font-bold text-[var(--text)]">時間割プレビュー</h2>
-        <div className="overflow-x-auto">
-          <div className="min-w-[860px]">
-            <div className={`grid ${TIMETABLE_GRID} border-b border-[var(--line)] text-center text-xs font-semibold text-[var(--text-muted)]`}>
-              <div className="p-2" />
-              {DAYS.map((day) => (
-                <div key={day.value} className="border-l border-[var(--line)] p-2">
-                  {day.label}
-                </div>
-              ))}
-            </div>
-            <div className={`grid ${TIMETABLE_BODY_GRID}`}>
-              {PERIODS.map((period, periodIndex) => (
-                <div
-                  key={`period-${period.value}`}
-                  style={{ gridColumn: 1, gridRow: periodIndex + 1 }}
-                  className="flex flex-col items-center justify-center border-b border-[var(--line)] px-1 text-center"
-                >
-                  <span className="text-xs font-bold text-[var(--text)]">
-                    {period.value}限
-                  </span>
-                  <span className="mt-1 text-[10px] leading-tight text-[var(--text-faint)]">
-                    {period.time}
-                  </span>
-                </div>
-              ))}
+    <>
+      {/* AI履修相談ボタン（右下固定） */}
+      <button
+        onClick={() => setIsChatOpen(true)}
+        className="fixed bottom-6 right-6 z-30 flex items-center gap-2 rounded-full bg-[var(--text)] px-4 py-3 text-sm font-medium text-[var(--bg)] shadow-lg transition-opacity hover:opacity-80"
+      >
+        ✦ AI 履修相談
+      </button>
 
-              {PERIODS.map((period, periodIndex) =>
-                WEEKDAY_DAYS.map((day) => {
-                  const cellClasses = grid.get(`${day.value}-${period.value}`) ?? [];
+      {/* AIチャットパネル */}
+      <AiChatPanel
+        savedClassIds={classes.map((c) => c.id)}
+        isOpen={isChatOpen}
+        onClose={() => setIsChatOpen(false)}
+      />
 
-                  return (
-                    <div
-                      key={`${day.value}-${period.value}`}
-                      style={{
-                        gridColumn: day.value + 1,
-                        gridRow: periodIndex + 1,
-                      }}
-                      className="min-h-0 border-b border-l border-[var(--line)] p-1.5"
-                    >
-                      <div className="h-full space-y-1 overflow-y-auto pr-1">
-                        {cellClasses.map((klass) => (
-                          <ClassTile key={klass.id} klass={klass} />
-                        ))}
+      <div className="grid gap-5 lg:grid-cols-[1.4fr_0.9fr]">
+        <section className="rounded-md border border-[var(--line)] bg-[var(--surface)] p-4">
+          <h2 className="mb-4 text-sm font-bold text-[var(--text)]">時間割プレビュー</h2>
+          <div className="overflow-x-auto">
+            <div className="min-w-[860px]">
+              <div className={`grid ${TIMETABLE_GRID} border-b border-[var(--line)] text-center text-xs font-semibold text-[var(--text-muted)]`}>
+                <div className="p-2" />
+                {DAYS.map((day) => (
+                  <div key={day.value} className="border-l border-[var(--line)] p-2">
+                    {day.label}
+                  </div>
+                ))}
+              </div>
+              <div className={`grid ${TIMETABLE_BODY_GRID}`}>
+                {PERIODS.map((period, periodIndex) => (
+                  <div
+                    key={`period-${period.value}`}
+                    style={{ gridColumn: 1, gridRow: periodIndex + 1 }}
+                    className="flex flex-col items-center justify-center border-b border-[var(--line)] px-1 text-center"
+                  >
+                    <span className="text-xs font-bold text-[var(--text)]">
+                      {period.value}限
+                    </span>
+                    <span className="mt-1 text-[10px] leading-tight text-[var(--text-faint)]">
+                      {period.time}
+                    </span>
+                  </div>
+                ))}
+
+                {PERIODS.map((period, periodIndex) =>
+                  WEEKDAY_DAYS.map((day) => {
+                    const cellClasses = grid.get(`${day.value}-${period.value}`) ?? [];
+
+                    return (
+                      <div
+                        key={`${day.value}-${period.value}`}
+                        style={{
+                          gridColumn: day.value + 1,
+                          gridRow: periodIndex + 1,
+                        }}
+                        className="min-h-0 border-b border-l border-[var(--line)] p-1.5"
+                      >
+                        <div className="h-full space-y-1 overflow-y-auto pr-1">
+                          {cellClasses.map((klass) => (
+                            <ClassTile key={klass.id} klass={klass} />
+                          ))}
+                        </div>
                       </div>
-                    </div>
-                  );
-                })
-              )}
+                    );
+                  })
+                )}
 
-              <div
-                style={{ gridColumn: 8, gridRow: "1 / span 7" }}
-                className="min-h-0 border-b border-l border-[var(--line)] p-1.5"
-              >
-                <div className="h-full space-y-1 overflow-y-auto pr-1">
-                  {onlineClasses.map((klass) => (
-                    <ClassTile key={klass.id} klass={klass} />
-                  ))}
+                <div
+                  style={{ gridColumn: 8, gridRow: "1 / span 7" }}
+                  className="min-h-0 border-b border-l border-[var(--line)] p-1.5"
+                >
+                  <div className="h-full space-y-1 overflow-y-auto pr-1">
+                    {onlineClasses.map((klass) => (
+                      <ClassTile key={klass.id} klass={klass} />
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="rounded-md border border-[var(--line)] bg-[var(--surface)] p-4">
-        <h2 className="mb-4 text-sm font-bold text-[var(--text)]">履修候補</h2>
-        {classes.length === 0 ? (
-          <div className="rounded-md border border-[var(--line)] bg-[var(--control)] p-6 text-center text-sm text-[var(--text-muted)]">
-            まだ候補はありません。
-          </div>
-        ) : (
-          <ul className="space-y-2">
-            {classes.map((klass) => (
-              <li
-                key={klass.id}
-                className="rounded-md border border-[var(--line)] bg-[var(--control)] p-3"
-              >
-                <Link
-                  href={`/classes/${encodeURIComponent(klass.id)}`}
-                  className="font-semibold text-[var(--text)] hover:underline"
+        <section className="rounded-md border border-[var(--line)] bg-[var(--surface)] p-4">
+          <h2 className="mb-4 text-sm font-bold text-[var(--text)]">履修候補</h2>
+          {classes.length === 0 ? (
+            <div className="rounded-md border border-[var(--line)] bg-[var(--control)] p-6 text-center text-sm text-[var(--text-muted)]">
+              まだ候補はありません。
+            </div>
+          ) : (
+            <ul className="space-y-2">
+              {classes.map((klass) => (
+                <li
+                  key={klass.id}
+                  className="rounded-md border border-[var(--line)] bg-[var(--control)] p-3"
                 >
-                  {klass.name}
-                </Link>
-                <div className="mt-1 text-xs text-[var(--text-muted)]">
-                  {klass.teacher ?? "教員未定"} / {klass.faculty}
-                </div>
-                <button
-                  type="button"
-                  onClick={() => removeClass(klass.id)}
-                  className="mt-3 text-xs font-semibold text-[var(--text-faint)] transition-colors hover:text-[var(--text)]"
-                >
-                  候補から外す
-                </button>
-              </li>
-            ))}
-          </ul>
-        )}
-      </section>
-    </div>
+                  <Link
+                    href={`/classes/${encodeURIComponent(klass.id)}`}
+                    className="font-semibold text-[var(--text)] hover:underline"
+                  >
+                    {klass.name}
+                  </Link>
+                  <div className="mt-1 text-xs text-[var(--text-muted)]">
+                    {klass.teacher ?? "教員未定"} / {klass.faculty}
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => removeClass(klass.id)}
+                    className="mt-3 text-xs font-semibold text-[var(--text-faint)] transition-colors hover:text-[var(--text)]"
+                  >
+                    候補から外す
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+      </div>
+    </>
   );
 }
 
