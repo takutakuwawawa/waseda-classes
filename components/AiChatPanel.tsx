@@ -181,13 +181,19 @@ export function AiChatPanel({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed bottom-0 right-0 top-0 z-40 flex w-full max-w-sm flex-col border-l border-[var(--line)] bg-[var(--bg)] shadow-2xl">
+    <div className="fixed inset-x-0 bottom-0 z-40 flex h-[92dvh] w-full flex-col rounded-t-2xl border-t border-[var(--line)] bg-[var(--bg)] shadow-2xl md:inset-x-auto md:bottom-0 md:right-0 md:top-0 md:h-auto md:max-w-sm md:rounded-none md:border-l md:border-t-0">
       {/* ヘッダー */}
-      <div className="flex items-center justify-between border-b border-[var(--line)] px-4 py-3">
-        <div className="text-sm font-bold text-[var(--text)]">AI 履修相談</div>
+      <div className="flex items-center justify-between border-b border-[var(--line)] px-4 py-3 md:px-4">
+        <div>
+          <div className="text-sm font-bold text-[var(--text)]">AI 履修相談</div>
+          <div className="mt-0.5 text-[10px] text-[var(--text-faint)] md:hidden">
+            チャットと時間割提案をここで切り替えます。
+          </div>
+        </div>
         <button
           onClick={onClose}
           className="rounded-md p-1.5 text-[var(--text-muted)] transition-colors hover:bg-[var(--control)] hover:text-[var(--text)]"
+          aria-label="AI履修相談を閉じる"
         >
           ✕
         </button>
@@ -213,7 +219,7 @@ export function AiChatPanel({
       {/* チャットモード */}
       {mode === "chat" && (
         <>
-          <div className="flex-1 overflow-y-auto p-4 space-y-3">
+          <div className="flex-1 space-y-3 overflow-y-auto p-4">
             {messages.length === 0 && (
               <div className="space-y-3">
                 <p className="text-xs text-[var(--text-muted)] text-center">
@@ -260,7 +266,7 @@ export function AiChatPanel({
             <div ref={bottomRef} />
           </div>
 
-          <div className="border-t border-[var(--line)] p-3">
+          <div className="border-t border-[var(--line)] p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]">
             <div className="flex gap-2">
               <input
                 type="text"
@@ -273,13 +279,13 @@ export function AiChatPanel({
                   }
                 }}
                 placeholder="履修について相談する..."
-                className="flex-1 rounded-lg border border-[var(--line)] bg-[var(--control)] px-3 py-2 text-sm text-[var(--text)] placeholder:text-[var(--text-muted)] focus:outline-none"
+                className="flex-1 rounded-lg border border-[var(--line)] bg-[var(--control)] px-3 py-3 text-sm text-[var(--text)] placeholder:text-[var(--text-muted)] focus:outline-none md:py-2"
                 disabled={chatLoading}
               />
               <button
                 onClick={() => sendChat(chatInput)}
                 disabled={chatLoading || !chatInput.trim()}
-                className="rounded-lg bg-[var(--text)] px-3 py-2 text-sm font-medium text-[var(--bg)] disabled:opacity-40"
+                className="rounded-lg bg-[var(--text)] px-4 py-3 text-sm font-medium text-[var(--bg)] disabled:opacity-40 md:px-3 md:py-2"
               >
                 送信
               </button>
@@ -293,7 +299,7 @@ export function AiChatPanel({
 
       {/* 時間割提案モード */}
       {mode === "propose" && (
-        <div className="flex-1 overflow-y-auto p-4 space-y-4">
+        <div className="flex-1 space-y-4 overflow-y-auto p-4 pb-[calc(1rem+env(safe-area-inset-bottom))]">
           {proposals.length === 0 && (
             <>
               <div className="space-y-3">
