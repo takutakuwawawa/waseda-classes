@@ -2,11 +2,11 @@ import { NextRequest, NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
 import { createClient } from "@supabase/supabase-js";
 
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! });
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 );
+let anthropicClient: Anthropic | null = null;
 
 const ALL_DAYS = [1, 2, 3, 4, 5];
 const ALL_PERIODS = [1, 2, 3, 4, 5, 6];
@@ -97,10 +97,107 @@ type ProposeRequest = {
   term?: string;
 };
 
+type CoursePreferences = {
+  excludeEnglishTitle: boolean;
+};
+
+function getAnthropic() {
+  const apiKey = process.env.ANTHROPIC_API_KEY ?? process.env.CLAUDE_API_KEY;
+  if (!apiKey) return null;
+  anthropicClient ??= new Anthropic({ apiKey });
+  return anthropicClient;
+}
+
+function normalizeText(text: string) {
+  return text.replace(/[０-９．]/g, (char) =>
+    String.fromCharCode(char.charCodeAt(0) - 0xfee0)
+  );
+}
+
+function uniqueSlots(slots: Slot[]) {
+  const seen = new Set<string>();
+  return slots.filter((slot) => {
+    const key = `${slot.day}-${slot.period}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function allPeriodsForDay(day: number) {
+  return ALL_PERIODS.map((period) => ({ day, period }));
+}
+
+function extractDeterministicForbiddenSlots(userText: string): Slot[] {
+  const text = normalizeText(userText);
+  const slots: Slot[] = [];
+  const dayPatterns: { day: number; pattern: RegExp }[] = [
+    { day: 1, pattern: /月(?:曜|曜日)?/g },
+    { day: 2, pattern: /火(?:曜|曜日)?/g },
+    { day: 3, pattern: /水(?:曜|曜日)?/g },
+    { day: 4, pattern: /木(?:曜|曜日)?/g },
+    { day: 5, pattern: /金(?:曜|曜日)?/g },
+  ];
+  const fullDayWords =
+    /(全休|空け|あけ|休み|終日|一日|ずっと|バイト|部活|サークル|無理|入れたくない|入れるな|避けたい)/;
+  const negativeWords =
+    /(入れたくない|入れるな|入れない|なし|無理|避けたい|空け|あけ|全休|バイト|部活|サークル)/;
+
+  for (const { day, pattern } of dayPatterns) {
+    for (const match of text.matchAll(pattern)) {
+      const index = match.index ?? 0;
+      const context = text.slice(Math.max(0, index - 8), index + 32);
+      if (fullDayWords.test(context)) {
+        slots.push(...allPeriodsForDay(day));
+      }
+
+      const periodMatches = [...context.matchAll(/([1-6])\s*限/g)];
+      for (const periodMatch of periodMatches) {
+        if (!negativeWords.test(context)) continue;
+        slots.push({ day, period: Number(periodMatch[1]) });
+      }
+    }
+  }
+
+  for (const periodMatch of text.matchAll(/([1-6])\s*限/g)) {
+    const index = periodMatch.index ?? 0;
+    const context = text.slice(Math.max(0, index - 10), index + 24);
+    if (!negativeWords.test(context)) continue;
+    const period = Number(periodMatch[1]);
+    for (const day of ALL_DAYS) slots.push({ day, period });
+  }
+
+  return uniqueSlots(slots);
+}
+
+function extractCoursePreferences(userText: string): CoursePreferences {
+  const text = normalizeText(userText);
+  return {
+    excludeEnglishTitle:
+      /科目名.{0,12}英語.{0,12}(選びたくない|避けたい|なし|除外)/.test(text) ||
+      /英語.{0,12}科目.{0,12}(選びたくない|避けたい|なし|除外)/.test(text),
+  };
+}
+
+function matchesCoursePreferences(
+  course: CourseCandidate,
+  preferences: CoursePreferences
+) {
+  if (preferences.excludeEnglishTitle && /[A-Za-z]/.test(course.name)) {
+    return false;
+  }
+
+  return true;
+}
+
 // Step1: 制約を抽出
 async function extractForbiddenSlots(
   userText: string
 ): Promise<Slot[]> {
+  const deterministicSlots = extractDeterministicForbiddenSlots(userText);
+  const anthropic = getAnthropic();
+  if (!anthropic) return deterministicSlots;
+
   const prompt = `以下のテキストから、授業に出られない曜日・時限を全て抽出してください。
 
 テキスト: "${userText}"
@@ -134,9 +231,9 @@ period: 1〜6の整数`;
     const text =
       response.content[0].type === "text" ? response.content[0].text : "{}";
     const parsed = JSON.parse(text.replace(/```json|```/g, "").trim());
-    return parsed.forbidden ?? [];
+    return uniqueSlots([...deterministicSlots, ...(parsed.forbidden ?? [])]);
   } catch {
-    return [];
+    return deterministicSlots;
   }
 }
 
@@ -145,7 +242,8 @@ async function getCoursesForAvailableSlots(
   availableSlots: Slot[],
   savedClassIds: string[],
   faculties: string[],
-  term: string
+  term: string,
+  preferences: CoursePreferences
 ): Promise<Map<string, CourseCandidate[]>> {
   const slotCourseMap = new Map<string, CourseCandidate[]>();
   if (availableSlots.length === 0) return slotCourseMap;
@@ -197,7 +295,11 @@ async function getCoursesForAvailableSlots(
       continue;
     }
 
-    classes.push(...((data ?? []) as CourseCandidate[]));
+    classes.push(
+      ...((data ?? []) as CourseCandidate[]).filter((course) =>
+        matchesCoursePreferences(course, preferences)
+      )
+    );
   }
 
   if (classes.length === 0) return slotCourseMap;
@@ -221,7 +323,8 @@ async function getCoursesForAvailableSlots(
 async function getOnDemandCourses(
   savedClassIds: string[],
   faculties: string[],
-  term: string
+  term: string,
+  preferences: CoursePreferences
 ) {
   let query = supabase
     .from("classes")
@@ -245,7 +348,9 @@ async function getOnDemandCourses(
     return [];
   }
 
-  return (data ?? []) as CourseCandidate[];
+  return ((data ?? []) as CourseCandidate[]).filter((course) =>
+    matchesCoursePreferences(course, preferences)
+  );
 }
 
 // Step4: Claudeで3パターンの時間割を構築
@@ -270,6 +375,7 @@ async function buildProposals(
   if (candidateById.size === 0) {
     return [];
   }
+  const allowedSlotKeys = new Set(slotCourseMap.keys());
 
   const coursesBySlot: string[] = [];
   for (const [key, courses] of slotCourseMap.entries()) {
@@ -353,6 +459,16 @@ ${coursesBySlot.join("\n\n")}
 - 目標単位数に近くなるよう選ぶ`;
 
   try {
+    const anthropic = getAnthropic();
+    if (!anthropic) {
+      return buildFallbackProposals(
+        slotCourseMap,
+        onDemandCourses,
+        targetCredits,
+        onDemandCreditTarget
+      );
+    }
+
     const response = await anthropic.messages.create({
       model: "claude-sonnet-4-5",
       max_tokens: 3000,
@@ -364,7 +480,8 @@ ${coursesBySlot.join("\n\n")}
     const sanitizedProposals = sanitizeProposals(
       parsed?.proposals ?? [],
       candidateById,
-      onDemandCreditTarget
+      onDemandCreditTarget,
+      allowedSlotKeys
     );
     const proposals =
       onDemandCreditTarget != null &&
@@ -523,7 +640,8 @@ function extractOnDemandCreditTarget(text: string) {
 function sanitizeProposals(
   proposals: Proposal[],
   candidateById: Map<string, CourseCandidate>,
-  onDemandCreditTarget: number | null
+  onDemandCreditTarget: number | null,
+  allowedSlotKeys: Set<string>
 ) {
   return proposals
     .map((proposal) => {
@@ -563,8 +681,12 @@ function sanitizeProposals(
             slots.find(
               (slot) =>
                 slot.day_of_week === proposed.day &&
-                slot.period === proposed.period
-            ) ?? slots[0];
+                slot.period === proposed.period &&
+                allowedSlotKeys.has(`${slot.day_of_week}-${slot.period}`)
+            ) ??
+            slots.find((slot) =>
+              allowedSlotKeys.has(`${slot.day_of_week}-${slot.period}`)
+            );
 
           if (!matchingSlot) return null;
 
@@ -642,6 +764,8 @@ export async function POST(request: NextRequest) {
     // Step1: 制約抽出
     const forbiddenSlots = await extractForbiddenSlots(userText);
     console.log("制約:", forbiddenSlots);
+    const preferences = extractCoursePreferences(userText);
+    console.log("授業選択条件:", preferences);
 
     // Step2: 使えるコマを計算
     const availableSlots = ALL_DAYS.flatMap((day) =>
@@ -671,12 +795,18 @@ export async function POST(request: NextRequest) {
       availableSlots,
       savedClassIds,
       requestedFaculties,
-      term
+      term,
+      preferences
     );
     console.log(`授業が入るコマ: ${slotCourseMap.size}個`);
 
     const onDemandCourses = shouldIncludeOnDemand
-      ? await getOnDemandCourses(savedClassIds, requestedFaculties, term)
+      ? await getOnDemandCourses(
+          savedClassIds,
+          requestedFaculties,
+          term,
+          preferences
+        )
       : [];
     if (shouldIncludeOnDemand) {
       console.log(`オンデマンド候補: ${onDemandCourses.length}件`);

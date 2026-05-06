@@ -2,14 +2,11 @@ import { NextRequest, NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
 import { createClient } from "@supabase/supabase-js";
 
-const anthropic = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY!,
-});
-
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 );
+let anthropicClient: Anthropic | null = null;
 
 const DAY_LABELS: Record<number, string> = {
   1: "月", 2: "火", 3: "水", 4: "木", 5: "金", 6: "土", 7: "日",
@@ -41,6 +38,13 @@ type ChatMessage = {
   role: "user" | "assistant";
   content: string;
 };
+
+function getAnthropic() {
+  const apiKey = process.env.ANTHROPIC_API_KEY ?? process.env.CLAUDE_API_KEY;
+  if (!apiKey) return null;
+  anthropicClient ??= new Anthropic({ apiKey });
+  return anthropicClient;
+}
 
 // 自然言語から検索条件を抽出
 function extractConditions(query: string): {
@@ -310,6 +314,17 @@ ${conditionSummary ? `【今回の検索条件】${conditionSummary}` : ""}
 - 時間割の重複や単位数の過不足などに気づいたら指摘してください
 - 授業データにない情報は「不明」と答えてください（推測しない）
 - 回答は400文字以内に収めてください`;
+
+    const anthropic = getAnthropic();
+    if (!anthropic) {
+      return NextResponse.json(
+        {
+          error:
+            "AIチャット用のAPIキーが未設定です。Vercelの環境変数に ANTHROPIC_API_KEY を追加してください。",
+        },
+        { status: 500 }
+      );
+    }
 
     const response = await anthropic.messages.create({
       model: "claude-haiku-4-5-20251001",
