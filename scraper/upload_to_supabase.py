@@ -4,6 +4,7 @@
   python upload_to_supabase.py <faculty> [spring|fall]
 例:
   python upload_to_supabase.py social_sciences spring
+  python upload_to_supabase.py gec spring
   python upload_to_supabase.py letters spring
   python upload_to_supabase.py culture_community spring
 """
@@ -43,6 +44,11 @@ FACULTIES = {
     "fundamental_sci": "基幹",
     "creative_sci": "創造",
     "advanced_sci": "先進",
+    "global_education": "GEC",
+}
+
+FACULTY_ALIASES = {
+    "gec": "global_education",
 }
 
 TERM_CONFIG = {
@@ -187,12 +193,18 @@ def delete_slots_by_class_ids(class_ids: list[str]) -> None:
 
 # ---------------- メイン ----------------
 def main():
-    if len(sys.argv) < 2 or sys.argv[1] not in FACULTIES:
+    if len(sys.argv) < 2:
         print("Usage: python upload_to_supabase.py <faculty> [spring|fall]")
-        print(f"  faculties: {', '.join(FACULTIES.keys())}")
+        print(f"  faculties: {', '.join(FACULTIES.keys())}, gec")
         sys.exit(1)
 
-    faculty_slug = sys.argv[1]
+    faculty_arg = sys.argv[1]
+    faculty_slug = FACULTY_ALIASES.get(faculty_arg, faculty_arg)
+    if faculty_slug not in FACULTIES:
+        print("Usage: python upload_to_supabase.py <faculty> [spring|fall]")
+        print(f"  faculties: {', '.join(FACULTIES.keys())}, gec")
+        sys.exit(1)
+
     term_key = sys.argv[2] if len(sys.argv) >= 3 else "spring"
     if term_key not in TERM_CONFIG:
         print(f"未知の学期: {term_key}")

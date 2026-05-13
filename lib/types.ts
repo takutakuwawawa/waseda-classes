@@ -77,6 +77,7 @@ export const FACULTIES = [
   "基幹",
   "創造",
   "先進",
+  "GEC",
 ] as const;
 
 export const TERMS = ["春学期", "秋学期", "通年"] as const;

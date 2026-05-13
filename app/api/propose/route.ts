@@ -42,6 +42,11 @@ const FACULTY_KEYWORDS: { keyword: string; faculty: string }[] = [
   { keyword: "基幹", faculty: "基幹" },
   { keyword: "創造", faculty: "創造" },
   { keyword: "先進", faculty: "先進" },
+  { keyword: "グローバルエデュケーションセンター", faculty: "GEC" },
+  { keyword: "グローバル教育センター", faculty: "GEC" },
+  { keyword: "グローバル", faculty: "GEC" },
+  { keyword: "GEC", faculty: "GEC" },
+  { keyword: "gec", faculty: "GEC" },
 ];
 
 type Slot = { day: number; period: number };

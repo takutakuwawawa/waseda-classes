@@ -101,6 +101,11 @@ function extractConditions(query: string): {
     基幹: "基幹",
     創造: "創造",
     先進: "先進",
+    グローバルエデュケーションセンター: "GEC",
+    グローバル教育センター: "GEC",
+    グローバル: "GEC",
+    GEC: "GEC",
+    gec: "GEC",
   };
   for (const [label, slug] of Object.entries(facultyMap)) {
     if (query.includes(label)) {

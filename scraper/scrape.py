@@ -12,6 +12,7 @@
 例:
     python scrape.py international
     python scrape.py letters culture_community fall
+    python scrape.py gec spring
     python scrape.py fundamental_sci creative_sci advanced_sci
     python scrape.py all fall
 """
@@ -54,6 +55,11 @@ FACULTIES = {
     "fundamental_sci":      {"code": "262006", "label": "基幹"},
     "creative_sci":         {"code": "272006", "label": "創造"},
     "advanced_sci":         {"code": "282006", "label": "先進"},
+    "global_education":     {"code": "9S2013", "label": "GEC"},
+}
+
+FACULTY_ALIASES = {
+    "gec": "global_education",
 }
 
 # 詳細ページから取り出したい「シラバス内容（クラス間で共有可）」のフィールド。
@@ -332,7 +338,7 @@ def main():
     if faculty_args == ["all"]:
         targets = list(FACULTIES.keys())
     else:
-        targets = faculty_args
+        targets = [FACULTY_ALIASES.get(f, f) for f in faculty_args]
         for f in targets:
             if f not in FACULTIES:
                 print(f"未知の学部: {f}")
