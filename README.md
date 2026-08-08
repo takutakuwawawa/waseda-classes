@@ -1,4 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Waseda Classes
+
+早稲田大学の公式シラバスから科目データを取得するスクレイパーと、検索・履修計画用のWebアプリです。
+
+## 科目データ更新ツール
+
+`scraper/scraper_gui.py` は、全15提供元と春秋を選択して更新できるWindows用GUIです。年度は公式シラバスで現在公開中の年度を自動取得します。
+
+- **掲示板用（推奨・高速）**: 科目名、教員、学期、曜日時限、単位、授業方法だけを取得し、既存の詳細CSVを変更しません。
+- **完全版**: 授業概要や授業計画などの詳細ページも取得します。
+- **公式件数と照合**: 公式の現在件数とローカルCSVの件数を比較します。
+- **取得済みデータを掲示板へ反映**: `waseda-course-bbs/public/data` を再生成します。
+
+仮想環境を作成済みの環境では、次のファイルから起動できます。
+
+```powershell
+scraper\launch_scraper_gui.cmd
+```
+
+CLIも引き続き利用できます。
+
+```powershell
+cd scraper
+.\venv\Scripts\Activate.ps1
+python scrape.py all spring --metadata-only --output-dir catalog
+python scrape.py all fall --metadata-only --output-dir catalog
+```
+
+取得時は公式件数、解析行数、科目IDの欠落・重複を検証し、不一致時には既存CSVを置き換えません。
+
+## Webアプリ
 
 ## Getting Started
 

@@ -3,7 +3,8 @@
 
 使い方:
     python scrape.py <faculty> [<faculty> ...] [spring|fall]
-    python scrape.py all [spring|fall]
+    python scrape.py all [spring|fall] --metadata-only --output-dir catalog
+    python scrape.py all [spring|fall] --audit --compare-dir catalog --compare-dir .
 
   - 学期は最後の引数で指定。省略時は spring
   - 複数学部を指定すると、詳細フェッチがグループ全体で共有される
@@ -17,12 +18,21 @@
     python scrape.py all fall
 """
 
+import argparse
 import csv
+import os
 import re
 import sys
 import time
+from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
+
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 
 # ---------------- 設定 ----------------
@@ -34,6 +44,7 @@ SLEEP_SEC = 2.5
 DETAIL_SLEEP_SEC = 1.2
 FACULTY_SLEEP_SEC = 10.0
 DEFAULT_TERM = "spring"
+LIST_RETRY_SEC = 10.0
 
 TERM_CONFIG = {
     "spring": {"gakki": "1", "label": "春学期・夏学期"},
@@ -87,6 +98,24 @@ DETAIL_FIELDS = {
     "授業で使用する言語":   "language",
     "授業方法区分":         "method_type",
 }
+
+LIST_FIELDS = [
+    "year",
+    "course_code",
+    "name",
+    "teacher",
+    "faculty",
+    "term",
+    "schedule",
+    "classroom",
+    "summary_excerpt",
+    "p_key",
+]
+CSV_FIELDS = LIST_FIELDS + list(DETAIL_FIELDS.values())
+
+
+class ScrapeValidationError(RuntimeError):
+    """Raised when an official result set cannot be reproduced completely."""
 
 
 # ---------------- セッション ----------------
@@ -166,7 +195,25 @@ def fetch_page(page_num: int, gakki_code: str, gakubu_code: str) -> tuple[list[d
                 raise
 
 
-def fetch_list_only(faculty_slug: str, term: dict) -> list[dict]:
+def validate_list_rows(rows: list[dict], total: int | None) -> list[str]:
+    problems: list[str] = []
+    if total is None:
+        problems.append("公式件数を読み取れませんでした")
+    elif len(rows) != total:
+        problems.append(f"公式 {total} 件に対して {len(rows)} 件しか解析できませんでした")
+
+    missing_keys = sum(not row.get("p_key") for row in rows)
+    if missing_keys:
+        problems.append(f"科目IDが空の行が {missing_keys} 件あります")
+
+    keys = [row["p_key"] for row in rows if row.get("p_key")]
+    duplicate_keys = len(keys) - len(set(keys))
+    if duplicate_keys:
+        problems.append(f"科目IDの重複が {duplicate_keys} 件あります")
+    return problems
+
+
+def fetch_list_once(faculty_slug: str, term: dict) -> tuple[list[dict], int | None]:
     fac = FACULTIES[faculty_slug]
     print(f"\n--- {fac['label']} ({faculty_slug}) 一覧取得 ---")
     session.get(INDEX_URL, timeout=30)
@@ -177,7 +224,7 @@ def fetch_list_only(faculty_slug: str, term: dict) -> list[dict]:
     list_rows.extend(page1_rows)
     print(f"    1ページ目: {len(page1_rows)} 件")
     if total is None:
-        return list_rows
+        return list_rows, None
 
     total_pages = (total + PAGE_SIZE - 1) // PAGE_SIZE
     print(f"    総件数: {total} 件 / {total_pages} ページ")
@@ -186,7 +233,25 @@ def fetch_list_only(faculty_slug: str, term: dict) -> list[dict]:
         rows, _ = fetch_page(page, term["gakki"], fac["code"])
         print(f"    ページ {page}: {len(rows)} 件")
         list_rows.extend(rows)
-    return list_rows
+    return list_rows, total
+
+
+def fetch_list_only(faculty_slug: str, term: dict) -> list[dict]:
+    for attempt in range(2):
+        rows, total = fetch_list_once(faculty_slug, term)
+        problems = validate_list_rows(rows, total)
+        if not problems:
+            print(f"    ✅ 完全性確認: 公式 {total} 件 / 取得 {len(rows)} 件")
+            return rows
+        if attempt == 0:
+            print("    ⚠ " + " / ".join(problems))
+            print(f"    → {LIST_RETRY_SEC:g}秒待って一覧を最初から再取得します")
+            time.sleep(LIST_RETRY_SEC)
+            continue
+        raise ScrapeValidationError(
+            f"{FACULTIES[faculty_slug]['label']}: " + " / ".join(problems)
+        )
+    raise AssertionError("unreachable")
 
 
 # ---------------- 詳細 ----------------
@@ -250,7 +315,80 @@ def syllabus_signature(p_key: str, course_code: str) -> str:
 
 
 # ---------------- メイン処理 ----------------
-def scrape_group(faculty_slugs: list[str], term_key: str) -> int:
+def write_csv_atomic(path: Path, rows: list[dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    try:
+        with temporary.open("w", encoding="utf-8-sig", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=CSV_FIELDS)
+            writer.writeheader()
+            writer.writerows(rows)
+        os.replace(temporary, path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
+
+
+def count_csv_rows(path: Path) -> tuple[int | None, list[str]]:
+    if not path.exists():
+        return None, ["ファイルなし"]
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        missing = [field for field in CSV_FIELDS if field not in (reader.fieldnames or [])]
+        count = sum(1 for _ in reader)
+    return count, ([f"不足列: {', '.join(missing)}"] if missing else [])
+
+
+def find_comparison_csv(
+    faculty_slug: str,
+    term_key: str,
+    compare_dirs: list[Path],
+) -> Path:
+    filename = f"{faculty_slug}_{term_key}.csv"
+    for directory in compare_dirs:
+        candidate = directory / filename
+        if candidate.exists():
+            return candidate
+    return compare_dirs[0] / filename
+
+
+def audit_group(
+    faculty_slugs: list[str],
+    term_key: str,
+    compare_dirs: list[Path],
+) -> bool:
+    term = TERM_CONFIG[term_key]
+    all_ok = True
+    print(f"\n=== 件数監査: {term['label']} ===")
+    for index, slug in enumerate(faculty_slugs):
+        fac = FACULTIES[slug]
+        session.get(INDEX_URL, timeout=30)
+        time.sleep(SLEEP_SEC)
+        _, official_total = fetch_page(1, term["gakki"], fac["code"])
+        csv_path = find_comparison_csv(slug, term_key, compare_dirs)
+        csv_total, file_problems = count_csv_rows(csv_path)
+        matches = official_total is not None and csv_total == official_total and not file_problems
+        marker = "✅" if matches else "⚠"
+        print(
+            f"{marker} {fac['label']}: 公式 {official_total if official_total is not None else '不明'} 件"
+            f" / CSV {csv_total if csv_total is not None else 'なし'} 件"
+            f" ({csv_path})"
+        )
+        for problem in file_problems:
+            print(f"    - {problem}")
+        all_ok = all_ok and matches
+        if index < len(faculty_slugs) - 1:
+            time.sleep(0.5)
+    return all_ok
+
+
+def scrape_group(
+    faculty_slugs: list[str],
+    term_key: str,
+    *,
+    include_details: bool = True,
+    output_dir: Path = Path("."),
+) -> int:
     term = TERM_CONFIG[term_key]
     print(f"\n=== グループ処理: {faculty_slugs} / {term['label']} ===")
 
@@ -276,26 +414,30 @@ def scrape_group(faculty_slugs: list[str], term_key: str) -> int:
 
     print(f"\n[詳細取得計画]")
     print(f"  一覧合計行数: {total_list_rows}")
-    print(f"  ユニーク signature: {len(rep_pkey_by_sig)} 件 ← これだけフェッチ")
-    saving = total_list_rows - len(rep_pkey_by_sig)
-    if total_list_rows:
-        print(f"  節約: {saving} 件 ({saving / total_list_rows * 100:.1f}%)")
+    if include_details:
+        print(f"  ユニーク signature: {len(rep_pkey_by_sig)} 件 ← これだけフェッチ")
+        saving = total_list_rows - len(rep_pkey_by_sig)
+        if total_list_rows:
+            print(f"  節約: {saving} 件 ({saving / total_list_rows * 100:.1f}%)")
+    else:
+        print("  掲示板用更新: 詳細ページは取得しません")
 
     # (3) signature ごとに1回だけ詳細を取得
     shared_cache: dict[str, dict] = {}
-    sigs = list(rep_pkey_by_sig.keys())
-    for idx, sig in enumerate(sigs, 1):
-        rep_pkey = rep_pkey_by_sig[sig]
-        if idx % 10 == 1:
-            print(f"    詳細 {idx}/{len(sigs)}: {rep_pkey}")
-        time.sleep(DETAIL_SLEEP_SEC)
-        shared_cache[sig] = fetch_detail(rep_pkey)
+    if include_details:
+        sigs = list(rep_pkey_by_sig.keys())
+        for idx, sig in enumerate(sigs, 1):
+            rep_pkey = rep_pkey_by_sig[sig]
+            if idx % 10 == 1:
+                print(f"    詳細 {idx}/{len(sigs)}: {rep_pkey}")
+            time.sleep(DETAIL_SLEEP_SEC)
+            shared_cache[sig] = fetch_detail(rep_pkey)
 
     # (4) 各学部の CSV を書き出し（一覧情報 + 共有された詳細）
     grand_total = 0
     empty_detail = {k: "" for k in DETAIL_FIELDS.values()}
     for slug, rows in per_faculty_rows.items():
-        output_csv = f"{slug}_{term_key}.csv"
+        output_csv = output_dir / f"{slug}_{term_key}.csv"
         enriched: list[dict] = []
         for r in rows:
             sig = syllabus_signature(r["p_key"], r["course_code"]) if r["p_key"] else None
@@ -306,11 +448,7 @@ def scrape_group(faculty_slugs: list[str], term_key: str) -> int:
             print(f"⚠ {slug}: 0件")
             continue
 
-        fieldnames = list(enriched[0].keys())
-        with open(output_csv, "w", encoding="utf-8-sig", newline="") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(enriched)
+        write_csv_atomic(output_csv, enriched)
         print(f"✅ {slug}: {len(enriched)} 件 → {output_csv}")
         grand_total += len(enriched)
 
@@ -318,22 +456,34 @@ def scrape_group(faculty_slugs: list[str], term_key: str) -> int:
 
 
 # ---------------- main ----------------
-def main():
-    args = sys.argv[1:]
-    if not args:
-        print(__doc__)
-        sys.exit(1)
+def parse_args(argv: list[str]) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="早稲田大学シラバスを取得します")
+    parser.add_argument("targets", nargs="+", help="学部slug、gec、または all")
+    parser.add_argument("--term", choices=TERM_CONFIG, default=None)
+    parser.add_argument("--metadata-only", action="store_true", help="詳細ページを省略")
+    parser.add_argument("--output-dir", type=Path, default=Path("."))
+    parser.add_argument("--audit", action="store_true", help="公式件数とCSV件数だけを比較")
+    parser.add_argument(
+        "--compare-dir",
+        action="append",
+        type=Path,
+        default=[],
+        help="監査対象CSVの検索先。複数指定時は先のものを優先",
+    )
+    return parser.parse_args(argv)
 
-    if args[-1] in TERM_CONFIG:
-        term_key = args[-1]
-        faculty_args = args[:-1]
-    else:
-        term_key = DEFAULT_TERM
-        faculty_args = args
+
+def main() -> int:
+    args = parse_args(sys.argv[1:])
+    faculty_args = list(args.targets)
+    term_key = args.term
+    if term_key is None and faculty_args[-1] in TERM_CONFIG:
+        term_key = faculty_args.pop()
+    term_key = term_key or DEFAULT_TERM
 
     if not faculty_args:
         print("学部が指定されていません")
-        sys.exit(1)
+        return 1
 
     if faculty_args == ["all"]:
         targets = list(FACULTIES.keys())
@@ -342,11 +492,37 @@ def main():
         for f in targets:
             if f not in FACULTIES:
                 print(f"未知の学部: {f}")
-                sys.exit(1)
+                return 1
 
-    grand_total = scrape_group(targets, term_key)
+    try:
+        if args.audit:
+            compare_dirs = [path.resolve() for path in args.compare_dir] or [args.output_dir.resolve()]
+            return 0 if audit_group(targets, term_key, compare_dirs) else 2
+        if args.metadata_only and len(targets) > 1:
+            grand_total = 0
+            for index, target in enumerate(targets):
+                grand_total += scrape_group(
+                    [target],
+                    term_key,
+                    include_details=False,
+                    output_dir=args.output_dir.resolve(),
+                )
+                if index < len(targets) - 1:
+                    print(f"\n-- 提供元間ウェイト {FACULTY_SLEEP_SEC:g}秒 --")
+                    time.sleep(FACULTY_SLEEP_SEC)
+        else:
+            grand_total = scrape_group(
+                targets,
+                term_key,
+                include_details=not args.metadata_only,
+                output_dir=args.output_dir.resolve(),
+            )
+    except (requests.RequestException, ScrapeValidationError) as error:
+        print(f"\n❌ 取得を中止しました: {error}")
+        return 2
     print(f"\n🎉 全処理完了: 合計 {grand_total} 件取得")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

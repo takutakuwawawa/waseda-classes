@@ -20,6 +20,13 @@
 # production
 /build
 
+# Local metadata cache used by the desktop scraper UI
+/scraper/catalog/
+
+# Python cache
+__pycache__/
+*.pyc
+
 # misc
 .DS_Store
 *.pem
