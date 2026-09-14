@@ -160,20 +160,18 @@ export function PlannerClient() {
           <div className="mb-4 flex items-center justify-between gap-4">
             <h2 className="text-sm font-bold text-[var(--text)]">時間割プレビュー</h2>
             <div
-              className="flex items-center gap-3 rounded-full border border-[var(--line-strong)] bg-[var(--accent-soft)] px-3 py-1.5 shadow-[0_8px_24px_rgba(0,0,0,0.16)]"
+              className="flex items-baseline gap-1.5"
               aria-label={`現在の総単位数 ${formatCredits(stats.totalCredits)}単位`}
               aria-live="polite"
               role="status"
             >
-              <span className="text-[10px] font-semibold tracking-[0.08em] text-[var(--text-muted)]">
+              <span className="text-xs text-[var(--text-muted)]">
                 現在の総単位数
               </span>
-              <span className="text-lg font-bold tabular-nums leading-none text-[var(--text)]">
+              <span className="text-2xl font-semibold tabular-nums leading-none text-[var(--text)]">
                 {formatCredits(stats.totalCredits)}
-                <span className="ml-1 text-[10px] font-semibold text-[var(--text-muted)]">
-                  単位
-                </span>
               </span>
+              <span className="text-xs text-[var(--text-muted)]">単位</span>
             </div>
           </div>
           <div className="overflow-x-auto">
@@ -365,13 +363,18 @@ function CreditBadge({
 
   return (
     <span
-      className={`shrink-0 rounded-full border border-[var(--line-strong)] bg-[var(--accent-soft)] font-bold tabular-nums text-[var(--text)] ${
-        compact
-          ? "px-1.5 py-0.5 text-[9px] leading-none"
-          : "px-2 py-1 text-[10px] leading-none"
-      }`}
+      className="shrink-0 whitespace-nowrap tabular-nums text-[var(--text-muted)]"
     >
-      {formatCredits(credits)}単位
+      <span
+        className={`font-semibold leading-none text-[var(--text)] ${
+          compact ? "text-xs" : "text-sm"
+        }`}
+      >
+        {formatCredits(credits)}
+      </span>
+      <span className={`ml-0.5 ${compact ? "text-[8px]" : "text-[10px]"}`}>
+        単位
+      </span>
     </span>
   );
 }
