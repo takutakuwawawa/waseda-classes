@@ -402,7 +402,7 @@ http://www.cam.hi-ho.ne.jp/munehiro/science/scilib.html",STSX121L,科学技術�
 2:
 第２回
 生命科学を学ぶための基本事項1ー生体内で働く分子について
-(対面講義)
+(オンデマンド)
 3:
 第３回
 生命科学を学ぶための基本事項
@@ -419,18 +419,19 @@ http://www.cam.hi-ho.ne.jp/munehiro/science/scilib.html",STSX121L,科学技術�
 (対面講義)
 6:
 第６回
-遺伝子発現のしくみ　(オンデマンド)
+遺伝子発現のしくみ　(対面講義
+)
 7:
 第７回
 遺伝子工学、遺伝子編集はどのようにして行うのか
 (オンデマンド)
 8:
 第８回
-遺伝子に関する研究からわかること 1
+遺伝子に関する研究方法からわかること 1
 (オンデマンド)
 9:
 第９回
-遺伝子に関する研究からわかること 2
+遺伝子に関する研究方法からわかること 2
 (オンデマンド)
 10:
 第１０回
@@ -1985,7 +1986,7 @@ Web
 平常点評価:
 28％
 授業期間内に2回の課題を課し，その論理的整合性や内容面について評価します。",講義要項やWebシラバスの記載内容は，登録された受講生の人数や理解度，進捗状況に応じて，授業開始後に変更となる可能性があります。,GENX101L,総合／学際,総合／学際,総合／学際,初級レベル（入門・導入）,総合教育科目,１年以上,2,日本語,【対面】
-2026,MATX111L,線形代数学　２,山口　祥司,商学,秋学期,月３時限,教室未定,この講義は「基礎数学」の内容（大学で学ぶ線形代数：第1章〜第3章）を前提に授......,1600000425022026160000042516,,"この講義は「基礎数学」の内容（大学で学ぶ線形代数：第1章〜第3章）を前提に授業を行います。基礎数学の内容を学習後に履修を検討してください。
+2026,MATX111L,線形代数学　２,山口　祥司,商学,秋学期,月２時限,教室未定,この講義は「基礎数学」の内容（大学で学ぶ線形代数：第1章〜第3章）を前提に授......,1600000425022026160000042516,,"この講義は「基礎数学」の内容（大学で学ぶ線形代数：第1章〜第3章）を前提に授業を行います。基礎数学の内容を学習後に履修を検討してください。
 線形代数という現代数学全般に応用される基礎分野を多変数1次多項式の理論の観点から解説する。
 多変数の値を記述する「ベクトル」の集合を把握する方法から説明し、（定数項のない）多変数1次多項式で新しい多変数の組を定める「線形写像」という概念の特徴を紹介していく。線形写像はy=axという比例の関係を多変数の場合に一般化した概念とみなせることを「行列の対角化」という行列とよばれる数の表の標準形を求める方法を通して解説する。",多変数の値を「ベクトル」という形式で表す方法を身につけ、多変数の値の範囲の大きさを把握する概念を理解する。新しい多変数の組を定数項のない多変数1次多項式で定める「線形写像」とよばれる概念と行列の積の関係を把握し、線形写像の特徴を計る値「行列式」や「固有値・固有ベクトル」という値とベクトルの組の定義を理解し計算方法を身につける。,Moodleに掲載する各講義の確認問題やテキストの問題を解いて講義内容の復習と理解度の確認を行ってください。,"1:
 第１回
@@ -2705,19 +2706,19 @@ https://researchmap.jp/read0203916
 ・自然科学分野の問題に対して論理的構成の意見を形成し，それを表現できるようになります。
 ・受講生自身が自然科学、特に生物学の観点からみた環境問題や関連する社会問題を理解することができるようになります。",事後学習としてWasedaMoodleのフォーラム機能を活用するなどして学習内容の理解を深めます。特にレポート提出については前年度はMoodle操作を下書きでとどめている方が多数おられました。確実に完了すつようにご留意ください。,"1:
 第１回
-第一回：オリエンテーション
+オリエンテーション
 本講義の概要、シラバスの確認、講義の進め方、成績評価に関する解説、生物学とはどんな学問なのか、生物学と環境問題
 2:
 第２回
-第二回：水環境、体内の水、生命を支える水
+水環境、体内の水、生命を支える水
 振り返り+生体内の水の働きとその関連事項について講義を行います。
 3:
 第３回
-第三回：地球上の水、水の大循環、気象や気候と水
+地球上の水、水の大循環、気象や気候と水
 振り返り+地球における水の実態とその関連事項について講義を行います。
 4:
 第４回
-第四回：生活と水、安全安心な水、おいしい水、水資源
+生活と水、安全安心な水、おいしい水、水資源
 振り返り+生活にとって水は必須で、かつ有限な資源であることとその関連事項について講義を行います。
 5:
 第５回
@@ -2725,51 +2726,51 @@ https://researchmap.jp/read0203916
 振り返り+生命誕生や海域における生物の進化、塩水に対する生物の反応と適応、淡水域・陸域への生物の進出とその関連事項に関する講義を行います。
 6:
 第６回
-第六回：水の富栄養化、「水清ければ魚棲まず」と「山紫水明」
+水の富栄養化、「水清ければ魚棲まず」と「山紫水明」
 振り返り+水環境問題の中でも地域ごとに発生する水質汚濁、その中でも富栄養化について特に解説し、生物・生態系との関係やその関連対策に関する講義を行います。
 7:
 第７回
-第七回：地域の水質汚濁とその拡大
+地域の水質汚濁とその拡大
 振り返り+地球規模の水環境問題として、地下水を介した化学物質汚染、海洋における油流出事故、などをとりあげ解説し、生物・生態系との関係やその関連対策に関する講義を行います。
 8:
 第８回
-第八回：川の水はどこからくるのか、天水、湧水、処理水
+川の水はどこからくるのか、天水、湧水、処理水
 振り返り+地域における身近な水環境の実態を皆さんからの情報提供にも言及しつつ、生物・生態系との関係やその関連対策に関する講義を行い、実態理解を深めます。
 9:
 第９回
-第九回：化学物質、放射性物質による地球規模の水環境汚染と生物
-振り返り+地球規模の水環境問題として、バラスト水を介した外来生物問題、マイクロプラスチックなどの海ごみ問題、放射性物質による水環境汚染などをとりあげ解説し、生物・生態系との関係やその関連対策に関する講義を行います。
+化学物質、放射性物質による地球規模の水環境汚染と生物
+振り返り+地球規模の水環境問題として、バラスト水を介した外来生物問題、海ごみやマイクロプラスチックなどの問題、放射性物質による水環境汚染などをとりあげ解説し、生物・生態系との関係やその関連対策に関する講義を行います。
 10:
 第１０回
-第十回：水と人間、生物との関わり、国が違うとどう見える？
-振り返り+水と人間、水と生物の関係性について、降水量豊富な日本と乾燥地域の比較を通じてその多様性に関する理解を深めます。
+水と人間、生物との関わり、国が違うとどう見える？
+水と人間、水と生物の関係性について、降水量豊富な日本と乾燥地域の比較を通じてその多様性に関する理解を深めます。
 11:
 第１１回
 第十一回：生物多様性と生態系サービス
 振り返り+水環境と生物多様性との関係、人間が受ける公益である生態系サービス、水環境と人との関わり方に関する講義を行います。地域における外来種問題や里海里湖づくり活動を取り上げながら実態理解を深めます。
 12:
 第１２回
-第十二回：外来種と水環境、池の水抜いてみた
+外来種と水環境、池の水抜いてみた
 振り返り+身近な地域の具体的事例を通じて、水環境における生物多様性や生態系サービスについて解説し、水環境と人との関わり方に関する学びを深めます。
 13:
 第１３回
-第十三回：気候変動と水環境、生物多様性
+気候変動と水環境、生物多様性
 振り返り+水環境と関連する地球環境問題として、防災に関連してゲリラ豪雨やグリーンインフラ、気候変動への緩和や適応に関連してブルーカーボンやカーボンニュートラル、生物多様性に関連してネイチャーポジティブなどを紹介しSDGsとの関連性も含め講義します。
 14:
 第１４回
-第十四回：定期試験
+定期試験
 対面試験による記述問題とレポート形式の論述問題を予定しています。",特になし。講義はPower Pointでのスライドを使用した形式で行います。講義中は講師の解説を聴講し、基本的に講義後すぐにアップロードされる最新版資料を各自がダウンロードし受講生自身の興味を持った単元を中心にしっかり復習してください。,環境省・編『環境白書・循環型社会白書・生物多様性白書』及び，国立環境研究所『環境儀』はオンラインで読むことができます。いつでも気軽に視聴しておいてください。国立環境研究所YouTubeチャンネルには担当講師をはじめ、多くの研究成果に関する動画がアップロードされています。関連トピックの動画を適宜選んで事前や事後に見ていただけますと理解が深まると思います。,"割合
 評価基準
 試験:
 25％
-定期試験のうち知識問題については対面実施とする予定
+定期試験のうち知識問題については対面実施とする予定。
 レポート:
 25％
-定期試験のうち論述問題はレポートとしてオンラインでの提出とする予定
+定期試験のうち論述問題は、試験期間中にレポートとしてオンライン提出とする予定。
 平常点評価:
 50％
-平常点は講義参加度として講義後に提示される資料の利活用状況、フォーラムやアンケートにおける活動状況を評価する予定。","・第九回は吉永真一氏（筑波大農博、国立環境研究所）に出講いただき、中国やモンゴルといった東アジア乾燥地域における水と人間、生物の関係について講義して頂く予定。
-・第十四回に定期試験を実施する。",BIOX101L,生物学,生物学,生物学,初級レベル（入門・導入）,総合教育科目,１年以上,2,日本語,【対面】
+平常点は講義参加度として講義後に提示される資料の利活用状況、フォーラムやアンケートにおける活動状況を評価する予定。","・第１０回講義内容は吉永真一氏（筑波大農博、前国立環境研究所生物多様性領域、現福島県 環境創造センター 研究部）にご出講いただき、中国やモンゴルといった東アジア乾燥地域における水と人間、生物の関係について講義して頂く予定。
+・第１４回に定期試験を実施する。",BIOX101L,生物学,生物学,生物学,初級レベル（入門・導入）,総合教育科目,１年以上,2,日本語,【対面】
 2026,CSTX111L,工学と環境　１,伊高　静,商学,秋学期,月４時限,教室未定,環境問題を解決するための工学的なアプローチについて学ぶ．授業中にグループデ......,1600000448012026160000044816,,環境問題を解決するための工学的なアプローチについて学ぶ．授業中にグループディスカッションとショートプレゼンテーションを行う．,代表的な環境問題を知り，その解決方法を自ら考え，ディスカッション・発表することにより，協調性・解決力・思考力・プレゼン能力を養う．,"事前学習：毎回のトピックに関して調べておくこと
 事後学習：各回の提出物を作成する過程で考えを深めること","1:
 第１回
@@ -7998,7 +7999,7 @@ Review and wrap-up",There is no assigned textbook. Students will be expected to 
 2.Waseda Moodle は頻繁かつ定期的にチェックしてください。
 3.原則として、毎回ペア・グループワークを行います。
 4.原則として、毎回授業内での発言が求められます。",LANE201F,語学,英語,英語,中級レベル（発展・応用）,外国語II必修（英語）,２年以上,1,日・英併用,【対面】
-2026,LANE201F,英語II：English for Academic Purposes（上級プラス）β　７,篠原　靖明,商学,秋学期,木１時限,教室未定,"Building on skills acquired through reading, presenting, and discussing ac......",1600001418072026160000141816,,"Building on skills acquired through reading, presenting, and discussing academic papers in the spring semester, students will further hone these skills with an emphasis on presenting the contents of their own original research. In the course of one semester, students will make one poster presentation and one research presentation (12-15 minutes, not including Q&A) supported by a minimum of five cited and referenced refereed journal articles.","【共通目標】
+2026,LANE201F,英語II：English for Academic Purposes（上級プラス）β　７,関　佳奈,商学,秋学期,木１時限,教室未定,"Building on skills acquired through reading, presenting, and discussing ac......",1600001418072026160000141816,,"Building on skills acquired through reading, presenting, and discussing academic papers in the spring semester, students will further hone these skills with an emphasis on presenting the contents of their own original research. In the course of one semester, students will make one poster presentation and one research presentation (12-15 minutes, not including Q&A) supported by a minimum of five cited and referenced refereed journal articles.","【共通目標】
 ビジネスの国際展開を背景とした外国語運用能力を身に付けるとともに、言葉の背景にある文化と社会の様々な知識を吸収し、他者に対する理解を深めることを目標とします。
 【科目目標】By the end of the course, students will be able to:
 •Understand the contents of poster and oral research presentations.
@@ -10969,29 +10970,33 @@ II. (Video) – Adapting Products to Local Markets (individual / pair work)
 III. Project – Research a Product to Introduce to a New Market (pair/group Work)
 Homework:
 -pg. 107, 4.1 (1 and 2)
--complete research template
+-complete a draft of the research template
 3:
-Week 3 (10/15) -Introduction to Business Presentations (Part 1)
+Week 3 (10/15) -Introduction to Business Presentations (Delivery and Content)
 I. What’s required? (Class activities – individual, pair and group work)
 -Delivery (non-verbal/verbal)
 -Content and Organization (Introduction, Body, Conclusion, Transitions)
+-Oral and written citations
 II. In-Class Pair/Group Work: Organize your business presentation
 Homework:
 -Complete a draft of your presentation using the template
 4:
-Week 4 (10/22) - Introduction to Business Presentations (Part 2)
+Week 4 (10/22) - Introduction to Business Presentations (Visuals)
 I. What’s required? (Class activities – individual, pair and group work)
 -Visuals (Easy to See, Easy to Understand, Effectively Used)
-II. In Class Work - Create your visuals (pair/small group work)
-**No class on 10/30
-Homework:
-- PowerPoint Slides are due on 11/5 by 8pm via Moodle (one file to be submitted per pair/small group)
+II. In Class Work - Create your visuals (pair/small group work
 5:
-Week 5 (10/29)- In Class Presentations
+Week 5 (10/29)- In Class Work on Presentations
+- Students will work on presentations in class
+- Instructor will be available to answer questions / give guidance
+Homework:
+- PowerPoint Slides are due on 11/11 by 8pm via Moodle (one file to be submitted per pair/small group)
+6:
+Week 6 (11/12) - In Class Presentations
 - Pair/Small Group Evaluation, Peer Feedback, Self Feedback
 -Class Discussion
-6:
-Week 6 (11/12) - Unit 4 Global Markets (Part 2)
+7:
+Week 7 (11/19) - Unit 4 Global Markets (Part 2)
 I. Managing Conversations (class activities: individual, pair and class work)
 -Behavior in a Meeting (Video) - Which option is best? Why? (individual / pair work)
 -Functional language: Changing the subject / Staying on track (individual / pair work)
@@ -11002,46 +11007,38 @@ II. Building Consensus (individual, pair)
 -Group Activity (Business Meeting / Reflection)
 Homework:
 - pg. 107, 4.3 and 4.4
-7:
-Week 7 (11/19) - Unit 4 - Workshop (Hand-Made)
-pgs. 94-95
 8:
-Week 8 (11/26) - Unit 5 Design and Innovation (Part 1)
+Week 8 (11/26) - Unit 4 Global Markets Workshop (Hand-Made)
+pgs. 94-95
+9:
+Week 9 (12/3) - Unit 5 Design and Innovation (Part 1)
 I.   Introduce topic / Vocabulary Review (individual, pair)
 II.  (Video) – Innovative Product Design (individual / pair work)
 III. Business Improvement Project (Pair Work)
 Homework:
 -pg. 108, 5.1 (1 and 2)
 **please bring your PC to class next week
-9:
-Week 9 (12/3) - Unit 5 Design and Innovation (Part 2)
-I.   Different Approaches to Giving Information (individual, pair)
+10:
+Week 10 (12/10) -Unit 5 Design and Innovation (Part 2)
+I   Different Approaches to Giving Information (individual, pair)
 II.  (Video) – Managing Information (individual / pair work)
 -Which approach is best? Why?
 III.  Functional Language: Asking open and closed questions
 IV.  Asking Questions Activity (Pair Work)
 Homework:
 -pg. 108, 5.3
-10:
-Week 10 (12/10) - Unit 5 Design and Innovation (Part 3)
-I.    Introduce topic (individual, pair)
-II.   (Video) – Features and Benefits of a Product (individual / pair work)
-III.  Functional Language: Describing features and benefits
-IV.  Present a Product (Pair /Group work)
-Homework:
--pg. 108, 5.4
 11:
 Week 11 (12/17) - Unit 5 Workshop (Smart Fabric)
 pgs. 96-97
 12:
-Week 12 (1/7) -Unit 8 Communication (Part 1)
+Week 12 (1/7) -Unit 8 Office Communication (Part 1)
 I. 8.1 -Face to Face
 -Vocabulary Review (individual, pair)
 -(Video) – Communication in the Office (individual / pair work)
 Homework:
 -pg. 111, 8.1 (#1 and 2) , 8.2 (#3)
 13:
-Week 13 (1/14) Unit 8 Communication (Part 2)
+Week 13 (1/14) Unit 8 Office Communication (Part 2)
 I.  8.2 -How to Communicate
 -Tips/Advice (class activities: individual, pair work)
 -Problems and Solutions (Pair Work)
@@ -11088,29 +11085,33 @@ II. (Video) – Adapting Products to Local Markets (individual / pair work)
 III. Project – Research a Product to Introduce to a New Market (pair/group Work)
 Homework:
 -pg. 107, 4.1 (1 and 2)
--complete research template
+-complete a draft of the research template
 3:
-Week 3 (10/15) -Introduction to Business Presentations (Part 1)
+Week 3 (10/15) -Introduction to Business Presentations (Delivery and Content)
 I. What’s required? (Class activities – individual, pair and group work)
 -Delivery (non-verbal/verbal)
 -Content and Organization (Introduction, Body, Conclusion, Transitions)
+-Oral and written citations
 II. In-Class Pair/Group Work: Organize your business presentation
 Homework:
 -Complete a draft of your presentation using the template
 4:
-Week 4 (10/22) - Introduction to Business Presentations (Part 2)
+Week 4 (10/22) - Introduction to Business Presentations (Visuals)
 I. What’s required? (Class activities – individual, pair and group work)
 -Visuals (Easy to See, Easy to Understand, Effectively Used)
-II. In Class Work - Create your visuals (pair/small group work)
-**No class on 10/30
-Homework:
-- PowerPoint Slides are due on 11/5 by 8pm via Moodle (one file to be submitted per pair/small group)
+II. In Class Work - Create your visuals (pair/small group work
 5:
-Week 5 (10/29)- In Class Presentations
+Week 5 (10/29)- In Class Work on Presentations
+- Students will work on presentations in class
+- Instructor will be available to answer questions / give guidance
+Homework:
+- PowerPoint Slides are due on 11/11 by 8pm via Moodle (one file to be submitted per pair/small group)
+6:
+Week 6 (11/12) - In Class Presentations
 - Pair/Small Group Evaluation, Peer Feedback, Self Feedback
 -Class Discussion
-6:
-Week 6 (11/12) - Unit 4 Global Markets (Part 2)
+7:
+Week 7 (11/19) - Unit 4 Global Markets (Part 2)
 I. Managing Conversations (class activities: individual, pair and class work)
 -Behavior in a Meeting (Video) - Which option is best? Why? (individual / pair work)
 -Functional language: Changing the subject / Staying on track (individual / pair work)
@@ -11121,46 +11122,38 @@ II. Building Consensus (individual, pair)
 -Group Activity (Business Meeting / Reflection)
 Homework:
 - pg. 107, 4.3 and 4.4
-7:
-Week 7 (11/19) - Unit 4 - Workshop (Hand-Made)
-pgs. 94-95
 8:
-Week 8 (11/26) - Unit 5 Design and Innovation (Part 1)
+Week 8 (11/26) - Unit 4 Global Markets Workshop (Hand-Made)
+pgs. 94-95
+9:
+Week 9 (12/3) - Unit 5 Design and Innovation (Part 1)
 I.   Introduce topic / Vocabulary Review (individual, pair)
 II.  (Video) – Innovative Product Design (individual / pair work)
 III. Business Improvement Project (Pair Work)
 Homework:
 -pg. 108, 5.1 (1 and 2)
 **please bring your PC to class next week
-9:
-Week 9 (12/3) - Unit 5 Design and Innovation (Part 2)
-I.   Different Approaches to Giving Information (individual, pair)
+10:
+Week 10 (12/10) -Unit 5 Design and Innovation (Part 2)
+I   Different Approaches to Giving Information (individual, pair)
 II.  (Video) – Managing Information (individual / pair work)
 -Which approach is best? Why?
 III.  Functional Language: Asking open and closed questions
 IV.  Asking Questions Activity (Pair Work)
 Homework:
 -pg. 108, 5.3
-10:
-Week 10 (12/10) - Unit 5 Design and Innovation (Part 3)
-I.    Introduce topic (individual, pair)
-II.   (Video) – Features and Benefits of a Product (individual / pair work)
-III.  Functional Language: Describing features and benefits
-IV.  Present a Product (Pair /Group work)
-Homework:
--pg. 108, 5.4
 11:
 Week 11 (12/17) - Unit 5 Workshop (Smart Fabric)
 pgs. 96-97
 12:
-Week 12 (1/7) -Unit 8 Communication (Part 1)
+Week 12 (1/7) -Unit 8 Office Communication (Part 1)
 I. 8.1 -Face to Face
 -Vocabulary Review (individual, pair)
 -(Video) – Communication in the Office (individual / pair work)
 Homework:
 -pg. 111, 8.1 (#1 and 2) , 8.2 (#3)
 13:
-Week 13 (1/14) Unit 8 Communication (Part 2)
+Week 13 (1/14) Unit 8 Office Communication (Part 2)
 I.  8.2 -How to Communicate
 -Tips/Advice (class activities: individual, pair work)
 -Problems and Solutions (Pair Work)
@@ -13318,7 +13311,7 @@ Students will practice writing essays of 4-5 paragraphs (500 words +) requiring 
 １１：Avoiding Plagiarism: Citing and Quoting Sources
 １２：Writing the Reference List
 １３：The Experiment Report
-１４：期末試験","Basic Steps to Writing Research Papers, Second Edition. Cengage Learning. ISBN: 978-4-86312-308-3",各担当者が授業中に指示する。,"割合
+１４：期末試験","Basic Steps to Writing Research Papers, Second Edition. Cengage Learning. ISBN: 9781380059260",各担当者が授業中に指示する。,"割合
 評価基準
 試験:
 40％
@@ -19218,128 +19211,288 @@ Miyajima, H. & Arikawa, Y (Eds.). (2025). The evolution of corporate governance 
 50％
 講義中の発表と発言など授業への参加により評価します。また、講義前の資料の要約も含まれます。","履修者の人数や進行状況等を鑑みて、内容を変更する可能性があります。
 生成AIの利用は原則認めますが、具体的な利用方法については別途指示します。",ECNA301L,経済学,応用経済学,応用経済学,上級レベル,専門教育科目,２年以上,2,日本語,【対面】
-2026,CMMM301L,専門英語講読Ｂ　３,野口　翔右,商学,秋学期,木１時限,教室未定,なぜ、ある言葉は消費者の購買意欲を掻き立て、別の言葉は無視されるのでしょう......,1600002562032026160000256216,,"なぜ、ある言葉は消費者の購買意欲を掻き立て、別の言葉は無視されるのでしょうか。本講義では、言葉が消費者行動や意思決定に与える影響に焦点を当てた書籍『Magic Words』を題材に、
-言葉の持つ科学的な影響力
-を議論します。さらに、同書の内容を踏まえた議論から、販売促進につながるような施策や政策立案者として取るべき施策に関する示唆を得ることも目指します。
-講義形式は一方的な解説ではなく、参加者全員による輪読とディスカッションを中心とします。テキストを読み進めた後、小グループおよび全体での議論を通じて、英語による専門知識のインプットだけでなく、そこから得られた知見を他者と共有・発展させるアウトプットの力も養います。全体議論では原則としてランダムに指名して発言してもらう形式を取ります。理解の定着を図るために定期的に小テストも実施します。","本講義を通じて達成したい目標は以下の３つです。
-- マーケティングに関する専門的な洋書の内容を正確にまとめて伝えることができるようになる
-- 本書で議論されている理論を理解して、諸々のビジネスへの応用や政策を考える
-- ディスカッションを通じて他者へのアウトプットの能力を養う","■事前学習
-講義で扱う章について事前に読んでおいてください
+2026,CMMM301L,専門英語講読Ｂ　３,野口　翔右,商学,秋学期,木１時限,教室未定,本授業では、マーケティングサイエンスの研究で使われているデータ分析を実際に......,1600002562032026160000256216,,"本授業では、マーケティングサイエンスの研究で使われているデータ分析を実際にどのように企業の利潤向上のために活用できるかについて論じた専門書である『Leading with AI and Analytics: Build Your Data Science IQ to Drive Business Value』を輪読します。
+講義形式は一方的な解説ではなく、参加者全員による輪読とディスカッションを中心とする。テキストを読み進めた後、小グループおよび全体での議論を通じて、英語による専門知識のインプットだけでなく、そこから得られた知見を他者と共有・発展させるアウトプットの力も養います。全体議論では原則としてランダムに指名して発言してもらう形式を取ります。理解の定着を図るために定期的に小テストも実施することも検討しています。
+なお、本のタイトルにAIというワードがありますが、実際にはAIの中身そのものというよりむしろ社会科学でスタンダードな計量手法に関する内容が多いのでご注意ください。",本講義を通じて達成したい目標は以下の３つです。,"■事前学習
+講義で扱う章について読んでおいてください。
 ■事後学習
-講義で扱った章で議論されている理論に関連するビジネスケースをいくつか探してください。期末レポート作成時に必要になります。","1:
+講義で扱った章で議論されている計量手法について各自教科書やインターネットを通じて理解を深めると良いと思います。","1:
 第１回
 オリエンテーション
 2:
 第２回
-Activate Identity and Agency
+第１章「AI and Analytics Are a Leadership Problem」
 3:
 第３回
-Activate Identity and Agency
+第２章「A Framework for AI and Analytics Success」
 4:
 第４回
-Convey Confidence
+第３章「Explanatory Analytics」
 5:
 第５回
-Convey Confidence
+第４章「Distinguishing Good from Bad Analytics」
 6:
 第６回
-Ask the Right Questions
+第５章「Anatomy of a Crystal Ball」
 7:
 第７回
-Ask the Right Questions
+第６章「A Smaller Crystal Ball」
 8:
 第８回
-Leverage Concreteness
+第７章「Designing Your Data for Analytics」
 9:
 第９回
-Employ Emotion
+第８章「Working with Data You Have Part1」
 10:
 第１０回
-Employ Emotion
+第９章「Working with Data You Have Part2」
 11:
 第１１回
-Harness Similarity (and Difference)
+第10章「Optimizing and Scaling Your Decisions」
 12:
 第１２回
-Harness Similarity (and Difference)
+第11章「Identifying Opportunities and Planning for AIA」
 13:
 第１３回
-What Language Reveals
+第12章「Understanding Barriers to Success」
 14:
 第１４回
-What Language Reveals","Berger, J. (2023). Magic words: The New Science of Language for Persuasion, Communication, and Driving Action. Harper Business",教科書内のトピックが広範にわたるのでここでは網羅的には書きませんが、関心のあるトピックを見つけ次第教員にお尋ねください。,"割合
+第13章「Organizing for Success」","Anderson, E., & Zettelmeyer, F. (2020). Leading with AI and Analytics: Build Your Data Science IQ to Drive Business Value. McGraw Hill Professional.",教科書内のトピックが広範にわたるのでここでは網羅的には書きませんが、関心のあるトピックを見つけ次第教員にお尋ねください。,"割合
 評価基準
 レポート:
 50％
 期末レポートの内容で評価する。
 平常点評価:
 50％
-授業中のプレゼン、小テスト、議論における貢献を評価する。",- シラバス内容は履修人数や学生の要望に応じて変更する可能性があります。もし変更があった際には履修者全員に事前にアナウンスします。,CMMM301L,商学,マーケティング,マーケティング,上級レベル,専門教育科目,２年以上,2,日本語,【対面】
-2026,ECNA351L,専門英語講読Ｂ　４,小林　流基,商学,秋学期,木４時限,教室未定,この授業では、産業組織論・組織の経済学・行動経済学といった経済学の知見が、......,1600002562042026160000256216,,"この授業では、産業組織論・組織の経済学・行動経済学といった経済学の知見が、実際のビジネスの現場における競争戦略や制度設計にどのように役立てられているのかを扱った、The Voltage Effect および Mixed Signals の2冊の書籍の輪読を行います。授業内では、各章で紹介される具体的な事例をもとに、どのような発想や判断が成果につながったのか（あるいはなぜ期待通りの結果が得られなかったのか）について整理し、実務や政策の現場においてどのような点に注意すべきか、どのような示唆が得られるかを議論します。
-この授業において、受講生は、必ず1人1回は発表を行う必要があります。毎週、発表担当の受講生には、該当する章・節の内容をまとめ、プレゼン資料を用いて報告していただきます。単に事例を紹介するのではなく、背後にどのような経済学の理論があるのかを明示的に示すプレゼン資料を作成してください。","本授業における受講生の到達目標は以下のとおりです。
-・講読を行う書籍に出てくる内容が、経済学のどのような理論に基づいているかを理解し、説明できるようになること
-・経済学の理論をもとに、実際のビジネスや政策の現場における課題を検討することができるようになること
-・英語で書かれた経済書について、経済学的な観点から整理して要点をまとめ、日本語で説明できるようになること","事前学習
-・毎週、該当する章をあらかじめ読み、内容を把握してくること
-・その週に発表担当者となっている場合は、該当する章・節を読み込み、プレゼン資料を作成してくること
-（目安として1時間半程度。発表担当者の場合は、2時間以上かかることもあります）
+授業中の発言、出席、小テスト、議論における貢献を評価する。",- シラバス内容は履修人数や学生の要望に応じて変更する可能性があります。もし変更があった際には履修者全員に事前にアナウンスします。,CMMM301L,商学,マーケティング,マーケティング,上級レベル,専門教育科目,２年以上,2,日本語,【対面】
+2026,ECNA351L,専門英語講読Ｂ　４,小林　流基,商学,秋学期,木４時限,教室未定,経済学の実証論文は、一定の「型」に従って書かれています。この講義では、実際......,1600002562042026160000256216,,"経済学の実証論文は、一定の「型」に従って書かれています。この講義では、実際に経済学の英文雑誌に掲載された論文を読むことで、実証ミクロ経済学の論文について典型的な型（構造）を知り、その型を理解した上で効率的に論文を読めるようになることを目標とします。あわせて、英語論文のお作法である「パラグラフ・ライティング」がどのようなものかを学び、パラグラフ・ライティングの作法に従って書かれた論文を読み解く「パラグラフ・リーディング」ができるようになることも目標の一つとします。これらは日本語で論文を書くときにも役立つ技術であり、受講生の皆さんが卒業論文や懸賞論文を執筆する際、論文を読み書きするための素地となります。
+この授業の第1回から第3回までは、担当教員が、経済学の実証論文の型、パラグラフ・ライティングとパラグラフ・リーディングの考え方、そして経済学の実証論文で用いられる主要な因果推論手法の概要について講義します。
+第4回以降は、受講生によるプレゼン発表を中心に進めます。扱う論文は担当教員があらかじめ提示するリストの中から、受講生各自の関心に応じて選択していただきます。リストは、産業組織論（企業の経済学）を中心に、労働経済学、医療経済学、都市経済学といった応用ミクロ経済学の諸分野に加え、計量マーケティング分野からも選定します。
+各回では、担当者1名が選んだ論文の内容を報告し、もう1名がその論文がどのような構造で書かれているか（序論の各段落が果たす役割、節構成の意味、節と節のつながりなど）を解析して報告します。論文の内容自体と、その論文がどのように書かれているかという「型」の両面から議論することで、論文を読む力と書く力の双方を養うことを目指します。
+なお、本授業は毎週、担当者以外の受講生も該当する論文を読んでいることを前提に進めます。毎回の講義において、イントロダクションの各パラグラフがどのような役割を果たしているか、どの節と対応しているかを解析した小レポートを提出していただきます。発表とそれに対する議論への参加、毎回の小レポートが学習の中心となるため、相応の予習が求められる授業である点に留意してください。",本授業における受講生の到達目標は以下のとおりです。,"事前学習
+・毎週、該当する論文をあらかじめ読み、内容を把握してくること
+・該当する論文のイントロダクションについて、各パラグラフの役割と対応する節を解析した小レポートを作成すること
+（目安として2〜3時間程度）
+・その週に発表担当者となっている場合は、担当する論文を精読し、プレゼン資料を作成してくること
+（目安として4時間以上かかることもあります）
 事後学習
-・扱った内容のうち、事前学習ではわからなかった部分の復習（30分程度）","1:
-第１回：オリエンテーション
-書籍の説明と発表順の決定
+・扱った論文のうち、事前学習ではわからなかった部分や、授業内の議論で論点となった部分の復習（30分〜1時間程度）","1:
+第１回：オリエンテーション／実証ミクロ経済学の論文の「型」
+授業の進め方の説明と、論文リストの配布、発表順の決定を行います。あわせて、実証ミクロ経済学の論文がどのような構造で書かれているかについて解説します。
 2:
-第２回：輪読（The Voltage Effect）
-Chapter 1: Dupers and False Positives
-Chapter 2: Know Your Audience
+第２回：パラグラフ・ライティングとパラグラフ・リーディング
+英語論文におけるパラグラフの書き方の作法を解説し、実際の論文を用いて、各パラグラフの役割を意識して読む方法を説明します。
 3:
-第３回：輪読（The Voltage Effect）
-Chapter 3: Is It the Chef or the Ingredients? Chapter 4: Spillovers
-Chapter 4: Spillovers
+第３回：実証ミクロ経済学で用いられる主要な因果推論手法
+リストに掲載した論文で用いられている主要な因果推論の手法について、概要を解説します。
 4:
-第４回：輪読（The Voltage Effect）
-Chapter 5: The Cost Trap
+第４回：論文発表（1）
+受講生による発表を行います。担当者1名が論文の内容を報告し、もう1名が論文の構造を解析して報告した上で、全体で議論します。
 5:
-第５回：輪読（The Voltage Effect）
-Chapter 6: Incentives That Scale
-Chapter 7: Revolution on the Margins
+第５回：論文発表（2）
+受講生による発表
 6:
-第６回：輪読（The Voltage Effect）
-Chapter 8: Quitting Is for Winners
-Chapter 9: Scaling Culture
+第６回：論文発表（3）
+受講生による発表
 7:
-第７回：輪読（Mixed Signals）
-ONE: HOW SIGNALING WINS MARKETS
+第７回：論文発表（4）
+受講生による発表
 8:
-第８回：輪読（Mixed Signals）
-TWO: AVOID MIXED SIGNALS
+第８回：論文発表（5）
+受講生による発表
 9:
-第９回：輪読（Mixed Signals）
-THREE: HOW INCENTIVES SHAPE THE STORY
+第９回：論文発表（6）
+受講生による発表
 10:
-第１０回：輪読（Mixed Signals）
-FOUR: USE INCENTIVES TO IDENTIFY THE PROBLEM
+第１０回：論文発表（7）
+受講生による発表
 11:
-第１１回：輪読（Mixed Signals）
-FIVE: HOW INCENTIVES LEAD TO BEHAVIOR CHANGE
+第１１回：論文発表（8）
+受講生による発表
 12:
-第１２回：輪読（Mixed Signals）
-SIX: HELPING COMMUNITIES CHANGE HARMFUL CULTURAL PRACTICES
+第１２回：論文発表（9）
+受講生による発表
 13:
-第１３回：輪読（Mixed Signals）
-SEVEN: NEGOTIATE YOUR SIGNALS: PUTTING INCENTIVES TO WORK AT THE NEGOTIATION TABLE
+第１３回：論文発表（10）
+受講生による発表
 14:
-第１４回：輪読（The Voltage Effect）
-The Voltage Effect に関して、John List のWeb記事（執筆/インタビュー記事）を読みます。",・John A. List（2022）The Voltage Effect: How to Make Good Ideas Great. Crown Currency,関連する論文や書籍については、講義の中で適宜紹介します。,"割合
+第１４回：論文発表（11）／まとめ
+受講生による発表を行った後、学期全体のまとめを行います。",扱う論文のリストは、初回授業までに共有します。,関連する論文や書籍については、講義の中で適宜紹介します。,"割合
 評価基準
 レポート:
-30％
-2冊の書籍で扱った理論や考え方について、実際のビジネスの現場で用いられている事例をまとめたレポートを提出していただきます。
+40％
+・小レポート (20％）：各講義で扱う論文について、イントロダクションの各パラグラフがどのような役割を果たし、どの節と対応しているかを解析した小レポートを毎回（第4〜14回分）提出していただきます。提出状況と、内容の妥当性をあわせて評価します。
+・最終レポート (20％）：担当教員が指定する学術雑誌に掲載された実証ミクロ経済学の論文の中から、授業で扱ったもの以外を各自1本選び、その構造と内容をまとめたレポートを提出していただきます。①論文の内容を正確に理解し、整理してまとめられているか、②論文がどのような構造で書かれているかを把握できているか、の観点で評価します。
 平常点評価:
-70％
-授業内での発表内容や担当箇所の理解度に加え、自分の担当箇所以外の発表に対する議論への貢献度を総合的に評価します。","注1：講義の内容は、履修人数や履修者の要望に基づき変更する場合があります。変更がある場合、事前にアナウンスを行います。
+20％
+・自分の担当回以外の発表に対する議論への貢献度を評価します。
+その他:
+40％
+・選択した論文の内容を報告するプレゼン発表（25％）：①論文の内容を正確に理解しているか、②論文の内容が聴衆に伝わるようにわかりやすくまとめることができているか、の観点で評価します。
+・論文の構造を解析して報告するプレゼン発表（15％）：論文の構造を正確に把握できているか、という観点から評価します。","注1：講義の内容は、履修人数や履修者の要望に基づき変更する場合があります。変更がある場合、事前にアナウンスを行います。
 注2：生成AIの利用は原則認めますが、具体的な利用方法については別途指示します。
 ・この授業は原則対面で行います。",ECNA351L,経済学,応用経済学,産業組織論・法と経済学,上級レベル,専門教育科目,２年以上,2,日本語,【対面】
+2026,CMMM301L,専門英語講読Ｂ　５,星野　将孝,商学,秋学期,金３時限,教室未定,本講義では、マーケティング理論と分析手法について取り上げている、Consumer B......,1600002562052026160000256216,,"本授業では、マーケティングサイエンスの研究で使われているデータ分析を実際にどのように企業の利潤向上のために活用できるかについて論じた専門書である『Leading with AI and Analytics: Build Your Data Science IQ to Drive Business Value』を輪読します。
+講義形式は一方的な解説ではなく、参加者全員による輪読とディスカッションを中心とする。テキストを読み進めた後、小グループおよび全体での議論を通じて、英語による専門知識のインプットだけでなく、そこから得られた知見を他者と共有・発展させるアウトプットの力も養います。全体議論では原則としてランダムに指名して発言してもらう形式を取ります。理解の定着を図るために定期的に小テストも実施することも検討しています。
+なお、本のタイトルにAIというワードがありますが、実際にはAIの中身そのものというよりむしろ社会科学でスタンダードな計量手法に関する内容が多いのでご注意ください。",本講義を通じて達成したい目標は以下の３つです。,"■事前学習
+講義で扱う章について読んでおいてください。
+■事後学習
+講義で扱った章で議論されている計量手法について各自教科書やインターネットを通じて理解を深めると良いと思います。","1:
+第１回
+オリエンテーション
+2:
+第２回
+第１章「AI and Analytics Are a Leadership Problem」
+3:
+第３回
+第２章「A Framework for AI and Analytics Success」
+4:
+第４回
+第３章「Explanatory Analytics」
+5:
+第５回
+第４章「Distinguishing Good from Bad Analytics」
+6:
+第６回
+第５章「Anatomy of a Crystal Ball」
+7:
+第７回
+第６章「A Smaller Crystal Ball」
+8:
+第８回
+第７章「Designing Your Data for Analytics」
+9:
+第９回
+第８章「Working with Data You Have Part1」
+10:
+第１０回
+第９章「Working with Data You Have Part2」
+11:
+第１１回
+第10章「Optimizing and Scaling Your Decisions」
+12:
+第１２回
+第11章「Identifying Opportunities and Planning for AIA」
+13:
+第１３回
+第12章「Understanding Barriers to Success」
+14:
+第１４回
+第13章「Organizing for Success」","Anderson, E., & Zettelmeyer, F. (2020). Leading with AI and Analytics: Build Your Data Science IQ to Drive Business Value. McGraw Hill Professional.",教科書内のトピックが広範にわたるのでここでは網羅的には書きませんが、関心のあるトピックを見つけ次第教員にお尋ねください。,"割合
+評価基準
+レポート:
+50％
+期末レポートの内容で評価する。
+平常点評価:
+50％
+授業中の発言、出席、小テスト、議論における貢献を評価する。",- シラバス内容は履修人数や学生の要望に応じて変更する可能性があります。もし変更があった際には履修者全員に事前にアナウンスします。,CMMM301L,商学,マーケティング,マーケティング,上級レベル,専門教育科目,２年以上,2,日本語,【対面】
+2026,CMMM301L,専門英語講読Ｂ　６,星野　将孝,商学,秋学期,水１時限,教室未定,本講義では、マーケティング理論と分析手法について取り上げている、Consumer B......,1600002562062026160000256216,,"本授業では、マーケティングサイエンスの研究で使われているデータ分析を実際にどのように企業の利潤向上のために活用できるかについて論じた専門書である『Leading with AI and Analytics: Build Your Data Science IQ to Drive Business Value』を輪読します。
+講義形式は一方的な解説ではなく、参加者全員による輪読とディスカッションを中心とする。テキストを読み進めた後、小グループおよび全体での議論を通じて、英語による専門知識のインプットだけでなく、そこから得られた知見を他者と共有・発展させるアウトプットの力も養います。全体議論では原則としてランダムに指名して発言してもらう形式を取ります。理解の定着を図るために定期的に小テストも実施することも検討しています。
+なお、本のタイトルにAIというワードがありますが、実際にはAIの中身そのものというよりむしろ社会科学でスタンダードな計量手法に関する内容が多いのでご注意ください。",本講義を通じて達成したい目標は以下の３つです。,"■事前学習
+講義で扱う章について読んでおいてください。
+■事後学習
+講義で扱った章で議論されている計量手法について各自教科書やインターネットを通じて理解を深めると良いと思います。","1:
+第１回
+オリエンテーション
+2:
+第２回
+第１章「AI and Analytics Are a Leadership Problem」
+3:
+第３回
+第２章「A Framework for AI and Analytics Success」
+4:
+第４回
+第３章「Explanatory Analytics」
+5:
+第５回
+第４章「Distinguishing Good from Bad Analytics」
+6:
+第６回
+第５章「Anatomy of a Crystal Ball」
+7:
+第７回
+第６章「A Smaller Crystal Ball」
+8:
+第８回
+第７章「Designing Your Data for Analytics」
+9:
+第９回
+第８章「Working with Data You Have Part1」
+10:
+第１０回
+第９章「Working with Data You Have Part2」
+11:
+第１１回
+第10章「Optimizing and Scaling Your Decisions」
+12:
+第１２回
+第11章「Identifying Opportunities and Planning for AIA」
+13:
+第１３回
+第12章「Understanding Barriers to Success」
+14:
+第１４回
+第13章「Organizing for Success」","Anderson, E., & Zettelmeyer, F. (2020). Leading with AI and Analytics: Build Your Data Science IQ to Drive Business Value. McGraw Hill Professional.",教科書内のトピックが広範にわたるのでここでは網羅的には書きませんが、関心のあるトピックを見つけ次第教員にお尋ねください。,"割合
+評価基準
+レポート:
+50％
+期末レポートの内容で評価する。
+平常点評価:
+50％
+授業中の発言、出席、小テスト、議論における貢献を評価する。",- シラバス内容は履修人数や学生の要望に応じて変更する可能性があります。もし変更があった際には履修者全員に事前にアナウンスします。,CMMM301L,商学,マーケティング,マーケティング,上級レベル,専門教育科目,２年以上,2,日本語,【対面】
+2026,CMMR331L,専門英語講読Ｂ　７,トタロ　ダビデ　ルイジ,商学,秋学期,火３時限,教室未定,This monographic course examines Directors’ and Officers’ (D&O) liabil......,1600002562072026160000256216,,"This monographic course examines Directors’ and Officers’ (D&O) liability insurance as a key instrument at the intersection of corporate governance, professional responsibility, and insurance law.
+D&O insurance has become increasingly important as managerial decisions may expose directors and officers to significant personal liability while also generating substantial financial and reputational consequences for the company itself.
+Understanding D&O insurance as a contractual tool for allocating these risks is therefore particularly important, given the distinctive nature of its subject matter: it insures liabilities arising from the exercise of managerial powers and professional judgment at the highest levels of corporate decision-making. Its peculiar position and critical role makes knowledge of its benefits, functioning, and limitations especially relevant for today’s directors and officers, companies, insurers, and legal and risk-management professionals.
+The course approaches D&O insurance from both a legal and professional perspective, encouraging students to understand how liability rules, insurance protection, and business decision-making interact in practice.
+Furthermore, attention will also be given to how technological developments, including artificial intelligence and automated decision-making, are creating new questions concerning managerial responsibility, risk assessment, and the insurability of emerging corporate risks.
+As a monographic course, it takes
+Directors’ and Officers’ Liability Insurance
+by Adolfo Paolini and Deepak Nambisan (2008) as its principal reading and uses it as the basis for understanding the legal and practical role of D&O insurance in modern business activity.","The objective of this course is to enable students to understand the basic structure and key legal features of D&O insurance contracts, including their insured interests and specificities, as well as to identify the main legal and practical challenges affecting the life of the insurance contract in both traditional and tech-driven decision-making processes.","In accordance with the syllabus, students should read the relevant sections of the assigned materials in advance, gain a general understanding of the topics to be covered, and identify any questions or points requiring clarification.","1:
+第１回
+Introduction to corporate directors, managers and officers’ role, fiduciary duties and liability.
+2:
+第２回
+Introduction to Liability Insurance – Chapter 1. Overview of the basic principles of liability insurance and their relevance to D&O coverage.
+3:
+第３回
+Nature and Legality of D&O Insurance – Chapter 2. Analysis of the key elements and legal nature of D&O insurance as well as the limits to the insurability of directors’ liability.
+4:
+第４回
+Persons Covered by D&O Insurance – Chapter 3. Examination of directors, officers, and other persons who may qualify as insureds under a D&O policy form a corporate, functional and legal standpoint.
+5:
+第５回
+D&O Exclusions – Chapter 4. Overview of the principal exclusions limiting or excluding D&O insurance coverage.
+6:
+第６回
+Sources of Liability and Consequential Loss – Chapter 5. Analysis of the sources of directors’ liability, the insured risk and the losses that may constitute a covered D&O risk.
+7:
+第７回
+Directors’ and Officers’ Liability to Third Parties – Chapter 6. Examination of directors’ and officers’ personal liability toward shareholders, creditors, and other third parties.
+8:
+第８回
+Directors’ Liability and Civil Law – Chapter 7. Analysis of directors, officers and managers’ liability from a civil-law perspective, relevant legal actions, and their relationship with D&O insurance.
+9:
+第９回
+Defence Costs and Allocation – Chapter 8. Examination of D&O defence costs and the allocation of expenses between covered and non-covered claims or persons.
+10:
+第１０回
+Reinsurance of D&O Policies – Chapter 9. Introduction to the role and structure of reinsurance in the D&O insurance market.
+11:
+第１１回
+Comparative analysis of D&O insurance across different legal systems and corporate liability regimes.
+12:
+第１２回
+Analysis of artificial intelligence-related directors’ liability, with particular focus on transparency, accountability, and the duty of care in the context of automated business decision-making.
+13:
+第１３回
+Examination of the impact of artificial intelligence on D&O risks, its interaction with cyber risk, its insurability, and transformative role.
+14:
+第１４回
+Review and assessment of students’ understanding of the principal legal and practical issues addressed during the course.","Directors' and Officers' Liability Insurance (Lloyd's Insurance Law Library), Adolfo Paolini and Deepak Nambisan (2008). Students are not required to purchase the book, as extracts and summaries will be provided by the lecturer for each class.",Additional reading materials will be provided by the lecturer in class.,"割合
+評価基準
+試験:
+100％
+On the day of the 14th class, an oral exam will be administered. The exam will last approximately 15 minutes and will aim to assess the students’ understanding of the subject, knowledge of the course content, and critical thinking skills. Each exam will be based on 2–3 questions concerning the topics covered in class or in the relevant reading assignments. The exam will be held exclusively in English.",,CMMR331L,商学,リスクマネジメント・保険,保険制度,上級レベル,専門教育科目,２年以上,2,英語,【対面】
 2026,ECNA321L,専門英語講読Ｂ　９,郭　楽文,商学,秋学期,土４時限,教室未定,This upper-undergraduate level introductory course isdesigned for students......,1600002562092026160000256216,,"This upper-undergraduate level introductory course is designed for students interested in exploring, comprehending, and effectively presenting news and editorial articles in major mass media such as the Wall Street Journal.
 The instructor will introduce the major online resources for reading these articles. Afterward, students need to selct the news articles from
 the Wall Street Journal.
@@ -21488,13 +21641,15 @@ Moodle
 第２回
 ①教科書の第
 7
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・実力アップ・トレーニング・会話練習
 ②実例学習１
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 3:
 第3回
-①教科書の第
+①第7課リスニング追加練習問題文を確認、復習
+②
+教科書の第
 8
 課　テーマ：
 买东
@@ -21502,96 +21657,101 @@ Moodle
 ポイント：方向補語、「使役」を表す“
 让
 ”、疑問詞の不定用法
-②実例学習１の応用および中国文化豆知識、総合練習と復習
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習１の応用および中国文化豆知識、総合練習と復習
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 4:
 第4回
-①教科書の第８課を中心としたリスニング練習・実力アップ・トレーニング
+①教科書の第８課を中心としたリスニング練習・ペア、グループ会話練習・実力アップ・トレーニング
 ②実例学習２
-➂配布された
-リスニング追加練習問題を含め、会話の練習をする。
 5:
 第5回
-①教科書の第
+①第8課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 9
 課　テーマ：
 请
 客点菜
 ポイント：方向補語、強調表現
-②実例学習２
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習２
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 6:
 第6回
 ➀
-教科書の第９課を中心としたリスニング練習・実力アップ・トレーニング
+教科書の第９課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習２の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 7:
 第7回
-①教科書の第
+①第9課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 10
 課　テーマ：学太极拳
 ポイント：「目的」を表す“
 为
 了”、「推測」表す“会”、“～了～了”の用法
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 8:
 第8回
 ①教科書の第
 10
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 9:
 第9回
-①教科書の第
+①第10課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 11
 課　テーマ：找小
 说
 ポイント：結果補語（
 2
 ）、「受身」を表す“被”
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 10:
 第10回
 ➀
 教科書の第
 11
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 11:
 第11回
-①教科書の第
+①第11課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 12
 課　テーマ：
 过
 春
 节
 ポイント：“快～了”の用法、介詞“把”
-②実例学習４
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習４
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 12:
 第12回
 ➀
 教科書の第
 12
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習４の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 13:
 第13回
-第7課ー第12課の総復習
+①
+第12課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②第7課ー第12課の総復習
+③学生授業アンケートの記入
 14:
 第14回
 期末試験","尹景春　他著『≪新版≫中国語さらなる一歩』（白水社、2300円＋税、成文堂扱い）およびリスニング追加練習問題、プリント、映像資料。
-副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",参考文献：　辞書は電子辞書、『中日辞典（第3版）』（小学館）、『中国語辞典』（白水社）を推奨します。安価な辞書では語彙数などの点で、結局役に立たなくなるので、必ず中型の辞典を一冊用意してください。,"割合
+副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",,"割合
 評価基準
 試験:
 70％
@@ -21646,13 +21806,15 @@ Moodle
 第２回
 ①教科書の第
 7
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・実力アップ・トレーニング・会話練習
 ②実例学習１
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 3:
 第3回
-①教科書の第
+①第7課リスニング追加練習問題文を確認、復習
+②
+教科書の第
 8
 課　テーマ：
 买东
@@ -21660,96 +21822,101 @@ Moodle
 ポイント：方向補語、「使役」を表す“
 让
 ”、疑問詞の不定用法
-②実例学習１の応用および中国文化豆知識、総合練習と復習
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習１の応用および中国文化豆知識、総合練習と復習
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 4:
 第4回
-①教科書の第８課を中心としたリスニング練習・実力アップ・トレーニング
+①教科書の第８課を中心としたリスニング練習・ペア、グループ会話練習・実力アップ・トレーニング
 ②実例学習２
-➂配布された
-リスニング追加練習問題を含め、会話の練習をする。
 5:
 第5回
-①教科書の第
+①第8課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 9
 課　テーマ：
 请
 客点菜
 ポイント：方向補語、強調表現
-②実例学習２
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習２
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 6:
 第6回
 ➀
-教科書の第９課を中心としたリスニング練習・実力アップ・トレーニング
+教科書の第９課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習２の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 7:
 第7回
-①教科書の第
+①第9課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 10
 課　テーマ：学太极拳
 ポイント：「目的」を表す“
 为
 了”、「推測」表す“会”、“～了～了”の用法
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 8:
 第8回
 ①教科書の第
 10
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 9:
 第9回
-①教科書の第
+①第10課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 11
 課　テーマ：找小
 说
 ポイント：結果補語（
 2
 ）、「受身」を表す“被”
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 10:
 第10回
 ➀
 教科書の第
 11
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 11:
 第11回
-①教科書の第
+①第11課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 12
 課　テーマ：
 过
 春
 节
 ポイント：“快～了”の用法、介詞“把”
-②実例学習４
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習４
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 12:
 第12回
 ➀
 教科書の第
 12
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習４の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 13:
 第13回
-第7課ー第12課の総復習
+①
+第12課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②第7課ー第12課の総復習
+③学生授業アンケートの記入
 14:
 第14回
 期末試験","尹景春　他著『≪新版≫中国語さらなる一歩』（白水社、2300円＋税、成文堂扱い）およびリスニング追加練習問題、プリント、映像資料。
-副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",参考文献：　辞書は電子辞書、『中日辞典（第3版）』（小学館）、『中国語辞典』（白水社）を推奨します。安価な辞書では語彙数などの点で、結局役に立たなくなるので、必ず中型の辞典を一冊用意してください。,"割合
+副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",,"割合
 評価基準
 試験:
 70％
@@ -21804,13 +21971,15 @@ Moodle
 第２回
 ①教科書の第
 7
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・実力アップ・トレーニング・会話練習
 ②実例学習１
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 3:
 第3回
-①教科書の第
+①第7課リスニング追加練習問題文を確認、復習
+②
+教科書の第
 8
 課　テーマ：
 买东
@@ -21818,96 +21987,101 @@ Moodle
 ポイント：方向補語、「使役」を表す“
 让
 ”、疑問詞の不定用法
-②実例学習１の応用および中国文化豆知識、総合練習と復習
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習１の応用および中国文化豆知識、総合練習と復習
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 4:
 第4回
-①教科書の第８課を中心としたリスニング練習・実力アップ・トレーニング
+①教科書の第８課を中心としたリスニング練習・ペア、グループ会話練習・実力アップ・トレーニング
 ②実例学習２
-➂配布された
-リスニング追加練習問題を含め、会話の練習をする。
 5:
 第5回
-①教科書の第
+①第8課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 9
 課　テーマ：
 请
 客点菜
 ポイント：方向補語、強調表現
-②実例学習２
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習２
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 6:
 第6回
 ➀
-教科書の第９課を中心としたリスニング練習・実力アップ・トレーニング
+教科書の第９課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習２の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 7:
 第7回
-①教科書の第
+①第9課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 10
 課　テーマ：学太极拳
 ポイント：「目的」を表す“
 为
 了”、「推測」表す“会”、“～了～了”の用法
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 8:
 第8回
 ①教科書の第
 10
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 9:
 第9回
-①教科書の第
+①第10課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 11
 課　テーマ：找小
 说
 ポイント：結果補語（
 2
 ）、「受身」を表す“被”
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 10:
 第10回
 ➀
 教科書の第
 11
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 11:
 第11回
-①教科書の第
+①第11課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 12
 課　テーマ：
 过
 春
 节
 ポイント：“快～了”の用法、介詞“把”
-②実例学習４
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習４
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 12:
 第12回
 ➀
 教科書の第
 12
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習４の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 13:
 第13回
-第7課ー第12課の総復習
+①
+第12課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②第7課ー第12課の総復習
+③学生授業アンケートの記入
 14:
 第14回
 期末試験","尹景春　他著『≪新版≫中国語さらなる一歩』（白水社、2300円＋税、成文堂扱い）およびリスニング追加練習問題、プリント、映像資料。
-副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",参考文献：　辞書は電子辞書、『中日辞典（第3版）』（小学館）、『中国語辞典』（白水社）を推奨します。安価な辞書では語彙数などの点で、結局役に立たなくなるので、必ず中型の辞典を一冊用意してください。,"割合
+副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",,"割合
 評価基準
 試験:
 70％
@@ -21962,13 +22136,15 @@ Moodle
 第２回
 ①教科書の第
 7
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・実力アップ・トレーニング・会話練習
 ②実例学習１
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 3:
 第3回
-①教科書の第
+①第7課リスニング追加練習問題文を確認、復習
+②
+教科書の第
 8
 課　テーマ：
 买东
@@ -21976,96 +22152,101 @@ Moodle
 ポイント：方向補語、「使役」を表す“
 让
 ”、疑問詞の不定用法
-②実例学習１の応用および中国文化豆知識、総合練習と復習
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習１の応用および中国文化豆知識、総合練習と復習
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 4:
 第4回
-①教科書の第８課を中心としたリスニング練習・実力アップ・トレーニング
+①教科書の第８課を中心としたリスニング練習・ペア、グループ会話練習・実力アップ・トレーニング
 ②実例学習２
-➂配布された
-リスニング追加練習問題を含め、会話の練習をする。
 5:
 第5回
-①教科書の第
+①第8課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 9
 課　テーマ：
 请
 客点菜
 ポイント：方向補語、強調表現
-②実例学習２
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習２
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 6:
 第6回
 ➀
-教科書の第９課を中心としたリスニング練習・実力アップ・トレーニング
+教科書の第９課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習２の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 7:
 第7回
-①教科書の第
+①第9課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 10
 課　テーマ：学太极拳
 ポイント：「目的」を表す“
 为
 了”、「推測」表す“会”、“～了～了”の用法
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 8:
 第8回
 ①教科書の第
 10
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 9:
 第9回
-①教科書の第
+①第10課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 11
 課　テーマ：找小
 说
 ポイント：結果補語（
 2
 ）、「受身」を表す“被”
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 10:
 第10回
 ➀
 教科書の第
 11
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 11:
 第11回
-①教科書の第
+①第11課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 12
 課　テーマ：
 过
 春
 节
 ポイント：“快～了”の用法、介詞“把”
-②実例学習４
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習４
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 12:
 第12回
 ➀
 教科書の第
 12
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習４の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 13:
 第13回
-第7課ー第12課の総復習
+①
+第12課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②第7課ー第12課の総復習
+③学生授業アンケートの記入
 14:
 第14回
 期末試験","尹景春　他著『≪新版≫中国語さらなる一歩』（白水社、2300円＋税、成文堂扱い）およびリスニング追加練習問題、プリント、映像資料。
-副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",参考文献：　辞書は電子辞書、『中日辞典（第3版）』（小学館）、『中国語辞典』（白水社）を推奨します。安価な辞書では語彙数などの点で、結局役に立たなくなるので、必ず中型の辞典を一冊用意してください。,"割合
+副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",,"割合
 評価基準
 試験:
 70％
@@ -22120,13 +22301,15 @@ Moodle
 第２回
 ①教科書の第
 7
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・実力アップ・トレーニング・会話練習
 ②実例学習１
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 3:
 第3回
-①教科書の第
+①第7課リスニング追加練習問題文を確認、復習
+②
+教科書の第
 8
 課　テーマ：
 买东
@@ -22134,96 +22317,101 @@ Moodle
 ポイント：方向補語、「使役」を表す“
 让
 ”、疑問詞の不定用法
-②実例学習１の応用および中国文化豆知識、総合練習と復習
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習１の応用および中国文化豆知識、総合練習と復習
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 4:
 第4回
-①教科書の第８課を中心としたリスニング練習・実力アップ・トレーニング
+①教科書の第８課を中心としたリスニング練習・ペア、グループ会話練習・実力アップ・トレーニング
 ②実例学習２
-➂配布された
-リスニング追加練習問題を含め、会話の練習をする。
 5:
 第5回
-①教科書の第
+①第8課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 9
 課　テーマ：
 请
 客点菜
 ポイント：方向補語、強調表現
-②実例学習２
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習２
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 6:
 第6回
 ➀
-教科書の第９課を中心としたリスニング練習・実力アップ・トレーニング
+教科書の第９課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習２の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 7:
 第7回
-①教科書の第
+①第9課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 10
 課　テーマ：学太极拳
 ポイント：「目的」を表す“
 为
 了”、「推測」表す“会”、“～了～了”の用法
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 8:
 第8回
 ①教科書の第
 10
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 9:
 第9回
-①教科書の第
+①第10課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 11
 課　テーマ：找小
 说
 ポイント：結果補語（
 2
 ）、「受身」を表す“被”
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 10:
 第10回
 ➀
 教科書の第
 11
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 11:
 第11回
-①教科書の第
+①第11課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 12
 課　テーマ：
 过
 春
 节
 ポイント：“快～了”の用法、介詞“把”
-②実例学習４
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習４
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 12:
 第12回
 ➀
 教科書の第
 12
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習４の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 13:
 第13回
-第7課ー第12課の総復習
+①
+第12課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②第7課ー第12課の総復習
+③学生授業アンケートの記入
 14:
 第14回
 期末試験","尹景春　他著『≪新版≫中国語さらなる一歩』（白水社、2300円＋税、成文堂扱い）およびリスニング追加練習問題、プリント、映像資料。
-副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",参考文献：　辞書は電子辞書、『中日辞典（第3版）』（小学館）、『中国語辞典』（白水社）を推奨します。安価な辞書では語彙数などの点で、結局役に立たなくなるので、必ず中型の辞典を一冊用意してください。,"割合
+副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",,"割合
 評価基準
 試験:
 70％
@@ -22278,13 +22466,15 @@ Moodle
 第２回
 ①教科書の第
 7
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・実力アップ・トレーニング・会話練習
 ②実例学習１
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 3:
 第3回
-①教科書の第
+①第7課リスニング追加練習問題文を確認、復習
+②
+教科書の第
 8
 課　テーマ：
 买东
@@ -22292,96 +22482,101 @@ Moodle
 ポイント：方向補語、「使役」を表す“
 让
 ”、疑問詞の不定用法
-②実例学習１の応用および中国文化豆知識、総合練習と復習
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習１の応用および中国文化豆知識、総合練習と復習
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 4:
 第4回
-①教科書の第８課を中心としたリスニング練習・実力アップ・トレーニング
+①教科書の第８課を中心としたリスニング練習・ペア、グループ会話練習・実力アップ・トレーニング
 ②実例学習２
-➂配布された
-リスニング追加練習問題を含め、会話の練習をする。
 5:
 第5回
-①教科書の第
+①第8課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 9
 課　テーマ：
 请
 客点菜
 ポイント：方向補語、強調表現
-②実例学習２
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習２
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 6:
 第6回
 ➀
-教科書の第９課を中心としたリスニング練習・実力アップ・トレーニング
+教科書の第９課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習２の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 7:
 第7回
-①教科書の第
+①第9課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 10
 課　テーマ：学太极拳
 ポイント：「目的」を表す“
 为
 了”、「推測」表す“会”、“～了～了”の用法
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 8:
 第8回
 ①教科書の第
 10
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 9:
 第9回
-①教科書の第
+①第10課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 11
 課　テーマ：找小
 说
 ポイント：結果補語（
 2
 ）、「受身」を表す“被”
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 10:
 第10回
 ➀
 教科書の第
 11
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 11:
 第11回
-①教科書の第
+①第11課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 12
 課　テーマ：
 过
 春
 节
 ポイント：“快～了”の用法、介詞“把”
-②実例学習４
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習４
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 12:
 第12回
 ➀
 教科書の第
 12
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習４の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 13:
 第13回
-第7課ー第12課の総復習
+①
+第12課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②第7課ー第12課の総復習
+③学生授業アンケートの記入
 14:
 第14回
 期末試験","尹景春　他著『≪新版≫中国語さらなる一歩』（白水社、2300円＋税、成文堂扱い）およびリスニング追加練習問題、プリント、映像資料。
-副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",参考文献：　辞書は電子辞書、『中日辞典（第3版）』（小学館）、『中国語辞典』（白水社）を推奨します。安価な辞書では語彙数などの点で、結局役に立たなくなるので、必ず中型の辞典を一冊用意してください。,"割合
+副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",,"割合
 評価基準
 試験:
 70％
@@ -22436,13 +22631,15 @@ Moodle
 第２回
 ①教科書の第
 7
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・実力アップ・トレーニング・会話練習
 ②実例学習１
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 3:
 第3回
-①教科書の第
+①第7課リスニング追加練習問題文を確認、復習
+②
+教科書の第
 8
 課　テーマ：
 买东
@@ -22450,96 +22647,101 @@ Moodle
 ポイント：方向補語、「使役」を表す“
 让
 ”、疑問詞の不定用法
-②実例学習１の応用および中国文化豆知識、総合練習と復習
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習１の応用および中国文化豆知識、総合練習と復習
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 4:
 第4回
-①教科書の第８課を中心としたリスニング練習・実力アップ・トレーニング
+①教科書の第８課を中心としたリスニング練習・ペア、グループ会話練習・実力アップ・トレーニング
 ②実例学習２
-➂配布された
-リスニング追加練習問題を含め、会話の練習をする。
 5:
 第5回
-①教科書の第
+①第8課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 9
 課　テーマ：
 请
 客点菜
 ポイント：方向補語、強調表現
-②実例学習２
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習２
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 6:
 第6回
 ➀
-教科書の第９課を中心としたリスニング練習・実力アップ・トレーニング
+教科書の第９課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習２の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 7:
 第7回
-①教科書の第
+①第9課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 10
 課　テーマ：学太极拳
 ポイント：「目的」を表す“
 为
 了”、「推測」表す“会”、“～了～了”の用法
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 8:
 第8回
 ①教科書の第
 10
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 9:
 第9回
-①教科書の第
+①第10課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 11
 課　テーマ：找小
 说
 ポイント：結果補語（
 2
 ）、「受身」を表す“被”
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 10:
 第10回
 ➀
 教科書の第
 11
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 11:
 第11回
-①教科書の第
+①第11課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 12
 課　テーマ：
 过
 春
 节
 ポイント：“快～了”の用法、介詞“把”
-②実例学習４
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習４
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 12:
 第12回
 ➀
 教科書の第
 12
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習４の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 13:
 第13回
-第7課ー第12課の総復習
+①
+第12課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②第7課ー第12課の総復習
+③学生授業アンケートの記入
 14:
 第14回
 期末試験","尹景春　他著『≪新版≫中国語さらなる一歩』（白水社、2300円＋税、成文堂扱い）およびリスニング追加練習問題、プリント、映像資料。
-副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",参考文献：　辞書は電子辞書、『中日辞典（第3版）』（小学館）、『中国語辞典』（白水社）を推奨します。安価な辞書では語彙数などの点で、結局役に立たなくなるので、必ず中型の辞典を一冊用意してください。,"割合
+副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",,"割合
 評価基準
 試験:
 70％
@@ -22594,13 +22796,15 @@ Moodle
 第２回
 ①教科書の第
 7
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・実力アップ・トレーニング・会話練習
 ②実例学習１
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 3:
 第3回
-①教科書の第
+①第7課リスニング追加練習問題文を確認、復習
+②
+教科書の第
 8
 課　テーマ：
 买东
@@ -22608,96 +22812,101 @@ Moodle
 ポイント：方向補語、「使役」を表す“
 让
 ”、疑問詞の不定用法
-②実例学習１の応用および中国文化豆知識、総合練習と復習
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習１の応用および中国文化豆知識、総合練習と復習
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 4:
 第4回
-①教科書の第８課を中心としたリスニング練習・実力アップ・トレーニング
+①教科書の第８課を中心としたリスニング練習・ペア、グループ会話練習・実力アップ・トレーニング
 ②実例学習２
-➂配布された
-リスニング追加練習問題を含め、会話の練習をする。
 5:
 第5回
-①教科書の第
+①第8課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 9
 課　テーマ：
 请
 客点菜
 ポイント：方向補語、強調表現
-②実例学習２
-➂授業後、リスニング追加練習問題をMoodleから配布する予定。
+③実例学習２
+④授業後、リスニング追加練習問題をMoodleから配布する予定。
 6:
 第6回
 ➀
-教科書の第９課を中心としたリスニング練習・実力アップ・トレーニング
+教科書の第９課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習２の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 7:
 第7回
-①教科書の第
+①第9課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 10
 課　テーマ：学太极拳
 ポイント：「目的」を表す“
 为
 了”、「推測」表す“会”、“～了～了”の用法
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 8:
 第8回
 ①教科書の第
 10
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 9:
 第9回
-①教科書の第
+①第10課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 11
 課　テーマ：找小
 说
 ポイント：結果補語（
 2
 ）、「受身」を表す“被”
-②実例学習３
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習３
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 10:
 第10回
 ➀
 教科書の第
 11
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習３の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 11:
 第11回
-①教科書の第
+①第11課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②教科書の第
 12
 課　テーマ：
 过
 春
 节
 ポイント：“快～了”の用法、介詞“把”
-②実例学習４
-➂授業後、リスニング追加練習問題をMoodleから配布する予定
+③実例学習４
+④授業後、リスニング追加練習問題をMoodleから配布する予定
 12:
 第12回
 ➀
 教科書の第
 12
-課を中心としたリスニング練習・実力アップ・トレーニング
+課を中心としたリスニング練習・会話練習・実力アップ・トレーニング
 ②実例学習４の応用および中国文化豆知識、総合練習と復習
 ➂配布された
 リスニング追加練習問題を含め、会話の練習をする。
 13:
 第13回
-第7課ー第12課の総復習
+①
+第12課実力アップ・トレーニング①、リスニング追加練習問題文の確認と復習
+②第7課ー第12課の総復習
+③学生授業アンケートの記入
 14:
 第14回
 期末試験","尹景春　他著『≪新版≫中国語さらなる一歩』（白水社、2300円＋税、成文堂扱い）およびリスニング追加練習問題、プリント、映像資料。
-副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",参考文献：　辞書は電子辞書、『中日辞典（第3版）』（小学館）、『中国語辞典』（白水社）を推奨します。安価な辞書では語彙数などの点で、結局役に立たなくなるので、必ず中型の辞典を一冊用意してください。,"割合
+副教材：『中国語基本単語帳』（朝日出版社、2024年１月増補版、成文堂扱い）",,"割合
 評価基準
 試験:
 70％
@@ -22958,6 +23167,68 @@ CD
 14．秋学期の総括・期末試験
 注：授業計画に挙げるテーマはあくまでも例示です。開講後、皆さんのレベルと需要に応じ、よりフレキシブルな内容に変更することがあります。",『Chinese adventure～DVDで学ぶ中国文化～』　出版社：金星堂　　著者：洪潔青,開講後に指示します。,平常点（４０％）,,LANC201F,語学,中国語,中国語,中級レベル（発展・応用）,外国語II選択（中国語）,２年以上,2,日本語,【対面】
 2026,LANC201F,中国語選択：時事コミュニケーションＢ　１,エン　瑜,商学,秋学期,木３時限,教室未定,この授業は初級クラスに引き続き、語彙や文法事項の習得を深めるとともに、政治......,1600002890012026160000289016,,この授業は初級クラスに引き続き、語彙や文法事項の習得を深めるとともに、政治、経済、社会問題に関する最新の中国語のニュースや記事を通じて、中国の文化、社会、風俗に対する理解を一層深めることを目指します。授業では「聴く」「話す」能力の強化に重点を置き、課題を通じて学習内容を確実に定着させます。これらの活動を通じて、実践的な中国語のコミュニケーション能力を高め、学生が中国語を用いた日常的な会話やディスカッションに自信を持って参加できるようになることを目指します。,"① 会話力の向上：会話練習を通じて「話す」能力を高め、そのスキルを日常会話において実践的に活用できるようにします。
+② リスニング力の強化：リスニング練習を行い、「聴く」能力を高めます。
+③ 中国事情への理解深化：中国語の最新記事を活用し、中国の文化、社会、風俗に対する理解を深めます。
+④ 語彙・文法の習得：準中級・中級レベルの中国語会話に必要な語彙や文法事項を確実に習得します。","事前学習：授業内で次の単元の予習内容を提示します。しっかりと予習したうえで授業に臨んでください。
+事後学習：宿題や課題に取り組み、学習した内容を積極的に復習してください。
+これらの学習には少なくとも1～2時間が必要です。","1:
+第１回 ／ オリエンテーション
+授業の進め方および評価方法の説明。
+第7課 交通①
+新出単語・本文・文法の学習。
+2:
+第２回 ／ 第7課 交通②
+練習問題の解答と説明、会話練習および発表、中国語の最新記事を読む。
+3:
+第３回 ／ 第8課 校园节①
+新出単語・本文・文法の学習。
+4:
+第４回 ／ 第8課 校园节②
+練習問題の解答と説明、会話練習および発表、中国語の最新記事を読む。
+5:
+第５回 ／ 第9課 体育①
+新出単語・本文・文法の学習。
+6:
+第６回 ／ 第9課 体育②
+練習問題の解答と説明、会話練習および発表、中国語の最新記事を読む。
+7:
+第７回 ／ 第10課 歌舞伎和京剧①
+新出単語・本文・文法の学習。
+8:
+第８回 ／ 第10課 歌舞伎和京剧②
+練習問題の解答と説明、復習および中間小テスト
+9:
+第９回 ／ 第11課 方言①
+新出単語・本文・文法の学習。
+10:
+第１０回 ／ 第11課 方言②
+習問題の解答と説明、会話練習および発表、中国語の最新記事を読む。
+11:
+第１１回 ／ 第12課 饭桌上的习惯①
+新出単語・本文・文法の学習。
+新出単語・本文・文法について学習します。
+12:
+第１２回 ／ 第12課 饭桌上的习惯②
+練習問題の解答と説明、会話練習および発表、中国語の最新記事を読む。
+13:
+第１３回 ／ 総復習
+第7課～第12課の学習内容のまとめ。
+14:
+第１４回 ／ 試験
+学習到達度の確認。",陳淑梅、陸薇『ことばと文化　一挙両得　中級中国語』（朝日出版社、2024年、ISBN:978-4-255-45289-0）,"参考文献：授業の理解を深めたい学生や発展的な学習を志す学生のためになる書籍、文献リストを記載し
+てください。
+相原茂『あ、知ってる中国語』（東方書店）
+相原茂『中国語の学び方』（東方書店）
+小山鉄郎『白川静さんに学ぶ 漢字は怖い』（共同通信社）","割合
+評価基準
+試験:
+60％
+第14回目の授業時間中に試験を実施し、学習内容の理解度の確認を行います。
+平常点評価:
+40％
+中間テスト、授業中の発表、出席、授業への参加と貢献（グループワークやディスカッションへの積極的な関与）を基に算出します。","・既習単語や文法の定着を図るため、授業内で小テスト（朗読小テスト、筆記小テスト）を課すことがあります。
+・コミュニケーション練習は、一人での発表、あるいは二～三人一組での会話練習を行います。",LANC201F,語学,中国語,中国語,中級レベル（発展・応用）,外国語II選択（中国語）,２年以上,2,日本語,【対面】
+2026,LANC201F,中国語選択：時事コミュニケーションＢ　２,エン　瑜,商学,秋学期,木２時限,教室未定,この授業は初級クラスに引き続き、語彙や文法事項の習得を深めるとともに、政治......,1600002890022026160000289016,,この授業は初級クラスに引き続き、語彙や文法事項の習得を深めるとともに、政治、経済、社会問題に関する最新の中国語のニュースや記事を通じて、中国の文化、社会、風俗に対する理解を一層深めることを目指します。授業では「聴く」「話す」能力の強化に重点を置き、課題を通じて学習内容を確実に定着させます。これらの活動を通じて、実践的な中国語のコミュニケーション能力を高め、学生が中国語を用いた日常的な会話やディスカッションに自信を持って参加できるようになることを目指します。,"① 会話力の向上：会話練習を通じて「話す」能力を高め、そのスキルを日常会話において実践的に活用できるようにします。
 ② リスニング力の強化：リスニング練習を行い、「聴く」能力を高めます。
 ③ 中国事情への理解深化：中国語の最新記事を活用し、中国の文化、社会、風俗に対する理解を深めます。
 ④ 語彙・文法の習得：準中級・中級レベルの中国語会話に必要な語彙や文法事項を確実に習得します。","事前学習：授業内で次の単元の予習内容を提示します。しっかりと予習したうえで授業に臨んでください。
@@ -23507,11 +23778,11 @@ CD
 なし",,LANC201F,語学,中国語,中国語,中級レベル（発展・応用）,外国語II選択（中国語）,２年以上,2,日本語,【対面】
 2026,LANC201F,中国語選択：日中比較文化論講読演習Ｂ　１,石野　一晴,商学,秋学期,金４時限,教室未定,この授業は、春学期に引き続き、中華料理および日中の食文化に関わる中国語教材......,1600002894012026160000289416,,"この授業は、春学期に引き続き、中華料理および日中の食文化に関わる中国語教材を用い、中国語読解力の向上を目指す。中国の社会と文化を理解するためには、日本語による情報に依拠するだけでなく、中国語で学ぶ姿勢が欠かせない。本授業では、その実力を養成するため、受講者にとって身近な「食文化」を題材として取り上げる。
 日本は歴史的に、中国から多大な文化的影響を受けてきた。漢字の使用はその代表的な事例であるが、身近な食材や調理方法にも中国に由来するものが少なくない。ラーメンはその代表例であり、家庭料理として定着している「炒め物」も中国で生まれた調理法である。また、我々の喉をうるおすお茶も中国が原産である。食卓で箸を用いる習慣も、中国から伝来している。このような中国由来の文化は、日本の風土や生活に合わせて変容してはいるが、いま私たちが欧米の文化から学ぶのと同様に、かつての日本人も中国から多くを学び取ろうとしてきたのである。
-授業では、中国語講読と並行して、張競『中華料理の文化史』（ちくま文庫）を参照しつつ、中華料理の歴史に関する理解を深める。同時に、日本における中華料理の受容と展開についても考察し、日中間の文化交流の歴史と文化変容のあり方をとらえる視点を養う。本授業で食文化の歴史を学ぶことは、私たちが中国文化をいかに受け入れ、どのように自らの文化として内在化してきたのかを理解するための基礎となるだろう。","①中国語で書かれたニュース記事を、辞書を用いて読解できるようになる。
+授業では、中国語講読と並行して、張競『中華料理の文化史』（ちくま文庫）を参照しつつ、中華料理の歴史に関する理解を深める。同時に、日本における中華料理の受容と展開についても考察し、日中間の文化交流の歴史と文化変容のあり方をとらえる視点を養う。本授業で食文化の歴史を学ぶことは、私たちが中国文化をいかに受け入れ、どのように自らの文化として内在化してきたのかを理解するための基礎となるだろう。","①中国語で書かれた評論文を、辞書を用いて読解できるようになる。
 ②食文化を手がかりにして中国社会を考察し、日本社会との差異を意識しつつ、異なる価値観を尊重する姿勢を身につける。","①小テストの準備：中国語の基礎力を向上させるため『中国語基本単語帳』を教材として毎回小テストを実施する。試験範囲は事前に告知するので、受験のために予習を行うこと。なお、授業内で暗唱試験を実施する場合がある。暗唱試験については事前予告を行わないが、授業終盤に暗記のための時間を確保する。
-②発表の準備：
-a)中国語教材は精読をおこなう。あらかじめ分担箇所を割り当て、授業内で発表してもらう。担当箇所については事前に十分な準備を行うこと。
-b)日本語教材として使用する『中華料理の文化史』についても、事前に分担箇所を決め、授業中に発表してもらう。担当箇所について事前に準備を行うこと。発表回数は履修者数によって変動するが、中国語・日本語ともに2回ずつ発表するつもりでいてほしい。","1:
+②中国語教材の精読。辞書を引き、用例なども確認しながら日本語訳を事前に作成することが望ましい。ノートを1冊準備することを奨励する。
+③発表の準備：
+日本語教材として使用する『中華料理の文化史』について、事前に分担箇所を決め、授業中に発表してもらう。担当箇所について事前に準備を行うこと。発表回数は履修者数によって変動するが、2回ずつ発表するつもりでいてほしい。なお、前期とは発表形態を変更する予定である。","1:
 第１回
 オリエンテーション（概要説明・教材配布・初級の復習）
 2:
@@ -23568,11 +23839,11 @@ b)日本語教材として使用する『中華料理の文化史』について
 ・授業の予習に際して、必要に応じて生成AIを用いて情報収集をすることは認める。ただし、生成AIの回答を鵜呑みにせず、必ず一次資料もしくは信頼できる資料により出典を確認すること。なお、講読教材を生成AI等で日本語に翻訳することは認めない。",LANC201F,語学,中国語,中国語,中級レベル（発展・応用）,外国語II選択（中国語）,２年以上,2,日本語,【対面】
 2026,LANC201F,中国語選択：日中比較文化論講読演習Ｂ　２,石野　一晴,商学,秋学期,金５時限,教室未定,この授業は、春学期に引き続き、中華料理および日中の食文化に関わる中国語教材......,1600002894022026160000289416,,"この授業は、春学期に引き続き、中華料理および日中の食文化に関わる中国語教材を用い、中国語読解力の向上を目指す。中国の社会と文化を理解するためには、日本語による情報に依拠するだけでなく、中国語で学ぶ姿勢が欠かせない。本授業では、その実力を養成するため、受講者にとって身近な「食文化」を題材として取り上げる。
 日本は歴史的に、中国から多大な文化的影響を受けてきた。漢字の使用はその代表的な事例であるが、身近な食材や調理方法にも中国に由来するものが少なくない。ラーメンはその代表例であり、家庭料理として定着している「炒め物」も中国で生まれた調理法である。また、我々の喉をうるおすお茶も中国が原産である。食卓で箸を用いる習慣も、中国から伝来している。このような中国由来の文化は、日本の風土や生活に合わせて変容してはいるが、いま私たちが欧米の文化から学ぶのと同様に、かつての日本人も中国から多くを学び取ろうとしてきたのである。
-授業では、中国語講読と並行して、張競『中華料理の文化史』（ちくま文庫）を参照しつつ、中華料理の歴史に関する理解を深める。同時に、日本における中華料理の受容と展開についても考察し、日中間の文化交流の歴史と文化変容のあり方をとらえる視点を養う。本授業で食文化の歴史を学ぶことは、私たちが中国文化をいかに受け入れ、どのように自らの文化として内在化してきたのかを理解するための基礎となるだろう。","①中国語で書かれたニュース記事を、辞書を用いて読解できるようになる。
+授業では、中国語講読と並行して、張競『中華料理の文化史』（ちくま文庫）を参照しつつ、中華料理の歴史に関する理解を深める。同時に、日本における中華料理の受容と展開についても考察し、日中間の文化交流の歴史と文化変容のあり方をとらえる視点を養う。本授業で食文化の歴史を学ぶことは、私たちが中国文化をいかに受け入れ、どのように自らの文化として内在化してきたのかを理解するための基礎となるだろう。","①中国語で書かれた評論文を、辞書を用いて読解できるようになる。
 ②食文化を手がかりにして中国社会を考察し、日本社会との差異を意識しつつ、異なる価値観を尊重する姿勢を身につける。","①小テストの準備：中国語の基礎力を向上させるため『中国語基本単語帳』を教材として毎回小テストを実施する。試験範囲は事前に告知するので、受験のために予習を行うこと。なお、授業内で暗唱試験を実施する場合がある。暗唱試験については事前予告を行わないが、授業終盤に暗記のための時間を確保する。
-②発表の準備：
-a)中国語教材は精読をおこなう。あらかじめ分担箇所を割り当て、授業内で発表してもらう。担当箇所については事前に十分な準備を行うこと。
-b)日本語教材として使用する『中華料理の文化史』についても、事前に分担箇所を決め、授業中に発表してもらう。担当箇所について事前に準備を行うこと。発表回数は履修者数によって変動するが、中国語・日本語ともに2回ずつ発表するつもりでいてほしい。","1:
+②中国語教材の精読。辞書を引き、用例なども確認しながら日本語訳を事前に作成することが望ましい。ノートを1冊準備することを奨励する。
+③発表の準備：
+日本語教材として使用する『中華料理の文化史』について、事前に分担箇所を決め、授業中に発表してもらう。担当箇所について事前に準備を行うこと。発表回数は履修者数によって変動するが、2回ずつ発表するつもりでいてほしい。なお、前期とは発表形態を変更する予定である。","1:
 第１回
 オリエンテーション（概要説明・教材配布・初級の復習）
 2:
@@ -24653,7 +24924,7 @@ HSK4級試験と問題パターンについての説明、中国語の基礎文�
 第１２回　貨幣需要
 流動性選好理論にもとづき、貨幣の需要を考える。
 13:
-第１３回　貨幣市場とし利率
+第１３回　貨幣市場と利子率
 貨幣の需要と供給の関係から利子率の決定と変動を解説する。
 14:
 第１４回　前半の総括
@@ -24715,14 +24986,14 @@ LM
 後半の総括として中間試験を実施する。",嶋村紘輝 『マクロ経済学』 成文堂、2015年,横山将義 『経済政策　第2版』 成文堂、2026年,"割合
 評価基準
 試験:
-70％
+75％
 講義の理解度を問う中間試験と期末試験によって評価を行う。
 レポート:
 15％
 計算問題等のレポート課題によって評価を行う。
 平常点評価:
-15％
-Waseda Moodle上の理解度チェックによって評価を行う。",3分の2以上の出席を必須とする。,ECNE201L,経済学,経済学一般,経済学一般,中級レベル（発展・応用）,要項適用年度により異なるため、詳細は学科目配当表をご参照ください。,２年以上,4,日本語,【対面】
+10％
+Waseda Moodle上の理解度チェックによって評価を行う。",3分の2以上の出席を必須とする。なお出席はレポートの提出状況によって判断する。,ECNE201L,経済学,経済学一般,経済学一般,中級レベル（発展・応用）,要項適用年度により異なるため、詳細は学科目配当表をご参照ください。,２年以上,4,日本語,【対面】
 2026,ECNE101L,基礎経済学　１,片岡　孝夫,商学,秋学期,01:火２時限 02:金２時限,教室未定,この科目は、経済学入門にあたるもので、現代経済学の基本的な概念や理論につい......,1600003004012026160000300416,ビジネスに最低限必要な経済学,"この科目は、経済学入門にあたるもので、現代経済学の基本的な概念や理論について説明するとともに、私たちの社会におけるさまざまな経済現象を解説する。それは、経済・産業コースのみならず、経営、会計、商業・貿易・金融、総合・学際コースなど、商学部における多くの科目を学ぶうえで、必要不可欠な知識や手法を提供するものである。
 内容的には、「経済学とは何か」から始めて、マクロ経済学とミクロ経済学のうちビジネスとの関連性が高い分野について講義する。実際の講義は、基本的には以下の計画に沿って進める。ただし、講義の進度によっては、担当教員が講義内容をさらに掘り下げて説明するなどして、受講者の理解度をより高めるような工夫を行う。
 経済の諸問題に対して、これまで経済学はどのような解答を与えてきたのかを、できるだけわかりやすく説明する。その際、理論の単なる解説にとどまらず、経済の現実に即した説明を心がけるつもりである。また２回程度配布される練習問題にも取り組んで欲しい。",各受講者がこの講義を通じ、経済に対する理解を深め、さらに経済的な問題に対して建設な議論を行い解決の方策を提示できるようになることを期待している。,本講義の進め方は担当教員によって異なる。Waseda Moodle等で、自分の参加するクラスの教員の進め方を必ず参照すること。以下の授業計画も、開講年度や担当教員によって、若干異なる可能性がある。,"1:
@@ -24822,7 +25093,7 @@ GDPと関連する諸概念
 10％
 各担当教員が授業中に発表する。小テストの評価が反映される場合がある","この講義をよりよく理解するためには、さまざまな経済現象に興味を持ち、ただ漫然と講義を聴くのではなく、自分で理論の内容・妥当性を考え、自らの手で練習問題を解いてみることが大切である。
 なお授業の進め方については、各担当教員の指示に従うこと。",ECNE101L,経済学,経済学一般,経済学一般,初級レベル（入門・導入）,専門基礎科目（必修）,１年以上,4,日本語,【対面】ハイブリッド（対面回数半数以上）
-2026,ACCX101L,基礎会計学　６,山内　暁,商学,秋学期,01:火５時限 02:金５時限,教室未定,本講義の目的は、ビジネスの共通言語といわれる「会計」の学習を通じ、ビジネス......,1600003005062026160000300516,,本講義の目的は、ビジネスの共通言語といわれる「会計」の学習を通じ、ビジネスや社会における会計の役割について理解を深めることである。講義の前半では、財務諸表の作成プロセスを概観し、会計の基礎となる「簿記」の知識や技術を身に付け、会計を学問として学ぶための土台を作り上げる。講義の後半では、財務諸表の構造や利用方法や分析方法を学ぶとともに、原価計算や管理会計の基礎にも触れる。講義の概要は、市場や経済社会の変化及び登録された受講生の人数や理解度に応じて、一定のレベルで変更することがある。また授業内容の順番（「授業計画」）についても、市場や経済社会の変化及び登録された受講生の人数や理解度、授業の進度によって、一定のレベルで変更することがある。,会計諸学を専門的に学ぶための基礎を習得することはもちろん、会計諸学以外の様々な学問領域を学習する際にも必要となる必須の知識を習得することを目標とする。,予習として教科書や適宜参考書を利用し、復習として演習問題や市販の練習問題を解くことを求める。各回の予習と復習には、 90 分～120 分かかると想定される。,"1:
+2026,ACCX101L,基礎会計学　６,八重倉　孝,商学,秋学期,01:火５時限 02:金５時限,教室未定,本講義の目的は、ビジネスの共通言語といわれる「会計」の学習を通じ、ビジネス......,1600003005062026160000300516,,本講義の目的は、ビジネスの共通言語といわれる「会計」の学習を通じ、ビジネスや社会における会計の役割について理解を深めることである。講義の前半では、財務諸表の作成プロセスを概観し、会計の基礎となる「簿記」の知識や技術を身に付け、会計を学問として学ぶための土台を作り上げる。講義の後半では、財務諸表の構造や利用方法や分析方法を学ぶとともに、原価計算や管理会計の基礎にも触れる。講義の概要は、市場や経済社会の変化及び登録された受講生の人数や理解度に応じて、一定のレベルで変更することがある。また授業内容の順番（「授業計画」）についても、市場や経済社会の変化及び登録された受講生の人数や理解度、授業の進度によって、一定のレベルで変更することがある。,会計諸学を専門的に学ぶための基礎を習得することはもちろん、会計諸学以外の様々な学問領域を学習する際にも必要となる必須の知識を習得することを目標とする。,予習として教科書や適宜参考書を利用し、復習として演習問題や市販の練習問題を解くことを求める。各回の予習と復習には、 90 分～120 分かかると想定される。,"1:
 第１回
 ガイダンス
 2:
@@ -25963,99 +26234,61 @@ Kodak (Grant 2022)
 40％
 前回の授業内容について小テストを実施する。これに講義の参加状況等も加味し、平常点評価を行う。","簿記は継続的な学習の積み重ねが重要であるため、毎回出席のこと。なお、制度変更等の関係で講義の内容が変更される場合や、授業の進捗状況によっては講義の順序が前後する場合がある。
 ・本講義は【対面による授業】です。※状況により変更となる可能性があります。",ACCX301L,会計学,会計学,会計学,上級レベル,専門教育科目,２年以上,4,日本語,【対面】
-2026,ACCX311L,財務会計論　３,八重倉　孝,商学,秋学期,01:火２時限 02:金２時限,教室未定,現代の財務会計制度について幅広く学習する。 講義では、現行の会計基準の学習......,1600004223032026160000422316,,"現代の財務会計制度について幅広く学習する。
-講義では、現行の会計基準の学習にとどまらず、それらの背後にある考え方を中心に進めていく予定である。
-講義の中心は日本における現行の会計基準であるが、過去の会計基準や、国際財務報告基準および米国を中心とする諸外国の現行および過去の基準についても必要に応じてカバーする。",財務会計の具体的な基準を身につけるとともに、その背後にある考え方について理解すること。,事前に指定された教科書の箇所を読み、設例について自ら解いてみること。,"1:
-第１回　オリエンテーション（本講義の目的と概要）
-オリエンテーション（本講義の目的と概要） ／ 本講義の目的と概要について説明します。
-2:
-第２回　基礎会計学のレビュー（１）
-S１章，K１章
-3:
-第３回　基礎会計学のレビュー（２）
-S２章，K３－１０章
-4:
-第４回　会計理論，会計基準，概念フレームワーク（１）
-S３章，F
-5:
-第５回　会計理論，会計基準，概念フレームワーク（２）
-S３章，F
-6:
-第６回　国際会計の動向
-S３章
-7:
-第７回　利益測定と資産評価の基礎概念（１）
-S４章，K２章
-8:
-第８回　利益測定と資産評価の基礎概念（２）
-S４章
-9:
-第９回　現金預金とキャッシュ・フロー計算書
-S５章１，２，５
-10:
-第１０回　金融商品の会計（１）
-S５章３，４
-11:
-第１１回　金融商品の会計（２）
-S５章３，４
-12:
-第１２回　収益の認識と売上債権（１）
-S６章１－５
-13:
-第１３回　収益の認識と売上債権（２）
-S６章６－７
-14:
-第１４回　収益の認識と売上債権（３）
-S６章８
-15:
-第１５回　中間試験
-試験範囲はS１－６章とF
-16:
-第１６回　棚卸資産と売上原価（１）
-S７章１－２
-17:
-第１７回　棚卸資産と売上原価（２）
-S７章３－５
-18:
-第１８回　固定資産と減価償却
-S８章１－３
-19:
-第１９回　固定資産の減損
-S８章４
-20:
-第２０回　リース会計
-S８章５
-21:
-第２１回　無形固定資産と繰延資産
-S９章
-22:
-第２２回　負債の会計（１）
-S１０章１，２，４
-23:
-第２３回　負債の会計（２）
-S１０章３
-24:
-第２４回　負債の会計（３）
-S１０章５－６
-25:
-第２５回　株主資本と純資産（１）
-S１１章１－２
-26:
-第２６回　株主資本と純資産（２）
-S１１章３
-27:
-第２７回　株主資本と純資産（３）
-S１１章４－５
-28:
-第２８回　期末試験
-範囲は第１回から第２７回までのすべて",桜井久勝著『財務会計講義』（中央経済社），２０２６年９月時点の最新版．　（S）,その他，各回において使用する参考文献等をWaseda Moodleに掲示する詳細版シラバスで指示します．,"割合
+2026,ACCX311L,財務会計論　３,山内　暁,商学,秋学期,01:火５時限 02:金５時限,教室未定,本講義では、財務会計に係る個別具体的な論点について、学習をしていきます。 ......,1600004223032026160000422316,,"本講義では、財務会計に係る個別具体的な論点について、学習をしていきます。
+会計学は積み重ねが重要であり、また、個別論点のみを学習していると会計情報の全体像を掴みにくくなります。そのため、本講義では指定教科書を用いて基本的な事項を復習事項として確認しながら、追加レジュメや資料等を用いて応用的な個別論点の説明を行っていきます。",・ビジネスに不可欠な会計情報の入手方法と読み方について理解する。,"●各回の予習と復習には、 90 分～120 分以上かかると想定されます。
+●Moodleにおいて、教科書の読むべき該当箇所・各自で入手し確認すべき資料などを提示します。
+★詳細については、Moodleでお知らせします。必ず、Moodleを確認してください★","1.
+ガイダンス
+2.
+会計情報のユニーク性
+3.
+会計の情報利用者
+4.会計のグローバル化
+5.
+会計情報のディスクロージャー（会計情報のディスクロージャーと役割）
+6.会計情報のディスクロージャー（会計情報を規制する3つの法律）
+7.会計情報ののディスクロージャー（会計情報をめぐるディスクロージャーの種類）
+8.会計情報の入手方法
+9.財務諸表の体系（会計期間と財務諸表）
+10.財務諸表の体系（財務諸表4表の意味・財務諸表4表の相互関係）
+11.財務諸表の体系（連結財務諸表と個別財務諸表）
+12.財務諸表の体系（連結の重要性）
+13理解度の確認（.中間試験（1回目））
+14.貸借対照表（流動資産と固定資産）
+15.貸借対照表（固定資産の3区分と繰延資産）
+16.貸借対照表（負債）
+17.貸借対照表（資産と負債の評価）
+18.貸借対照表（純資産）
+19.株主資本等変動計算書
+20.外部講師講演（1回目：M&Aと会計）
+21.理解度の確認（中間試験(2回目)）
+22.損益計算書（営業利益の計算）
+23.損益計算書（経常利益の計算）
+24.損益計算書（当期純利益の計算）
+25.損益計算書（包括利益の計算）
+26.キャッシュ・フロー計算書
+27.外部講師講演（2回目：保険会計）
+28.定期試験（期末試験）
+*
+理解度や会計を巡る最新の動向の変化等に応じて、授業開始後に授業計画が変更となる可能性があります。
+*
+講義の進捗度により、各トピックを扱う回が前後する可能性があります。
+*
+会計ルールの変更や議論の推移等、新しい動向により、講義期間中に重要トピックが変わる可能性がありますので、講義で扱うトピックを変更する場合があります。
+*外部講師講演の回は、変更となる可能性があります。
+*中間試験及び定期試験については、解説を行います。
+★詳細については、Moodleでお知らせします。必ず、Moodleを確認してください★",片山覚その他(2026)『入門会計学 第3版: 決算書が読めるようになるエッセンス』実教出版,随時、指定します。,"割合
 評価基準
 試験:
 100％
-中間試験50%","授業の内容は受講者の理解度や進度に応じて変更することがある．
-より詳細なシラバスを開講前にWaseda Moodleに掲示する．
-授業で使用するパワーポイントファイル等の資料は（著作権の問題等がない限り）Waseda Moodleに掲示する．
-中間試験と期末試験は教場試験で実施する．",ACCX311L,会計学,会計学,財務会計,上級レベル,要項適用年度により異なるため、詳細は学科目配当表をご参照ください。,２年以上,4,日本語,【対面】
+●対面による試験を実施予定です。ただし、不測の場合には、課題形式の試験に変更する可能性があります。
+・中間テスト①（理解度の確認）30%
+・中間テスト②（理解度の確認）30%
+・期末テスト（定期試験）40%","●本講義は、教室での対面講義を基本としますが、一部オンライン（オンデマンド・リアルタイム）で実施します。
+●不測の場合には、対面講義予定の回をオンライン（リアルタイム）に変更する場合があります。
+●上記オンラインについては、対面の要件を満たす範囲内の回数とします。
+●随時、小テスト・レビューシート（課題）などを提示します。
+★詳細については、Moodleでお知らせします。必ず、Moodleを確認してください★",ACCX311L,会計学,会計学,財務会計,上級レベル,要項適用年度により異なるため、詳細は学科目配当表をご参照ください。,２年以上,4,日本語,【対面】
 2026,ACCX321L,管理会計論　２,若林　利明,商学,秋学期,01:火２時限 02:金２時限,教室未定,管理会計の目的は、経営者の意思決定を支援するとともに、業績評価を通じて企業......,1600004224022026160000422416,,"管理会計の目的は、経営者の意思決定を支援するとともに、業績評価を通じて企業目的に適合する行動を取るよう部門管理者を動機付けて、組織の効率性を高めることにある。管理会計は、この目的を果たすために必要な数量的なデータを記録・測定・伝達するプロセスである。
 経営者は日々様々な意思決定に直面している。例えば、半導体不足が取り沙汰されている。今、半導体工場を建てれば大儲けできるかもしれないが、今の状況が続く保証はない。工場を建てるべきであろうか。あるいは、携帯電話事業に参入したある会社は、巨額の赤字に苦しんでいるものの他の事業は好調である。携帯電話事業からは撤退すべきであろうか。ここで誤った意思決定を行えば、会社は倒産してしまうかもしれない。そのため、経営者が意思決定を行うための理論と意思決定を支援するための情報が必要となる。
 しかし、企業経営は経営者１人で行なうことはできない。例えば、ある総合商社には多くの事業部と従業員がいる。この商社は従業員の前年比売上高、事業計画の達成度、新規事業の件数などを定量的に評価し、その評価を賞与額および昇進に100％反映させる方法をとっていた。この方法は企業経営においてどのような帰結をもたらすであろうか。これを円滑に実施する、あるいはその帰結を予測するためには、業績評価システムの構築を通じて組織がどのように動いていくのかに関する理論と情報が必要となる。
@@ -26418,101 +26651,101 @@ Moodle
 中間試験　40点、期末試験　40点、小テスト20点
 その他:
 2／3以上の出席がない場合は失格となる。",,ACCX121L,会計学,会計学,管理会計,初級レベル（入門・導入）,専門教育科目,１年以上,2,日本語,【対面】
-2026,ACCX431L,会計監査論　２,関根　愛子,商学,秋学期,01:火３時限 02:金３時限,教室未定,企業等の財務諸表の信頼性を保証する役割を担う監査は、現代社会の重要なインフ......,1600004271022026160000427116,,企業等の財務諸表の信頼性を保証する役割を担う監査は、現代社会の重要なインフラです。本講義では、監査論を初めて学ぶ学部生を対象に、監査の全体像を理解できるよう、基礎的な理論と共に監査の必要性、基本的な役割、制度やその実務を解説していきます。特に実務については、企業の具体的な業務プロセスを踏まえた監査の具体的な実務を説明すると共に、企業の国際化・多様化が進み、テクノロジーが進展する中で監査の実務も変革が求められている点や監査の広がりについても触れていきます。,監査論の基本的な考え方や役割と共に、監査制度や実務の全体像を学ぶことにより、監査の意義、あり方を考えることができるようにすること。,事前準備は特に必要ありませんが、事後に復習を行ってください。授業において、毎回、授業の理解や疑問点について記載して提出して頂くと共に、２回に1回は授業内容に関するレポートを作成して頂き、それぞれ、Waseda Moodle で提出して頂きます。,"1:
+2026,ACCX431L,会計監査論　２,関根　愛子,商学,秋学期,01:月２時限 02:木２時限,教室未定,企業等の財務諸表の信頼性を保証する役割を担う監査は、現代社会の重要なインフ......,1600004271022026160000427116,,企業等の財務諸表の信頼性を保証する役割を担う監査は、現代社会の重要なインフラです。本講義では、監査論を初めて学ぶ学部生を対象に、監査の全体像を理解できるよう、基礎的な理論と共に監査の必要性、基本的な役割、制度やその実務を解説していきます。特に実務については、企業の具体的な業務プロセスを踏まえた監査の具体的な実務を説明すると共に、企業の国際化・多様化が進み、テクノロジーが進展する中で監査の実務も変革が求められている点や監査の広がりについても触れていきます。,監査論の基本的な考え方や役割と共に、監査制度や実務の全体像を学ぶことにより、監査の意義、あり方を考えることができるようにすること。,事前準備は特に必要ありませんが、事後に復習を行ってください。授業において、毎回、授業の理解や疑問点について記載して提出して頂くと共に、２回に1回は授業内容に関するレポートを作成して頂き、それぞれ、Waseda Moodle で提出して頂きます。,"1:
 第１回
 オリエンテーション及び監査の必要性と制度①
 2:
 第２回
 監査の必要性と制度②
 3:
-第３回
+第３回　オンデマンド
 監査の基準①
 4:
 第４回
 監査の基準②
 5:
-第５回
+第５回　オンデマンド
 国際動向①
 6:
 第６回
 国際動向②
 7:
-第７回
+第７回　オンデマンド
 監査業務の全体像①
 8:
 第８回
 監査業務の全体像②
 9:
-第９回
+第９回　オンデマンド
 リスク・アプローチ①
 10:
 第１０回
 リスク・アプローチ②
 11:
-第１１回
+第１１回　オンデマンド
 内部統制①
 12:
 第１２回
 内部統制②
 13:
-第１３回
-中間試験
+第１３回　オンデマンド
+監査計画①
 14:
 第１４回
-中間試験の解説＆監査計画①
-15:
-第１５回
 監査計画②
+15:
+第１５回　オンデマンド
+監査の実施①
 16:
 第１６回
-監査の実施①
+中間試験
 17:
 第１７回
-監査の実施②
+中間試験の解説＆監査の実施②
 18:
-第１８回
+第１８回　オンデマンド
 監査報告①
 19:
 第１９回
 監査報告②
 20:
-第２０回
+第２０回　オンデマンド
 監査事務所の品質管理①
 21:
 第２１回
 監査事務所の品質管理②
 22:
-第２２回
+第２２回　オンデマンド
 内部統制監査①
 23:
 第２３回
 内部統制監査②
 24:
-第２４回
-監査以外の保証業務①
+第２４回　オンデマンド
+監査以外の保証業務①レビュー業務
 25:
 第２５回
-監査以外の保証業務②
+監査以外の保証業務②その他の保証業務
 26:
 第２６回
-企業以外の監査
+企業以外の監査（第25回のフォローを含む）
 27:
-第２７回
-期末試験
+第２７回　オンデマンド
+第26回のフォローと授業全般のまとめ
 28:
 第２８回
-期末試験の解説及び授業全般のまとめ",講義資料をWaseda Moodleにて配布します。,長吉、伊藤、北山、井上、岸、異島著「監査論入門第６版」中央経済社,"割合
+期末試験",講義資料をWaseda Moodleにて配布します。,長吉、伊藤、北山、井上、岸、異島著「監査論入門第６版」中央経済社,"割合
 評価基準
 試験:
 50％
-第13回目の授業時間中に中間試験、第27回目の授業時間中に期末試験を実施し、授業内容全般についての理解度を確認し、評価します。なお、試験の解説はそれぞれ次回（第14回、第28回）の授業時間内に実施します。
+第16回目の授業時間中に中間試験、第28回目の授業時間中に期末試験を実施し、授業内容全般についての理解度を確認し、評価します。
 レポート:
 平常点評価:
 50％
-授業への参加状況（出席及び毎回の授業の理解や疑問点についての提出）及び偶数回終了後に提出頂くレポートの内容で評価します。
-その他:","毎回提出して頂く疑問点等について、主に次の授業で実例を交えて解説し理解を深めます。
+授業への参加状況（オンデマンド教材の視聴とその理解や疑問点についての提出）及び偶数回終了後に提出頂くレポートの内容で評価します。
+その他:","提出して頂いた疑問点等について、主に次の授業で実例を交えて解説し理解を深めます。
 資料の配布、レポートの提出はWaseda Moodleを使用します。
-授業は対面で行います。",ACCX431L,会計学,会計学,監査,総仕上げ,専門教育科目,３年以上,4,日本語,【対面】
+授業は対面とオンデマンドを組み合わせて行います。",ACCX431L,会計学,会計学,監査,総仕上げ,専門教育科目,３年以上,4,日本語,【対面】ハイブリッド（対面回数半数以上）
 2026,ACCX441L,財務諸表分析論　２,奥村　雅史,商学,秋学期,01:月２時限 02:木２時限,教室未定,本講義では，企業分析のフレームワークの中で，企業が公表する財務諸表を利用し......,1600004272022026160000427216,,本講義では，企業分析のフレームワークの中で，企業が公表する財務諸表を利用した分析の方法およびこれを適切に実行するために必要となる企業情報について検討する。とくに，上場企業の有価証券報告書に代表される公表情報（財務情報だけでなく非財務情報を含む）について広く理解したうえで，財務諸表分析によって何がわかり何がわからないのかを理解できるように解説する。また，上場企業の財務に関するデータベースを利用して業種別の傾向などを検討することによって，実際の財務諸表の現実を把握する。なお，重要な事項については，実際の企業の財務諸表情報やその他の情報を利用し，豊富な事例分析の中で理解できるようにするとともに，演習を行うことによって理解の定着を図る。すべて対面で授業を行う。,企業分析のフレームワークにおける財務諸表分析の各種の技法を習得し，その有効性と限界を理解する。とくに，会計を専門的に学習する者にとってどのようなレベルで理解する必要があるのかを知ることができ，現実の企業を専門的な立場から分析できるようになる。さらに，倒産予測や企業価値評価といった，財務諸表分析の結果を利用する特定の応用についても理解できる。,毎回の教材はWaseda Moodleにアップロードするので、事前に読んでおくことが必要である。また、各種の分析技法の理解を定着し、応用できるようにするために、チェック問題や練習問題を解き，課題を提出する必要がある。それらには30分から1時間程度を要する。,"1:
 第１回　イントロダクション
 財務諸表分析の意義とフレームワークについて説明したうえで，講義の進め方等について説明する。対面授業で行う。
@@ -26810,7 +27043,7 @@ https://www.nta.gojp/about/organization/ntc/kohon/index.html
 ・講義を欠席する場合、理由の如何を問わず、原則として欠席扱いとします。
 ・但し、慶弔、就職活動、感染症などやむを得ない事情がある場合、事前（講義が始まる前）に連絡をいただければ、欠席扱いにはなりますが、成績評価の際には配慮します。",ACCX481L,会計学,会計学,その他,総仕上げ,専門教育科目,３年以上,2,日本語,【対面】
 2026,ACCX411L,連結会計論　１,河内山　拓磨,商学,秋学期,金３時限,教室未定,本講義の目的は，①連結財務諸表の作成方法の基礎を学習すると同時に，②連結グ......,1600004279012026160000427916,,"本講義の目的は，①連結財務諸表の作成方法の基礎を学習すると同時に，②連結グループをめぐる多様な経済問題について学習することを目的としています。連結財務諸表は上場企業において特に重要な会計情報であり，多くの情報利用者がこれを分析し，日々の意思決定に役立てています。一方で，単一法人ではなく複数の法人から成るグループを会計単位とすることから，連結会計に特有の経済問題・情報開示も多く存在します。たとえば，持株会社の経営評価やセグメント情報の分析，さらには，M&Aといった成長戦略に由来するのれんの会計処理や非支配株主の保護や親子上場などの論点などが挙げられます。
-本講義では，連結財務諸表作成に関する基礎的な仕訳を学ぶほか，実社会における経済課題の検討を重視した講義を行います。この目的のもと，本講義では，M＆A仲介に関する実務家によるゲストスピーカーも予定しています。なお，
+本講義では，連結財務諸表作成に関する基礎的な仕訳を学ぶほか，実社会における経済課題の検討を重視した講義を行います。なお，
 資格取得を目的とした講義ではないこと
 および
 連結会計に関する発展的な会計処理を学ぶ授業ではないこと
@@ -26837,11 +27070,11 @@ https://www.nta.gojp/about/organization/ntc/kohon/index.html
 第10回
 M&A戦略とのれん
 第11回
-ゲストスピーカー
-第12回
-証券市場と連結グループ
-第13回
 ケーススタディ：エンロン
+第12回
+グループ討議
+第13回
+証券市場と連結グループ
 第14回
 理解度の確認",講義スライドを講義前にMoodleで配布します。受講生は講義資料をダウンロードのうえ講義に参加ください。,特に指定しませんが，日商簿記検定2級レベルの練習問題集等を購入のうえ自習することが望まれます。,"割合
 評価基準
@@ -27126,10 +27359,10 @@ M&A戦略とのれん
 期末試験を行います。",教科書は使いません。講義中に示すスライド・プリントを使います。,講義中に紹介していきます。,"割合
 評価基準
 試験:
-90％
-中間試験と期末試験の2回を行います。
+70％
+中間試験と期末試験を行います。
 平常点評価:
-10％
+30％
 講義への参加度等（講義中の発言等）を評価します。",,ECNA121L,経済学,応用経済学,金融論・ファイナンス,初級レベル（入門・導入）,専門基礎科目（選択）,１年以上,4,日本語,【対面】
 2026,CMMM201L,流通論　２,高橋　郁夫,商学,秋学期,01:水１時限 02:水２時限,教室未定,流通は、生産と消費を結びつける社会経済的機能を担っている。生産者としての個......,1600004421022026160000442116,,流通は、生産と消費を結びつける社会経済的機能を担っている。生産者としての個別企業が顧客に対して展開する経済活動はミクロ・マーケティングであるが、それを社会全体、すなわち国民経済的な視点から捉えると、それはマクロ・マーケティング・システム（流通機構）として認識される。一国のマクロ・マーケティング・システムに関する具体的な研究領域としては、①流通システムを取り巻くビジネス環境、②システムそのものの構造（小売構造・卸売構造）、③システムを構成する主体（生産者・流通業者・消費者）のマーケティング活動および消費者行動、④システムが生み出す成果（効率性・有効性・公正性）、さらには⑤「市場の失敗」を是正するための流通政策などが挙げられる。本講義では、前半で①および②を、後半で③～⑤を中心に取り上げる。,マーケティングの捉え方には、個別企業のマーケティング活動（ミクロ・マーケティング）のみならず、国民経済的視点からのマクロ・マーケティングがあることを理解したうえで、流通論の体系的理解と、個別具体的な領域における専門知識の習得を目標とする。,日頃から流通問題に関心をもち、事前に配布する資料に目を通し、分からない点や実際の事例などについて整理した上で授業に臨むこと。さらに、参考書やその他の資料にもあたって知識の拡充に努めることを期待する。事後学習としては、配布資料等を改めて精読し、理解の定着を図ること。また、授業内容が現実世界とどのように関係しているかを再考してほしい。,"1:
 第１回
@@ -27754,7 +27987,8 @@ Waseda Moodle
 中間テストが35％、期末テストが45％の合計80％
 平常点評価:
 20％
-課題提出（2回を想定）、授業中の質問や意見、および授業出席をもとに合計20％","受講に際して前提要件はありませんが、「金融入門」を事前に履修していることが望ましいです。例えば「株式と債券の基本的な違い」といった、ごく初歩的な知識については既に理解した状態で講義に出席していることが望ましいです。ただし、講義を理解するために必要な知識については、授業内で解説します。
+授業中の質問や発言、授業中課題の提出、グループワークやその発表などをもとに合計20％
+（具体的な内容については、受講者数などを踏まえて決定し、初回授業で説明）","受講に際して前提要件はありませんが、「金融入門」を事前に履修していることが望ましいです。例えば「株式と債券の基本的な違い」といった、ごく初歩的な知識については既に理解した状態で講義に出席していることが望ましいです。ただし、講義を理解するために必要な知識については、授業内で解説します。
 授業計画は、授業の進行度合いや受講者の人数や理解度などを踏まえて、適宜変更する可能性があります。",ECNA221L,経済学,応用経済学,金融論・ファイナンス,中級レベル（発展・応用）,専門教育科目,２年以上,4,日本語,【対面】
 2026,CMMR101L,保険入門　１,星野　明雄,商学,秋学期,01:火３時限 02:金３時限,教室未定,商学においては、学識と実業を結びつけることが大切ですが、保険論を学ぶことは......,1600004427012026160000442716,,"商学においては、学識と実業を結びつけることが大切ですが、保険論を学ぶことは、学識と実業の融合を理解する観点から、大きな利点があると考えられます。
 保険は、リスクマネジメントの伝統的な手段です。保険には、法律、数理、経理、マネジメント、資産運用など、多様な領域の学識がかかわっており、それぞれが豊富な内容を含んでいます。また下記の例に示すように、社会において様々役割を果たしており、実務として多くの蓄積があります。
@@ -28930,7 +29164,6 @@ Pillar5
 第14回目の授業時間中に中間テスト ,
 第28回目の授業時間中に期末テスト を実施します。
 オープンブックテスト(電子機器禁止)
-期末試験は、○×問題、穴埋め問題、選択問題などで構成されます。
 平常点評価:
 10％
 授業の出席: 10%
@@ -29052,6 +29285,103 @@ https://www.jili.or.jp/",LAWB321L,法学,民事法,商法,上級レベル,専門
 ・ シミュレーションを行う回の授業には、できるだけノートパソコンを持参してください（機種は問いません）。もしノートパソコンを持っていない場合は、授業後、自分で授業内容に沿って大学のコンピューターを用いてプログラミングを行い、授業内容をフォローするようにしてください。
 ・ 基本的な数学（微分、対数、行列、数列など）、ミクロ経済学、金融の知識があることが望ましいです。特に、「基礎数学」、「基礎経済学」、「金融入門」について、履修済みであることは必須ではありませんが、もし履修していない場合は、自分で必要な箇所を学習してから授業に臨むことが必要です。また、「ミクロ経済学」、「金融論」、「基礎統計学」を履修していると、よりスムーズに授業内容を理解できると思います。
 ・ プログラミング言語としてPythonを用いてシミュレーションを行ってもらいます。他の言語（MATLAB, R, C++, Julia, Fortranなど）を選択しても良いですが、選択した言語に関する基礎知識（For-Loop構文が書ける等）は前提として授業を進めます。また、RやC++など教員が不慣れな言語を選択した場合は、自己責任で進めてもらいます。",ECNA321L,経済学,応用経済学,金融論・ファイナンス,上級レベル,専門教育科目,３年以上,2,日本語,【対面】
+2026,CMMM301L,マーケティング・リサーチ　１,星野　将孝,商学,秋学期,金１時限,教室未定,効果的なマーケティング施策の立案を属人的なものとしないためには、過去のデー......,1600004544012026160000454416,,効果的なマーケティング施策の立案を属人的なものとしないためには、過去のデータから得られる科学的な知見を活かしてマーケティング活動に関する意思決定を行える人材を増やす必要がある。本講義では、初学者を対象に、マーケティングのデータ分析に関する基本的な考え方や各種分析手法について講義することで、商学部のディプロマ・ポリシーに掲げる商学・ビジネスに関するデータ分析能力を育成する。日々の企業活動の中で蓄積されたデータの分析手法のみならず、データを収集する方法についても学び、利用可能なデータを適切な分析手法を用いて最大限活用できるようになることを目指す。,"・企業活動で蓄積されるデータの性質を理解する。
+・データからマーケティング活動に役立つ知見を得る方法を理解する。
+・ビジネスの現場で基礎的なマーケティング分析ができるようになる。","・事前学習として、毎回の授業前にMoodleからレジュメをダウンロードし、内容を確認してください。
+・事後学習として講義内容を復習してください。","第1回： ガイダンス、マーケティング・リサーチの基本
+マーケティング・リサーチとは
+第2回： マーケティング・リサーチの目的の設定
+リサーチ目的、リサーチ設計
+第3回： 探索的リサーチ
+カスタマー・インサイト、インタビュー、観察
+第4回： 記述的リサーチと因果的リサーチ
+サーベイ、実験
+第5回： 質問の作成
+質問形式、測定尺度
+第6回： データ収集の方法
+母集団、標本、仮説検定
+第7回： グラフ
+グラフの作成
+第8回： 基本統計量
+基本統計量の算出
+第9回： クロス集計とその分析
+クロス集計の方法、χ２検定
+第10回： t検定
+対応のあるt検定、対応のないt検定
+第11回： 相関と回帰分析
+散布図、相関係数、回帰分析
+第12回： 分散分析
+一元配置分散分析、二元配置分散分析
+第13回： 因子分析
+因子分析、ポジショニングマップ
+第14回： 理解度の確認
+教場試験","石田大典, 石井裕明, 横山暁 (2025). 『マーケティング・リサーチをはじめる』. 有斐閣.","照井伸彦, 佐藤忠彦 (2022). 『現代マーケティング・リサーチ―市場を読み解くデータ分析 新版』. 有斐閣.","割合
+評価基準
+試験:
+60％
+「期末試験を実施し、理解度の確認を行います。」
+レポート:
+40％
+「課題は、第7回の授業で提示。講義内容の視点と絡めて深く考察しているかどうかを評価します。」","- シラバス内容は履修人数や授業の進度に応じて変更する可能性があります。もし変更があった際には履修者全員に事前にアナウンスします。
+- 第14回の講義で対面での試験を実施する予定です。教室手配の関係上、定期試験期間中の実施になる可能性があります。",CMMM301L,商学,マーケティング,マーケティング,上級レベル,専門教育科目,３年以上,2,日本語,【対面】
+2026,CMMR231L,デジタル社会における保険制度　１,中村　信男／トタロ　ダビデ　ルイジ,商学,秋学期,水２時限,教室未定,"Traditionally regarded as a relatively conservative industry, slow to ad......",1600004545012026160000454516,"The Impact of Insurtech and Artificial Intelligence on Insurance Contracts, Industry Evolution, and Associated Legal Challenges.
+インシュアテック・AIがもたらす保険契約・保険産業の変革・発展と付随する法的課題","Traditionally regarded as a relatively conservative industry, slow to adapt to technological and organisational change, insurance is now experiencing a period of rapid and far-reaching transformation. Given the inherently data-driven nature of insurance, this shift is increasingly seen not merely as disruption, but as a natural evolution of the industry.
+Accordingly, this course examines that transformation with a strong practical and industry-oriented focus. It considers how new technologies, alternative data sources, and innovative business models are reshaping the insurance sector across the entire value chain and affecting virtually every business function, from product development and risk assessment to underwriting, pricing, distribution, customer management, claims handling, and fraud detection.
+Particular attention will be given to the practical use of artificial intelligence, big data, IoT, distributed ledger technologies, and digital platforms, as well as to emerging business models and market practices. The course will examine both the opportunities created by these developments and the operational, legal, regulatory, and consumer-protection challenges they raise.
+Throughout the course, students will develop an understanding of how Insurtech is transforming insurance products, processes, decision making pipelines, and business structures, and of the broader implications of this transformation for the future of the insurance industry.
+Given the specialised nature of this course, it will be conducted in English while incorporating supplementary explanations in Japanese, adopting a bilingual Japanese–English format.
+本講義は、伝統的には比較的保守的とされてきた保険業界が、デジタル化・データ利用等によって現在急速かつ大規模な変革を経験していることを踏まえ、法的規制との関係に重点を置いて、実務的・産業的側面を体系的に学ぶことを目的とする。
+なお、この講義は、専門性が高いため、英語で行いつつ、日本語による補足説明等を交えて行う日本語・英語共用型のスタイルを採用する。","The objective of this course is to enable students to understand and navigate the transforming insurance market as it is being reshaped by new technologies, alternative data sources, and innovative business models. By the end of the course, students are expected to understand the new technologies involved throughout the insurance value chain, including their benefits, main features, and associated risks.","In accordance with the syllabus, students should read the relevant sections of the assigned materials in advance, gain a general understanding of the topics to be covered, and identify any questions or points requiring clarification.","1:
+第１回　イントロダクション（本講義の目的と概要）
+Introduction to Insurtech and the main drivers of technological transformation in the insurance industry.
+2:
+第2回　現代の保険制度とAI・デジタル技術との関連
+Overview of artificial intelligence, big data, IoT, blockchain, cloud computing, and other technologies shaping modern insurance.
+3:
+第３回　保険商品開発にデジタル技術・ビッグ利用が果たす役割
+Analysis of how technology and data support the design of new, flexible, and personalised insurance products.
+4:
+第４回　危険測定・引受け・保険料率算定におけるAI等の活用
+Examination of artificial intelligence, predictive and decisional algorithms, as well as alternative data in risk assessment, underwriting, and pricing.
+5:
+第５回　保険募集におけるデジタル技術・オンラインプラットフォーム・ロボアドバイザーの利用
+Analysis of digital distribution channels, online platforms, automated advice, and new forms of intermediation.
+6:
+第６回　対保険加入者コミュニケーション・損害発生通知・事故申告等におけるデジタル技術等の利用
+Examination of digital communication, customer management, loss notification, and technology-enabled risk prevention.
+7:
+第７回　保険金請求と支払・損害査定・保険金不正請求等における自動化とデータ利用
+Analysis of automation and data-driven tools in claims handling, settlement, loss assessment, and fraud detection.
+8:
+第８回　デジタル化ビジネスモデルの登場が伝統的な保険制度および保険市場参加者に及ぼす影響
+Overview of emerging digital business models and their impact on traditional insurance structures and market participants.
+9:
+第９回　利用状況（使用量）連動型保険・オンデマンド保険・P2P保険の特徴と法的課題
+Examination of usage-based, on-demand, and peer-to-peer insurance, including their main features and challenges.
+10:
+第１０回　保険におけるブロックチェーン・スマートコントラクトの利用と効用
+Introduction to distributed ledger technology and smart contracts and their potential applications in insurance.
+11:
+第１１回　オープンインシュアランス・データ共有と相互運用が保険市場の競争とイノベーションに及ぼす影響
+Introduction to Open Insurance, data sharing, interoperability, and their implications for competition and innovation.
+12:
+第１２回　自動運転・ドローン・ロボット技術等の先端技術の利活用に伴う新たなリスクの発生と保険制度の役割
+Analysis of emerging risks connected with autonomous vehicles, drones, robots, and other advanced technologies.
+13:
+第１３回　技術イノベーションの新たな動向とそれがもたらすと予想される保険市場・保険実務への影響（自由討議）
+Discussion of emerging trends and the future impact of technological innovation on insurance markets and practices.
+14:
+第１４回　理解度確認試験／Exam
+Assessment of students’ understanding of the main technologies, business models, benefits, and risks examined throughout the course.",No textbook required. Reading materials will be provided by the lecturer in class.特定の書籍をテキストとして利用することは考えていないが、必要に応じ参考文献等を提供する。,"細田浩史『保険のデジタル化と法―Insur Techの社会実装に向けて―』（弘文堂、2020年）
+Anya E. R. Prince & Daniel Schwarcz, “Proxy Discrimination in the Age of Artificial Intelligence and Big Data,” 105 Iowa Law Review 1257 (2020).
+Angelo Borselli, “Smart Contracts in Insurance: A Law and Futurology Perspective,” in P. Marano & K. Noussia (eds.), InsurTech: A Legal and Regulatory View, 105 (2020).
+Lin Lin & Christopher Chen, “The Promise and Perils of Insurtech,” 2020 Singapore Journal of Legal Studies 115 (2020).
+Martin Eling, Davide Nuessle & Julian Staubli, “The Impact of Artificial Intelligence Along the Insurance Value Chain and on the Insurability of Risks,” 47 The Geneva Papers on Risk and Insurance – Issues and Practice 205 (2022).","割合
+評価基準
+試験:
+100％
+Attendance at nine or more of the thirteen class sessions (i.e., at least two‑thirds of all lectures) is a prerequisite for receiving a grade.
+第1回から第13回までの講義のうち3分の2以上（９回以上）出席していることが、成績評価の前提条件となる。",,CMMR231L,商学,リスクマネジメント・保険,保険制度,中級レベル（発展・応用）,専門教育科目,２年以上,2,日・英併用,【対面】
 2026,ECNE301L,ゲーム理論と戦略　２,原　和弘,商学,秋学期,01:火１時限 02:金１時限,教室未定,初学者向けにゲーム理論の基本概念、考え方、応用を講義します。ゲーム理論は複......,1600004672022026160000467216,,初学者向けにゲーム理論の基本概念、考え方、応用を講義します。ゲーム理論は複数の意思決定者が相互依存関係にある状況を分析するためのツールで、経済学、生物学、コンピュータサイエンスなどに応用されています。この講義ではゲーム理論で前提とされる合理性の仮定を明確にしながら戦略型ゲーム、展開型ゲーム、不完備情報ゲームの解概念や応用について講義します。また協力ゲームの理論についても入門的な内容を解説します。,"・ゲーム理論の基本的な概念を理解し、簡単なゲームを解けるようになる。
 ・興味のあるゲーム的状況をゲームとして記述できるようになる。",ゲーム理論は積み重ねの学問なので、練習問題を解き復習を十分に行う必要があります。,"第1回
 オリエンテーション、ゲーム理論の歴史
@@ -30855,7 +31185,7 @@ Waseda Moodleに掲載予定のレポート課題を行い，指定された締�
 0％
 特になし","各課題については，提出後の講義において解答例を示すことでフィードバックを行う．
 講義中作業したファイルを保存するUSBメモリか，ファイルを保存できるクラウドサービスの準備をしておいてください．",STAX101L,統計学,統計学,統計学,初級レベル（入門・導入）,専門教育科目,２年以上,2,日本語,【対面】
-2026,MANX101L,ビジネス概論　２,加納　和子／石井　裕明／片岡　孝夫／片山　東／清水　洋／須永　努／谷川　寧彦／長谷川　惠一／星野　明雄／村瀬　俊朗／山内　暁／山野井　順一／和田　宗久,商学,秋学期,無フルOD,教室未定,本講義は、ビジネスにおける各学問分野を広く学習する入門的な講義であり、商......,1600004930022026160000493016,企業の活動を多面的に見る,本講義は、ビジネスにおける各学問分野を広く学習する入門的な講義であり、商学部生にとり必修の科目となっている。本講義を受講することで、商学部において展開される各専門分野の概要について学ぶことが可能となる。企業行動を分析するためには、それを取り巻く原因と結果の関係性を多面的に理解する必要がある。本講義では、その理解のための様々な知識、方法について毎回ひとつの学問分野を取り上げ、それらを広く学ぶことで今後の深い学習への道標となることを企図する。講義は、オリエンテーションを除き、１4回となっている。,・ビジネスにおける各学問分野の基礎を知識として修得する。,講義ビデオの再視聴、課題の遂行,"オリエンテーション【加納】
+2026,MANX101L,ビジネス概論　２,石井　裕明／片岡　孝夫／片山　東／清水　洋／須永　努／谷川　寧彦／長谷川　惠一／星野　明雄／村瀬　俊朗／山内　暁／山野井　順一／和田　宗久,商学,秋学期,無フルOD,教室未定,本講義は、ビジネスにおける各学問分野を広く学習する入門的な講義であり、商......,1600004930022026160000493016,企業の活動を多面的に見る,本講義は、ビジネスにおける各学問分野を広く学習する入門的な講義であり、商学部生にとり必修の科目となっている。本講義を受講することで、商学部において展開される各専門分野の概要について学ぶことが可能となる。企業行動を分析するためには、それを取り巻く原因と結果の関係性を多面的に理解する必要がある。本講義では、その理解のための様々な知識、方法について毎回ひとつの学問分野を取り上げ、それらを広く学ぶことで今後の深い学習への道標となることを企図する。講義は、オリエンテーションを除き、１4回となっている。,・ビジネスにおける各学問分野の基礎を知識として修得する。,講義ビデオの再視聴、課題の遂行,"オリエンテーション【石井】
 復習（ノート整理）
 1. アントレプレナーシップ・イノベーションの歴史的アプローチ：企業とは何か【清水洋】
 復習（ノート整理）　課題
@@ -31185,7 +31515,7 @@ https://www.nichibenren.or.jp/",LAWB211L,法学,民事法,民法,中級レベル
 あなたの製品やサービスはいくらで売れますか？
 あなたの製品やサービスをどのように価格づけできるのかは、どのぐらいの人がいくらで買うのかという需要や、競争相手となる企業がどのぐらいいるのかという市場の競争に大きく影響されます。市場の状態を踏まえて価格を決定する。このための基本となる需要、供給、市場の競争状態と価格づけなど、経済学の基本的な考え方について学びましょう。
 3:
-第３回：ビジネスのコア知識（経営戦略）山野井順一(准教授・早稲田大学)
+第３回：ビジネスのコア知識（経営戦略）山野井順一(教授・早稲田大学)
 あなたの会社の製品・サービスは、顧客に受け入れられているでしょうか。
 顧客に受け入れられるためには、顧客の需要を満たす必要があります。また、顧客の需要を満たす製品・サービスが市場に複数あった場合、より質・価格の面で優れた製品・サービスが選択されます。そのために競争相手より優れた製品・サービスを提供しなければなりません。
 そもそも、競争はしなければいけないものなのでしょうか。経済価値の実現の観点から、どのような市場を企業は選ぶべきでしょうか。
@@ -31223,7 +31553,7 @@ https://www.nichibenren.or.jp/",LAWB211L,法学,民事法,民法,中級レベル
 あなたの会社の製品やサービスはどのようにして売れば良いのでしょうか？
 製品やサービスを売るためには、顧客が何を考えていて、何に困っているのか、本当に求めているものは何かを理解しなければなりません。自分たちで良い製品・サービスを作れた！と思っていても、それが顧客にとって良いモノであるとは限らないのです。独りよがりの事業にしないためにも、アイデアや試作品の段階から、仮説を立てて、それを検証するという考え方を学びましょう。
 10:
-第１０回：会社を運営する知識（国際化、制度）琴坂将広(准教授・慶應義塾大学)
+第１０回：会社を運営する知識（国際化、制度）琴坂将広(教授・慶應義塾大学)
 あなたの会社はどの市場で製品を販売しますか？
 ターゲットとする地域や国によって、どのような違いがあるのでしょうか？
 アイデアや製品によっては、海外の市場から進出していくこともあるでしょう。しかし、現地の文化や法律・制度を理解していなければ、おそらく大きな壁にぶつかることになります。場所が変わるだけで、これまで売れていたモノ、売れると思っていたモノが全く売れなくなってしまうこともあるのです。日本で生活していると、あまり感じることはないかもしれませんが、中国やインドのような国土が広い国では、同じ国でも地域によって全く異なる文化・制度があります。
@@ -31259,7 +31589,8 @@ https://www.nichibenren.or.jp/",LAWB211L,法学,民事法,民法,中級レベル
 その他:
 45％
 小テスト15回 x 3点","商学部設置科目「ビジネス概論」もしくは旧科目名「ビジネス入門」を事前に受講の上、C以上の成績評価を受けていることを強く推奨する。同科目でカバーされている内容については、本講義ではケアしない。
-本講義はオンデマンド講義ではあるが、１４回目後に実務家を招いての対面での講演会を実施する。",MANX151L,経営学,経営学,アントレプレナーシップ,初級レベル（入門・導入）,専門教育科目,１年以上,2,日本語,【オンライン】フルオンデマンド
+本講義はオンデマンド講義ではあるが、１４回目後に実務家を招いての対面での講演会を実施する。オンライン講義全体で2単位講義の履修時間内に収まるため、運営上の支障はない。
+オンライン試験は試験期間内に実施する。",MANX151L,経営学,経営学,アントレプレナーシップ,初級レベル（入門・導入）,専門教育科目,１年以上,2,日本語,【オンライン】フルオンデマンド
 2026,LAWG331L,独占禁止法II　１,岡田　外司博,商学,秋学期,月４時限,教室未定,独占禁止法の実体規定のうち、不当な取引制限の禁止とそれをエンフォースする......,1600004946012026160000494616,独占禁止法によるカルテルの禁止とその系列規定、企業結合の規制,独占禁止法の実体規定のうち、不当な取引制限の禁止とそれをエンフォースする排除措置・課徴金を中心とする制度、事業者団体の活動規制、企業結合規制の三つの領域に関して、判例・審決をもとに実務がどのように行われているのかを解説します。また、学説についても判例を理解する上で必要な範囲で言及します。,独占禁止法の規制のうち、不当な取引制限の禁止とこれをエンフォースするための制度、事業者団体の活動規制、企業結合規制の三つの領域に関して、判例及び公正取引委員会による実務を理解し、企業法務において独占禁止法の適用に対応できるようにする知識を得ることを目標としています。,事前に、その回に扱う領域について、教科書に指定した、土田和博他「条文から学ぶ独占禁止法（第３版）」（有斐閣、2019）の関係する部分や指定した箇所を読んでおき、何を学ぶのかをざっと見ておくことが望まれます。次に、予め該当部分のレジュメをWaseda Moodleに掲載するので、できれば、このレジュメも併せて読んで、予習をしておけばより深い理解が得られると思います。,"1:
 第１回　独占禁止法総論
 独占禁止法の目的と独占禁止法の定める主要な実体的禁止規定の概要について述べ、独禁法上の一般的な定義規定である「事業者」、「事業者団体」、「競争」の意義について解説します。
@@ -32216,16 +32547,16 @@ International trade insurance in
 France
 12:
 第１２回
-Group Presentation; 4 teams (15min / 10min Feedback, Q&A)
+Group Presentation (15min / 10min Feedback, Q&A)
 13:
 第１３回
-Group Presentation; 4 teams (15min / 10min Feedback, Q&A)
+Group Presentation (15min / 10min Feedback, Q&A)
 14:
 第１４回
-Group Presentation; 4 teams (15min / 10min Feedback, Q&A)",The lecture notes will be uploaded to Waseda Moodle before each class. There is no required textbook for this course.,"Soyoung Lim,「貿易リスクマネジメントの入門(Introduction to International Trade Risk Management)」、2024年　11月、博英社","割合
+Group Presentation (15min / 10min Feedback, Q&A)",The lecture notes will be uploaded to Waseda Moodle before each class. There is no required textbook for this course.,"Soyoung Lim,「貿易リスクマネジメントの入門(Introduction to International Trade Risk Management)」、2024年　11月、博英社","割合
 評価基準
 試験:
-50％
+60％
 There will be no written exam for this course. Instead, the final evaluation will be based on a group presentation related to trade insurance, based on what we learn from Week 2 to Week 11. Each group will have about 15 minutes for an English presentation. All members must participate in the presentation. After each presentation, there will be about 10 minutes for my feedback and Q&A with classmates. In Session 5, I will provide more details about the group topics, keywords, and submission deadlines.
 期末筆記試験は行いません。その代わりに、学生による発表（グループ）が期末試験に代わるものとなります。期末試験の代替となるこれらの発表の評価基準については、授業内で詳しく説明します。
 平常点評価:
@@ -32235,9 +32566,9 @@ Attendance will count for 10% of the final grade. Full credit will be given only
 授業の出席 : 10%
 出席点の満点は、授業開始時刻に教室にいることが基準となります。遅刻をした場合は減点となり、正当な理由のない欠席は 0 点となります。電車の遅延や体調不良、就職活動など、やむを得ない理由がある場合には、証明できる書類を提出すれば認められます。どうしても欠席しなければならない時は、必ず事前に連絡してください。授業中に私語をした場合は、減点の対象となります。なお、全授業回数の3分の1以上を欠席した場合は、大学の規定に基づき「F」となりますので注意してください。
 その他:
-40％
+30％
 Group Discussions during Class (40%)
-Discussion groups for in-class discussions will be announced in Session 2.. From Session 3 onward, in order to conduct group discussions efficiently, students are expected to be seated with their assigned groups before the class begins.
+Discussion groups for in-class discussions will be announced in Session 2. From Session 3 onward, in order to conduct group discussions efficiently, students are expected to be seated with their assigned groups before the class begins.
 Group discussions will consist of short activities during the class as well as a 15–20 minute discussion at the end of each session. All students are required to participate actively in these discussions.
 After class, each group must submit a summary of the key points discussed via Moodle. In addition, peer evaluations will be conducted among group members to assess the degree of active participation in each discussion. Grades for group discussions will be determined based on both the submitted summaries and the peer evaluations.
 授業中のグループ討議 : 40%
@@ -32425,12 +32756,14 @@ The following classes are held in person.
 In addition, asynchronous lectures will be provided, in which students can learn on their own schedule.
 The tentative class schedule in 2026 is as follows.
 Lecture 1            Saturday                           Dec 12                 09:00 12:20
-Lecture 2            Monday                            Dec 14                 09:00 12:20
-Lecture 3            Monday                            Dec 14                 14:00 17:20
-Office Hours      Friday                               Dec 18                 09:00 11:00
-Lecture 4            Saturday                           Dec 19                 09:00 12:20
-Lecture 5            Monday                            Dec 21                 09:00 12:20
-Lecture 6            Monday                            Dec 21                 14:00 17:20",参加する学生は、コーポレートガバナンスや企業金融に関する基礎的な知識を身につけ、それらの知識を現実にどのように応用するかを学ぶ。,内容については、指導教員の指示に従ってください,"SESSION 1: Takeover Process; Timing of Merger Activity
+Lecture 2            Tuesday                            Dec 15                 09:00 12:20
+Lecture 3            Tuesday                            Dec 15                 14:00 17:20
+Office Hours      Wednesday                      Dec 16                 09:00 11:00
+Lecture 4            Thursday                          Dec 17                 09:00 12:20
+Lecture 5            Thursday                          Dec 17
+14:00 17:20
+Lecture 6            Saturday                           Dec 19
+09:00 12:20",参加する学生は、コーポレートガバナンスや企業金融に関する基礎的な知識を身につけ、それらの知識を現実にどのように応用するかを学ぶ。,内容については、指導教員の指示に従ってください,"SESSION 1: Takeover Process; Timing of Merger Activity
 SESSION 2: Economics of Mergers: Theory and Empirical Evidence
 SESSION 3: Valuation of Mergers
 SESSION 4: Asset Restructuring
@@ -32612,20 +32945,20 @@ Individual 60
 • Entrepreneurship is inherently a team-based process. Students are expected to work collaboratively and actively engage in team-based activities throughout the course.
 • Please note that the syllabus may be updated as needed to best support the learning objectives and goals of this course.
 • The use of generative AI is generally permitted in this course. Specific guidelines regarding its appropriate use will be provided separately.",MANX351L,経営学,経営学,アントレプレナーシップ,上級レベル,専門教育科目,２年以上,2,英語,【対面】
-2026,LNGA381L,Phonetics and Phonology (Advanced)　１,篠原　靖明,商学,秋学期,火４時限,教室未定,Students will learn the principles of speech production and perception. By......,1600004AK60120261600004AK616,,"Students will learn the principles of speech production and perception. By understanding the theoretical background and phonetic features of English pronunciation, students will be able to transcribe English phonetically and pronounce English sentences with appropriate prosodic features (stress, rhythm, intonation, etc.). They will also learn the basics of the International Phonetic Alphabet, enabling them to transcribe speech sounds in any world language. The language of instruction is English.",Students will be able to:,"Students are expected to practice producing and analyzing English phonemes, words, and sentences after each session to improve their English pronunciation.","Session 1: Introduction
-Session 2: Prosodic Features, Part I (Stress, Rhythm, and Weak Forms)
-Session 3: Prosodic Features, Part II (Basics of English Intonation: Tone, Tonality, and Tonicity)
-Session 4: Prosodic Features, Part III (Intonation Patterns)
-Session 5: International Phonetic Alphabet, Part I (Place and Manner of Articulation)
-Session 6: International Phonetic Alphabet, Part II (Pulmonic Consonants)
-Session 7: International Phonetic Alphabet, Part III (Non-pulmonic Consonants: Clicks, Implosives, Ejectives)
-Session 8: International Phonetic Alphabet, Part IV (Cardinal Vowels and Other Symbols)
-Session 9: International Phonetic Alphabet, Part V (Review and IPA Bingo)
-Session 10: Second Language Acquisition and Experimental Phonetics, Part I (Neurobiological Research)
-Session 11: Second Language Acquisition and Experimental Phonetics, Part II (Perceptual Assimilation Model, Speech Learning Model)
-Session 12: Second Language Acquisition and Experimental Phonetics, Part III (Participation in a Speech Perception Experiment) and Review for the Final Exam
-Session 13: Written Exam
-Session 14: Oral Exam",All lecture notes and worksheets will be available online.,"Ashby, M. & Maidment, J.A. (2005) Introducing Phonetic Science. Cambridge University Press.",Oral Exam (25%),,LNGA381L,言語学,応用言語学,その他,上級レベル,専門教育科目,２年以上,2,英語,【対面】
+2026,LNGA381L,Phonetics and Phonology (Advanced)　１,篠原　靖明,商学,秋学期,火４時限,教室未定,Students will learn the principles of speech production and perception. By......,1600004AK60120261600004AK616,,"Students will learn the principles of speech production and perception. By understanding the theoretical background and phonetic features of English pronunciation, students will be able to transcribe English phonetically and pronounce English sentences with appropriate segmental and prosodic features (stress, rhythm, intonation, etc.). They will also learn the basics of the International Phonetic Alphabet, enabling them to transcribe speech sounds in any world language. The language of instruction is English.",Students will be able to:,"Students are expected to practice producing and analyzing English phonemes, words, and sentences after each session to improve their English pronunciation.","Session 1: Introduction
+Session 2: Vowels & Consonants
+Session 3: Connected Speech Phenomena, Part I
+Session 4: Connected Speech Phenomena, Part II
+Session 5: Prosodic Features, Part I (Stress, Rhythm, and Weak Forms)
+Session 6: Prosodic Features, Part II (Basics of English Intonation: Tone, Tonality, and Tonicity)
+Session 7: Prosodic Features, Part III (Intonation Patterns)
+Session 8: International Phonetic Alphabet, Part I (Place and Manner of Articulation)
+Session 9: International Phonetic Alphabet, Part II (Pulmonic Consonants)
+Session 10: International Phonetic Alphabet, Part III (Non-pulmonic Consonants: Clicks, Implosives, Ejectives)
+Session 11: International Phonetic Alphabet, Part IV (Cardinal Vowels and Other Symbols)
+Session 12: Presentation, Part I
+Session 13: Presentation, Part II
+Session 14: Written Exam",All lecture notes and worksheets will be available online.,"Ashby, M. & Maidment, J.A. (2005) Introducing Phonetic Science. Cambridge University Press.",Participation & In-class activity (25%),,LNGA381L,言語学,応用言語学,その他,上級レベル,専門教育科目,２年以上,2,英語,【対面】
 2026,LNGA301L,English Grammar for Linguistic Studies (Advanced)　１,鈴木　利彦,商学,秋学期,木３時限,教室未定,This course explicates how to analyse the English language utilising the k......,1600004AK80120261600004AK816,,This course explicates how to analyse the English language utilising the key concepts and terminology of English grammar from a linguistic perspective.,This course equips students with the knowledge to analyse the English language using key grammatical concepts and terminology from a linguistic perspective.,Students are expected to study the textbook in advance and prepare for the two main exams during the semester.,"1:
 第１回
 Course Guidance & Introduction
@@ -32673,72 +33006,127 @@ https://www.amazon.co.jp/Communicative-Grammar-English-Geoffrey-Leech/dp/0582506
 2) Final exam: 40%
 3) Assignments: 10%
 4) Participation: 10%
-5) Attendance: 10%",,LNGA301L,言語学,応用言語学,概論,上級レベル,専門教育科目,３年以上,2,英語,【対面】
-2026,MANX151L,起業家養成講座ＩＩ　１,須永　努／村元　康,商学,秋学期,火４時限,教室未定,※2025年10月9日時点の情報です。各回の講義タイトルおよび講師は変更になること......,1600004K110120261600004K1116,,"※2025年10月9日時点の情報です。各回の講義タイトルおよび講師は変更になることがあります。随時更新いたします。
+5) Attendance: 10%","1) Please note that this course is designed for the students who wish to study English grammar through English at a high level for linguistic studies.
+2) The textbook is expensive and difficult to obtain. Please bear this in mind.
+3) If you miss five sessions, you will no longer be eligible for credit.
+4) Please bring your own device on which you can work with a digital textbook and access the internet.",LNGA301L,言語学,応用言語学,概論,上級レベル,専門教育科目,３年以上,2,英語,【対面】
+2026,CMMR431L,AI and Insurance Contract Law　１,トタロ　ダビデ　ルイジ,商学,秋学期,火２時限,教室未定,This course examines the impact of artificial intelligence and related tec......,1600004AL10120261600004AL116,,"This course examines the impact of artificial intelligence and related technologies on insurance contract law, with particular focus on how technological developments affect existing contractual rights and duties.
+Providing an overview of the main features, functioning mechanisms, and governing principles of insurance contracts, as well as their relationship with civil law, commercial law, and the relevant regulatory framework, the course will focus on the principal statutory rights and duties of insurers and insureds. It will examine whether, how, and to what extent these rules are challenged or reshaped by the growing use of AI and data-driven technologies, also considering the broader implications for good faith and consumer protection.
+The analysis will distinguish between three main phases of the insurance relationship:
+-
+Pre-contractual phase: rules governing insurance distribution and solicitation, information requirements, and the formation of the insurance contract.
+-
+Contractual phase: the main rights and duties arising from the insurance contract, with particular attention to disclosure obligations, notification duties, and duties concerning the prevention and mitigation of loss.
+-
+Post-contractual phase: legal issues arising following the performance or termination of the insurance relationship and the continuing effects of contractual rights and duties.
+Throughout these three phases, the course will assess how AI and related technologies may influence the interpretation, application, and development of existing insurance contract law as well as the relevant general principle of law.","The objective of this course is to enable students to understand the basic structure and key legal features of insurance contracts and their regulation in the age of artificial intelligence, and to identify the main legal issues that insurers and insureds should consider throughout the insurance relationship when artificial intelligence is integrated across the insurance contract lifecycle.","In accordance with the syllabus, students should read the relevant sections of the assigned materials in advance, gain a general understanding of the topics to be covered, and identify any questions or points requiring clarification.","1:
+第１回
+Introduction to the main technical features and functioning of artificial intelligence and related data-driven technologies, the key applications and modern developments, and the related legal issues arising from their use.
+2:
+第２回
+Overview of the basic structure and economic function of insurance contracts, with particular attention to the reasons for their specific regulation and to the unique trust-based relationship between insurers, policyholders, and insureds.
+3:
+第３回
+Analysis of the integration of artificial intelligence and related data-driven technologies into the insurance value chain and the emergence of new business models and interaction with insurance contract regulation and governing legal principle.
+4:
+第４回
+Examination of the legal rules governing insurance distribution and solicitation, including information duties, suitability requirements, transparency, and the protection of prospective policyholders, in context of artificial intelligence powered solicitation.
+5:
+第５回
+Examination of fairness and non-discrimination in insurance contracting, with particular attention to the use of personal data, risk classification, pricing, and automated decision-making.
+6:
+第６回
+Overview of the rules governing insurance distribution and solicitation, including information duties, product appropriateness, and the protection of the policyholder’s interest, in the context of AI-based tools.
+7:
+第７回
+In dept analysis of the policyholder’s duty to disclose information concerning the insured risk and of the insurer’s risk assessment, considering whether access to data and AI-based technologies may affect the scope, justification, and consequences of traditional disclosure duties.
+8:
+第８回
+Analysis of duties relating to changes in the insured risk and the notification of the insured event during the life of the contract, considering the impact of continuous monitoring and automated data collection.
+9:
+第９回
+Examination of the insured’s duties concerning the prevention and mitigation of loss and of whether AI-based monitoring and predictive technologies may affect the standard of conduct expected from insurers and insureds.
+10:
+第１０回
+Impact of AI and autonomous vehicles on motor and product liability insurance.
+11:
+第１１回
+Use of AI in life and health insurance, with particular attention to risk assessment, data use, and policyholder protection.
+12:
+第１２回
+Impact of AI on professional liability and D&O insurance, including questions of responsibility and coverage.
+13:
+第１３回
+Role of cyber insurance in covering risks related to digitalisation, cybersecurity, and AI.
+14:
+第１４回
+Assessment of students’ understanding of the fundamental principles of insurance contract law and their ability to identify and analyse the legal issues arising from the integration of artificial intelligence throughout the insurance contract lifecycle.",The reading materials will be provided by the lecturer in class.,The reading materials will be provided by the lecturer in class.,"割合
+評価基準
+試験:
+100％
+On the day of the 14th class, an oral exam will be administered. The exam will last approximately 15 minutes and will aim to assess the students’ understanding of the subject, knowledge of the course content, and critical thinking skills. Each exam will be based on 2–3 questions concerning the topics covered in class or in the relevant reading assignments. The exam will be held exclusively in English.",,CMMR431L,商学,リスクマネジメント・保険,保険制度,総仕上げ,専門教育科目,３年以上,2,英語,【対面】
+2026,MANX151L,起業家養成講座ＩＩ　１,須永　努／井上　達彦,商学,秋学期,火４時限,教室未定,※2026年9月14日時点の情報です。各回の講義タイトルおよび講師は変更になること......,1600004K110120261600004K1116,,"※2026年9月14日時点の情報です。各回の講義タイトルおよび講師は変更になることがあります。シラバスは随時更新いたします。
 -----------------------------------------------------------------------------------------
 本講座は、早稲田大学校友等起業家有志の協力により実施する、起業家志望あるいは起業に関心のある学生を対象とした講座であり、起業家養成講座Ｉの応用講座です。
 本講座の受講者は「起業家養成講座Ｉ」を受講済みであることが望ましいですが、未受講でも受講可能です。
 講義を通じて、ビジネスアイデアの創出、ビジネスモデルの立案、事業計画の作成、競争戦略やマーケティング、資金調達等、起業および企業経営に必要な知識の基礎を学ぶ事を目的とします。
 具体的には、本学教員による講義および、本学ＯＢ・OGの起業家・経営者をゲストスピーカーとして招いた実務経験に基づく講演を中心とします。
-２回のレポート（中間・期末）を課します。詳細はオリエンテーション時および授業内で提示します。なお、授業の順番および講師については教員やゲストスピーカーの予定により変更の可能性があります。
-※商学部の学生は、寄附講座等系統の卒業要件に参入できるのは通算で１０単位です。
+2回のレポート（中間・期末）を課します。詳細はオリエンテーション時および授業内で提示します。なお、授業の順番および講師については教員やゲストスピーカーの予定により変更の可能性があります。
+※商学部の学生は、寄附講座等系統の卒業要件に参入できるのは通算で10単位です。
 ※
 この科目は当該授業内容に関する実務の経験を有する教員等がその実務経験を活かして講義等を行う科目です。
 ※必ずMoodleを確認してください。",・キャリアにおいて「起業」という選択肢があるという事を知る,特になし,"1:
-第1回（10月7日）：ガイダンス・担当教員による講義①
-商学学術院 教授 高瀬　浩一
-商学学術院 客員教授 村元 康
+第1回（10月6日）：ガイダンス・担当教員による講義①
+商学学術院 教授 井上 達彦
+商学学術院 教授 須永 努
 2:
-第2回（10月14日）：天才じゃなくても成功できる：学生向けの凡人事業論
+第2回（10月13日）：起業として生きる
 BoostCapital株式会社 代表取締役 小澤 隆生 / 早稲田大学法学部卒
 3:
-第3回（10月21日）：20代の時間の使い方～巨人の肩に乗る～
-XTech Ventures代表パートナー 西條 晋一/ 早稲田大学法学部卒
-株式会社Natee 代表取締役 小島 領剣 / 早稲田大学国際教養学部卒
+第3回（10月20日）：学生起業のすゝめ
+株式会社エンジニアのミカタ 代表取締役CEO 田代 正義 / 早稲田大学基幹理工学部 出身
+株式会社FinT CEO 大槻 祐依 / 早稲田大学文化構想学部卒
 4:
-第4回（10月28日）：最初の追い風：エンジェル投資家のリアル
+第4回（10月27日）：持たざる者の戦い方
+株式会社High Link 代表取締役CEO 南木 将宏 / 早稲田大学創造理工学部卒
 有限会社スダックス 代表取締役 須田 仁之 / 早稲田大学商学部卒
-株式会社Techouse 代表取締役 礒邉 基之 / 早稲田大学先進理工学部卒
 5:
-第5回（11月4日）：学生起業の最前線 ― 若き挑戦者たちのリアルの本音
-F Ventures パートナー 両角 将太 / 早稲田大学政治経済学部卒
-株式会社ライトローズ 元CTO 小川 智也 / 早稲田大学先進理工学部在学中
+第5回（11月3日）：まだ名前のない市場を拓く
+株式会社Masentic 代表取締役 安達 慶太 / 早稲田大学国際教養学部卒
+株式会社ハトリリ 代表取締役 金 愛理沙 / 早稲田大学政治経済学部卒
 6:
-第6回（11月11日）：GenAI時代に日本から世界をリードするAI起業の仮説
-Visual Bank株式会社 代表取締役CEO 永井 真之 / 早稲田大学商学部卒
-JAPAN AI 代表取締役社長 兼 ジーニー 代表取締役社長 工藤 智昭 / 早稲田大学大学院理工学研究科卒
+第6回（11月10日）：エンタメの最前線
+株式会社Titan Intelligence 代表取締役CEO  赤塚 育海 / 早稲田大学理工学部卒
+株式会社世界研究所 代表取締役 高野 健 / 早稲田大学理工学部卒
 7:
-第7回（11月18日）：身近な「日常」を変える起業のかたち
-株式会社SOUHL 代表取締役社長CEO 川原 蒼太郎 / 早稲田大学商学部在学中
-株式会社ダイニングエッジ 代表取締役社長 及川 裕樹 / 早稲田大学教育学部卒
+第7回（11月17日）：日本の食文化を世界へ
+株式会社ICHIGO 代表取締役CEO 近本 あゆみ / 早稲田大学人間科学部卒
+株式会社TeaRoom 代表取締役CEO 岩本 涼 / 早稲田大学政治経済学部卒
 8:
-第8回（11月25日）：日本の巨大既存産業のイノベーション、DXを再考する
-MIC株式会社 代表取締役社長 河合 克也 / 早稲田大学商学部卒
-アセンド株式会社 代表取締役社長 日下 瑞貴 / 早稲田大学大学院政治学研究科卒
+第8回（11月24日）：世界で闘う起業家を観て
+MELKIA 代表取締役 渋澤 祥行 / 早稲田大学政治経済学部卒
 9:
-第9回（12月2日）：心を動かすサービスの作り方 ― コンシューマー起業論
-株式会社Oshicoco 代表取締役 多田 夏帆 / 早稲田大学文化構想学部卒
-株式会社coly 代表取締役CEO 中島 杏奈 / 早稲田大学教育学部卒
+第9回（12月1日）：AI時代の働き方とは
+法律事務所ZeLo 代表弁護士 小笠原 匡隆 / 早稲田大学法学部卒、東京大学法科大学院卒
+シンシアリー株式会社 代表取締役CEO 國本 知里 / 早稲田大学大学院社会科学研究科修了
 10:
-第10回（12月9日）：経営者はAIとどう向き合うべきか？〜AI時代における意思決定・組織・競争優位〜
-HEROZ株式会社 CEO 林 隆弘 / 早稲田大学教育学部卒
-株式会社クラフター 代表取締役
-小島 舞子
-/ 早稲田大学政治経済学部卒
+第10回（12月8日）：投資家思考を持つ
+レオス・キャピタルワークス株式会社 創業者 藤野 英人 / 早稲田大学法学部卒
 11:
-第11回（12月16日）：“挑戦し続ける”ことが、一番難しい ― 上場後も進化を続けるメルカリの挑戦とは
+第11回（12月15日）：打席に立ち続けよう
 株式会社メルカリ CEO 山田 進太郎 / 早稲田大学教育学部卒
 12:
-第12回（1月13日）：うねりをビジネスに変える、共感時代の起業家精神
-株式会社VOLVE CREATIVE 代表取締役CEO 外園 栄太 / 早稲田大学社会科学部卒
-株式会社FinT CEO 大槻 祐依 / 早稲田大学文化構想学部卒
+第12回（1月12日）：先端技術を社会に実装する
+株式会社SolaNika 代表取締役社長 菊池 舞 / 早稲田大学大学院基幹理工学研究科修了
+東京ロボティクス株式会社 代表取締役CEO 坂本 義弘 / 早稲田大学大学院 理工学研究科修了
 13:
-第13回（1月20日）：シリコンバレー起業のリアル ― 日本から挑むということ
-Carbide Vetnures ゼネラル・パートナー・Treasure Data創業者 芳川 裕誠  / 早稲田大学政治経済学部卒
+第13回（1月19日）：人の心を掴むコンテンツ作り
+株式会社coly 代表取締役CEO 中島 杏奈 / 早稲田大学教育学部卒
+MAGI-C株式会社 代表取締役社長 森 泰輝 / 早稲田大学人間科学部出身
 14:
-第14回（1月27日）：担当教員による講義②
-商学学術院 教授 高瀬　浩一
-商学学術院 客員教授 村元　康",特になし,特になし,"割合
+第14回（1月26日）：担当教員による講義②
+商学学術院 教授 井上 達彦
+商学学術院 教授 須永 努",特になし,特になし,"割合
 評価基準
 試験:
 0％
@@ -32749,11 +33137,12 @@ Carbide Vetnures ゼネラル・パートナー・Treasure Data創業者 芳川
 平常点評価:
 70％
 出席および授業への積極的な参加（質疑や意見、その他発言など）を評価します。
+成績評価の前提として、全講義の２/３（１０回）以上の出席が必要です。
 その他:
 0％
 特になし","本科目は、グローバルエデュケーションセンター（ＧＥＣ）の実践型教育プログラム「ビジネス・クリエーションコース」の対象科目です。
 姉妹科目にBID（ビジネスアイデアデザイン）と起業の技術があります。ペアでの履修も検討してください。",MANX151L,経営学,経営学,アントレプレナーシップ,初級レベル（入門・導入）,専門教育科目　寄附講座等系,１年以上,2,日本語,【対面】
-2026,ECNA131L,財政・金融の今と未来　１,和田　宗久,商学,秋学期,水２時限,教室未定,※２０２６年２月１７日の時点での情報です。各回の講義タイトルおよび講師は変......,1600004K300120261600004K3016,～行政官からのメッセージ～,"※２０２６年２月１７日の時点での情報です。各回の講義タイトルおよび講師は変更となることがあります。随時更新します。
+2026,ECNA131L,財政・金融の今と未来　１,和田　宗久,商学,秋学期,水２時限,教室未定,※２０２６年８月１８日の時点での情報です。各回の講義タイトルおよび講師は変......,1600004K300120261600004K3016,～行政官からのメッセージ～,"※２０２６年８月１８日の時点での情報です。各回の講義タイトルおよび講師は変更となることがあります。随時更新します。
 ※学生の皆さんの積極的な履修を望みます。
 ※講義資料はMoodleに掲載しますので、各自PC等持参のうえ受講してください。
 -----------------------------------
@@ -32776,22 +33165,22 @@ Carbide Vetnures ゼネラル・パートナー・Treasure Data創業者 芳川
 第２回（１０月１４日）：利用者目線に立った金融サービスとは ～金融の基礎知識と金融行政～
 財務省関東財務局 東京財務事務所 講師選定中
 3:
-第３回（１０月２１日）：金融情勢の変化と未来を追う ～地域金融機関の役割～
+第３回（１０月２１日）：保険金不正請求事案から考える金融行政の役割と政策ツール / 為替政策
 財務省関東財務局 理財部 講師選定中
 4:
-第４回（１０月２８日）：新時代の金融サービスへの挑戦 ～FinTechと金融行政～
-金融庁総合政策局 講師選定中
+第４回（１０月２８日）：金融商品市場の変化と諸外国の現状
+金融庁 企画市場局市場課 講師選定中
 5:
-第５回（１１月４日）：企業内容等開示制度の概要 ～ファイナンス、公開買付、有価証券報告書の読み方～
-財務省関東財務局 理財部 講師選定中
+第５回（１１月４日）：新時代の金融サービスへの挑戦 ～FinTechと金融行政～
+金融庁 総合政策局 講師選定中
 6:
-第６回（１１月１１日）：市場監視行政について　～調査・検査からTOB＆５％ルールまで～
-証券取引等監視委員会 講師選定中
+第６回（１１月１１日）：企業内容等開示制度の概要～ファイナンス、公開買付、有価証券報告書の読み方～
+関東財務局 理財部 講師選定中
 7:
-第７回（１１月１８日）：人生100年時代の資産形成とは ～金融商品の知識と投資家保護の取組み～
-財務省関東財務局 東京財務事務所 講師選定中
+第７回（１１月１８日）：市場監視行政について　～調査・検査からTOB＆５％ルールまで～
+証券取引等監視委員会 講師選定中
 8:
-第８回（１１月２５日）：税の今、そして未来 ～税金の使途と負担を考える～
+第８回（１１月２５日）：税の今、そして未来　～税金の使途と負担を考える～
 東京国税局 講師選定中
 9:
 第９回（１２月２日）：日本と世界の経済情勢 ～今を知り、未来を予想する～
@@ -32823,9 +33212,9 @@ Carbide Vetnures ゼネラル・パートナー・Treasure Data創業者 芳川
 上述したように、本講義は全13回の講義回のうちの2／3、すなわち9回以上、遅刻なく講義に出席し、講義内容に関する感想レポートを提出することを成績評価の前提としている。具体的には、1回の講義に出席したと認定されるには、講義の前半で配布する出席カードを記入のうえ提出し、かつ、講義終了時にレポートを提出することが必要となる（なお、出席カードは、回収時に必ずTAさんに渡すようにすること。講義終了後にコーディネーターや職員のところにもってきても受領しない）。また、電車の遅延等による遅刻は、遅延証明および定期のスクリーンショット等、自身が不可抗力で影響を受けたことを示すものを提出した場合に考慮することがある。","本講義は、協力講座という性格上、関東財務局をはじめとする各種機関の多くの方々、商学部事務所の多くの方などによる無償のご協力で成り立っています。そのため、少なくとも履修者の方には一所懸命受講してもらい、そのフィードバックを関東財務局や講師の方々などに送り、受け取ってもらうことによって、せめてものお礼としています。
 そのうえで、本講義は受講生の皆さんの積極的な授業への出席・参加がありませんと、関東財務局と本学との関係に影響を及ぼし、最終的にこの講義自体が成り立たなくなってしまいます。したがって、本講義では、上述したように講義の受講とレポートの提出に関しては厳格な取扱いをすることとしています。また、レポートの内容を含む受講の態度や状況によっては途中の段階で以降の履修をお断りすることもありますので留意するようにしてください。
 授業開始後は、Waseda Moodleを通じて必要な情報を受講生の皆さんにアナウンスメントすることなどもあります。定期的にWaseda Moodle上の本講義の情報をチェックするようにしてください。",ECNA131L,経済学,応用経済学,財政学・公共経済学・経済政策,初級レベル（入門・導入）,専門教育科目　寄附講座等系,１年以上,2,日本語,【対面】
-2026,MANX101L,公益社団法人リース事業協会寄附講座　サステナブルな社会を創るリース　１,新井　剛,商学,秋学期,火３時限,教室未定,※授業計画欄は2026年4月30日現在の情報です。各回の講義タイトルおよび講師は......,1600004K410120261600004K4116,,"※授業計画欄は
+2026,MANX101L,公益社団法人リース事業協会寄附講座　サステナブルな社会を創るリース　１,新井　剛,商学,秋学期,火３時限,教室未定,※授業計画欄は2026年8月25日現在の情報です。各回の講義タイトルおよび講師は......,1600004K410120261600004K4116,,"※授業計画欄は
 2026
-年4月30日現在の情報です。各回の講義タイトルおよび講師は変更になることがあります。随時更新いたします。
+年8月25日現在の情報です。各回の講義タイトルおよび講師は変更になることがあります。随時更新いたします。
 ※講義資料は
 Moodle
 に掲載しますので、各自
@@ -32850,58 +33239,62 @@ PC
 ➂将来の進路（企業・官公庁への就職、創業、公認会計士等の専門家等）において、本講座で修得した知識を活用できるようなレベルに到達する。","各回の講義において、適宜資料等を配付するので、事前に目を通すこと。授業後には、授業の内容を復習しておくこと。
 さらに、ワークショップへの参加・課題レポート作成時には、配付した資料等をあらためて参照すること。","1:
 第１回（10月6日）：ガイダンス（1.授業内容と方法　2.出席（単位取得要件）　3.成績評価） / リース概論
-商学学術院 教授 新井 剛
-公益社団法人リース事業協会 常務理事・事務局長 加藤 建治
+商学学術院　教授　新井 剛
+公益社団法人リース事業協会　常務理事・事務局長　加藤 建治
 2:
 第２回（10月13日）：リース入門Ⅰ（リース産業の歴史、リースの基礎、リースの市場等）
-公益社団法人リース事業協会 常務理事・事務局長 加藤 建治
+公益社団法人リース事業協会　常務理事・事務局長　加藤 建治
 3:
-第３回（10月20日）：自転車のリース （1. 自動車マーケットの現状 2. 自動車リースの基礎 3. 自動車リース取引の仕組み） / 再生可能エネルギービジネス
-日本カーソリューションズ（株）　営業統括本部営業統括部副部長　松田　輝一
-三菱ＨＣキャピタル（株）常務執行役員 環境エネルギー事業本部長　岡　隆文
+第３回（10月20日）：自動車のリース （1. 自動車マーケットの現状 2. 自動車リースの基礎 3. 自動車リース取引の仕組み） / 再生可能エネルギービジネス
+日本カーソリューションズ（株）　営業統括本部営業統括部長　松田　輝一
+三菱ＨＣキャピタル（株）　常務執行役員 環境エネルギー事業本部長　岡　隆文
 4:
 第４回（10月27日）：国際リース（1. 国際リースの現況 2. 国際リース取引の仕組み 3. 国際ビジネスの経験） / 船舶ファイナンス
-みずほリース株式会社 国際委員会委員　講師選定中
-ＪＡ三井リース株式会社 船舶・輸送本部船舶部部長 宮本 祐次
+みずほリース（株）　国際事業本部国際業務管理部理事部長　後藤 健
+ＪＡ三井リース（株）　船舶・輸送本部船舶部部長　宮本 祐次
 5:
-第５回（11月3日）：リース事業協会の社会貢献活動/リース入門Ⅱ
-公益社団法人リース事業協会 常務理事・事務局長 加藤 建治
-公益社団法人リース事業協会 企画部部長代理 廣澤 且巳
+第５回（11月3日）：リース事業協会の社会貢献活動/リース入門Ⅱ／課題レポートの説明
+公益社団法人リース事業協会　常務理事・事務局長　加藤 建治
+公益社団法人リース事業協会　企画部部長代理　廣澤 且巳
 6:
 第６回（11月10日）：地方創生とリース（1. 地方創生の意義 2. リース活用事例） / 地方公共団体における脱炭素の取組み
-ＮＴＴ・ＴＣリース（株） 営業企画部長 徳能  弘一
+ＮＴＴ・ＴＣリース（株）　営業企画部長　徳能  弘一
 千葉市　環境局　環境保全部　脱炭素推進課　事業調整担当課長　小圷 毅一郎
 7:
-第７回（11月17日）： エネルギーソリューションサービス業におけるリースの活用例 / ベンチャー企業とリース会社の連携
-日本テクノ(株) 管理本部サステナビリティ推進担当係長代理 遠藤 幸徳
-（株）ゼロボード 代表取締役 渡慶次 道隆
+第７回（11月17日）： エネルギーソリューションサービス業におけるリースの活用例（１．自己紹介　２．当社の事業は、「リース」で発展してきた！？　３．エネルギー業界を取り巻く現状と課題　４．中小企業が抱えるエネルギー関連の課題　５．当社のサービス内容　６．当社の事業におけるリースの活用　７．まとめ） / ベンチャー企業とリース会社の連携
+日本テクノ(株)　管理本部サステナビリティ推進担当係長代理　遠藤 幸徳
+（株）ゼロボード　代表取締役　渡慶次 道隆
 8:
 第８回（11月24日）：産業政策とリース / 環境政策とリース
-経済産業省商務・サービスグループ商取引・消費経済政策課長 乃田 昌幸
-環境省 総合環境政策統括官グループ 環境経済課 環境金融推進室 室長補佐 香田 慎也
+経済産業省　商務・サービスグループ　商取引・消費経済政策課長　乃田 昌幸
+環境省　大臣官房　環境経済課　環境金融推進室 室長補佐　香田 慎也
 9:
 第９回（12月1日）：リースの会計・税制（1. 会計・税制の基本 2. 新リース会計基準 3. リース取引の税制 4. リース会社の経理部門） / リース会社の法務（1. リース契約の基本 2. リース取引に関する法律 3. リース会社の法務担当者に求められること）
-東京センチュリー株式会社 取締役専務執行役員CFO 平崎 達也
-三井住友トラスト・パナソニックファイナンス株式会社 法務コンプライアンス統括部法務課副調査役 江森 洋子
+東京センチュリー(株)　取締役専務執行役員CFO　平崎 達也
+三井住友トラスト・パナソニックファイナンス(株)　法務コンプライアンス統括部法務課副調査役　江森 洋子
 10:
 第１０回（12月8日）：リースと環境 （1. リース終了処理の基礎　2. リース終了部門から見たリース　3. 地球環境保護に貢献する取組）/ リサイクル会社から見たリース
-昭和リース株式会社 インフラ・オペレーション本部 リースアップオペレーション部長 渡邉 隆英
-TREホールディングス株式会社 執行役員経営企画本部副部長兼戦略部長 山下 勇一郎
+昭和リース(株)　インフラ・オペレーション本部 リースアップオペレーション部長　渡邉 隆英
+TREホールディングス(株)　執行役員経営企画本部副部長兼戦略部長　山下 勇一郎
 11:
-第１１回（12月15日）：リース会社のサステナビリティ活動 / リース会社における新規事業開発 / グループワーク / 質疑応答
-広報調査委員会委員会社担当者
+第１１回（12月15日）：リース会社のサステナビリティ活動（1. NECキャピタルソリューション株式会社の紹介　2. リース会社のサステナビリティ　3. サステナビリティ取組事例　4. 今後の方針　5. 本日のまとめ） / リース会社における新規事業開発 / グループワーク
+NECキャピタルソリューション（株）　コミュニケーション部長　是枝　孝彰、コミュニケーション部プロフェッショナル　多田　香織
+三井住友ファイナンス＆リース(株)　ネクストビジネス開発部長　本圖　卓之
 12:
 第１２回（1月12日）：リース産業の将来展望
-オリックス株式会社 取締役兼代表執行役社長・グループCEO 髙橋 英丈
+オリックス(株)　取締役兼代表執行役社長・グループCEO　髙橋 英丈
 13:
 第１３回（1月19日）：ワークショップ
-広報調査委員会委員会社
-公益社団法人リース事業協会 企画部部長代理 廣澤 且巳
+JA三井リース(株)　経営管理部コーポレートコミュニケーション室　一澤　英美里、人事総務部人材開発室　四家 菜々子
+MUFGファイナンス&リーシング(株)　経営企画部　 前田 祐輔、人事部　安藤 里沙
+芙蓉総合リース（株）　経営企画部ｺｰﾎﾟﾚｰﾄｺﾐｭﾆｹｰｼｮﾝ室長　渡邊 裕介、　人事部　伊藤　海
+リコーリース(株)　グループ人財統括本部人事部人材開発課　仲秋 嘉則、グループ人財統括本部人事部人材開発課　谷口 楓香
+りそなリース(株)　人事総務部　廣瀬 すみれ、営業開発部　本田 雅貴
 14:
-第１４回（1月27日）：課題レポート表彰 / 受賞者プレゼンテーション / 総評 / 講義の振り返り
-商学学術院 教授 新井 剛
+第１４回（1月26日）：課題レポート表彰 / 受賞者プレゼンテーション / 総評 / 講義の振り返り
+商学学術院　教授　新井 剛
 広報調査委員会委員長
-公益社団法人リース事業協会 常務理事・事務局長 加藤 建治",特に指定しない。適宜資料等を配布する。,東洋経済　リース事業特集『リースの新常識』（２０１８、東洋経済新報社）,"割合
+公益社団法人リース事業協会　常務理事・事務局長　加藤 建治",特に指定しない。適宜資料等を配布する。,東洋経済　リース事業特集『リースの新常識』（２０１８、東洋経済新報社）,"割合
 評価基準
 試験:
 0％
@@ -32913,7 +33306,7 @@ TREホールディングス株式会社 執行役員経営企画本部副部長�
 40％
 毎回の授業後に、各回の内容に関する質問や感想等を記した「レポート」を提出してもらう。これは出欠の確認も兼ねている。これを14回分で、計40％分の成績評価割合とする。なお、「講義内での出席カード提出」と「講義後の感想レポート提出」の両方が揃って出席1回とカウントする。","公益社団法人リース事業協会URL：
 https://www.leasing.or.jp/",MANX101L,経営学,経営学,概論,初級レベル（入門・導入）,専門教育科目　寄附講座等系,１年以上,2,日本語,【対面】
-2026,MANX101L,株式会社MARKコンサルタンツ寄附講座　ファミリービジネス（Succession・Governance・Management）　１,加納　和子,商学,秋学期,火２時限,教室未定,※2025年の情報です。2026年については決定次第更新します。 ※各回の講義タイト......,1600004K460120261600004K4616,,"※2025年の情報です。2026年については決定次第更新します。
+2026,MANX101L,株式会社MARKコンサルタンツ寄附講座　ファミリービジネス（Succession・Governance・Management）　１,加納　和子,商学,秋学期,火２時限,教室未定,※2026年9月11日時点の情報です。 ※各回の講義タイトルおよび講師は変更となるこ......,1600004K460120261600004K4616,,"※2026年9月11日時点の情報です。
 ※各回の講義タイトルおよび講師は変更となることがあります。随時更新していきます。
 ※講義資料はＭｏｏｄｌｅに掲載しますので、各自ＰＣ等持参のうえ受講してください。
 ※この科目は当該授業内容に関する実務の経験を有する講師等がその実務経験を活かして講義等を行う科目です。
@@ -32923,51 +33316,48 @@ https://www.leasing.or.jp/",MANX101L,経営学,経営学,概論,初級レベル�
 この授業ではファミリービジネスの経営、ガバナンス、事業承継に関し一般企業とは異なる様々な特徴を学びます。著名なファミリービジネス経営者の口から直接語られる事例をどんな経営学の理論やフレームワークを用いて分析、整理できるかを考えることも面白いでしょう。
 本講座は実家が家業をされているなどファミリービジネスに直接関わる人はもちろんのこと、長寿企業に興味を持っている人を想定しています。公認会計士や税理士などの職業会計人を目指す学生や金融機関への就職を希望する学生にとっても将来ファミリービジネスと関わる機会も多くあること考えられることから有意義な授業となるはずです。
 * 本講座の寄附元である株式会社MARKコンサルタンツはファミリービジネスの中堅中小企業の各種コンサルティングや企業向けセミナー事業を行う愛知県名古屋市の会社です。本寄附講座はFBNJ（Family Business Network Japan、FBN日本支部）の後援で開設されます。FBNはファミリービジネスに携わるオーナー、経営者、親族（ファミリー）を会員とする、世界最大の非営利団体の国際組織です。FBNの国際本部はスイス・ローザンヌにあり、1989年にスイスのビジネススクールであるIMD （International Institute For Management Development）と産業界の産学協同で設立されました。現在世界65か国、33のメンバー組織から構成されており、FBNのグローバルなネットワークは、世界に約5,000ファミリー企業と次世代を含めた約20,000名の個人のメンバーに広がっています。",多くの学生の就職先と関連するであろうファミリービジネスの利点、戦略、課題などを学ぶことにより、授業で学んだ理論や枠組みが、それらとどのように関わっているのか理解できるようになること。,経済やビジネスに関する出来事、新聞や雜誌などの記事に触れた際、ファミリービジネスの観点からそれらを捉え、自分なりの仮説を立ててみること。,"1:
-第１回（10月_日）：ガイダンス（ファミリービジネスとは？）
-担当教員
+第１回（10月6日）：ガイダンス（ファミリービジネスとは？）
+商学学術院 准教授 加納 和子
 株式会社MARKコンサルタンツ 代表取締役 岡本 雄三
 2:
-第２回（10月_日）：ファミリービジネス大国イタリアのソール（靴底）メーカーのガバナンス
-Vibram Corp. (イタリア） 取締役 Matteo Bramani
-3:
-第３回（10月_日）：ブラジルの穀物加工・油脂製造大手ファミリービジネスとサステナビリティ
-Caramuru Alimentos SA（ブラジル） リスク＆レジリエンスマネージャー Simone Tatesuzi.Derache
-特定非営利活動法人ファミリー・ビジネス・ネットワーク・ジャパン 参事 河田 淳
-4:
-第４回（10月_日）：持続経営の秘訣（キッコーマン創業家からの視点）
-株式会社丸仁ホールディングス 顧問 髙梨 一郎
-5:
-第５回（11月_日）：徳川幕府とファミリービジネス
-徳川宗家第十九代当主 徳川 家広
-6:
-第６回（11月_日）：成功するファミリービジネスの条件
-株式会社武蔵境自動車教習所　代表取締役社長
-高橋 明希
-7:
-第７回（11月_日）：創業335年 事業継続の条件
-材惣木材株式会社 代表取締役社長 鈴木 龍一郎
-8:
-第８回（11月_日）：ファミリービジネスとしての伝統芸能
-狂言和泉流 野村 裕基
-9:
-第９回（12月_日）：デザイン戦略で脱請負型経営
+第２回（10月13日）：デザイン戦略で脱請負型経営
 本多プラス株式会社 代表取締役社長 本多 孝充
+3:
+第３回（10月20日）：
+講師選定中
+4:
+第４回（10月27日）：（仮）インドのエンジニアリング企業のファミリービジネス
+Forbes Marchal 会長 Farhad Forbes
+5:
+第５回（11月3日）：
+ウクライナのファミリー・ビジネス起業 講師選定中
+6:
+第６回（11月10日）：モータ屋さんが宇宙とロボットに手を出した理由
+シナノケンシ株式会社 代表取締役社長 金子 行宏
+7:
+第７回（11月17日）：（仮）老舗のサバイバル戦略
+株式会社山本山 代表取締役社長 山本 奈未
+8:
+第８回（11月24日）：持続経営の秘訣
+株式会社丸仁ホールディングス 顧問 髙梨 一郎
+9:
+第９回（12月1日）：ファミリービジネスとしての狂言
+狂言和泉流 野村 裕基
 10:
-第１０回（12月_日）：資生堂と福原 150年の歩みとこれからのファミリーの在り方
-株式会社アスム 代表取締役 執行役員社長 福原 和人
+第１０回（12月8日）：ファミリービジネス成功の秘訣
+株式会社武蔵境自動車教習所 代表取締役社長 髙橋 明希
 11:
-第１１回（12月_日）：未来に受け継がれていくレーザックス挑戦のDNA
-株式会社レーザックス 代表取締役社長 近藤 大祐
+第１１回（12月15日）：（仮）スウェーデンの紙・パルプ製造業の4代目
+BIM Kemi社 Gustav Wallenberg
 12:
-第１２回（1月_日）：世界トップクラスの歯科材料・機器メーカーの世界戦略
-株式会社ジーシー 最高顧問 中尾 眞
+第１２回（1月12日）：家を繋げるということ
+徳川宗家（将軍家）19代当主 徳川 家広
 13:
-第１３回（1月_日）：わさびからWASABIへ～アイダホの農業・種子ファミリービジネスとの協働
-金印株式会社 取締役社長 石川 良市
-Mountain States Oilseeds,LLC CEO Kacy Gehring
+第１３回（1月19日）：資生堂と福原 150年の歩みとこれからのファミリーの在り方
+株式会社アスム 代表取締役 福原 和人
 14:
-第１４回（1月_日）：講評
-担当教員",特にありません。講義資料はＭｏｏｄｌｅに掲載しますので、各自ＰＣ等持参のうえ受講してください。,,"割合
+第１４回（1月26日）：講評
+商学学術院 准教授 加納 和子",特にありません。講義資料はＭｏｏｄｌｅに掲載しますので、各自ＰＣ等持参のうえ受講してください。,,"割合
 評価基準
 試験:
 0％
@@ -32980,76 +33370,74 @@ Mountain States Oilseeds,LLC CEO Kacy Gehring
 授業後に、各回の内容に関する質問や感想等をMoodleに提出。これは出欠の確認も兼ねている。これを14回分で、計40％分の成績評価割合とする。","※次のURLを参照してください。
 株式会社MARKコンサルタンツ
 https://mark-c.jp/",MANX101L,経営学,経営学,概論,初級レベル（入門・導入）,専門教育科目　寄附講座等系,１年以上,2,日・英併用,【対面】
-2026,MANX131L,株式会社PKUTECH寄附講座　AIとビジネスの未来　１,梁取　美夫／横山　将義,商学,秋学期,金３時限,教室未定,※ 2026年1月現在の情報です。各回の講義タイトルおよび講師は、変更となること......,1600004K480120261600004K4816,,"※ 2026年1月現在の情報です。各回の講義タイトルおよび講師は、変更となることがあります。随時、更新いたします。
+2026,MANX131L,株式会社PKUTECH寄附講座　AIとビジネスの未来　１,梁取　美夫／横山　将義,商学,秋学期,金３時限,教室未定,※ 2026年6月12日現在の情報です。各回の講義タイトルおよび講師は、変更となる......,1600004K480120261600004K4816,,"※ 2026年6月12日現在の情報です。各回の講義タイトルおよび講師は、変更となることがあります。随時、更新いたします。
 本講義は株式会社PKUTECHの多大な寄附により開講されるAIのビジネスへの活用について学ぶ授業です。
 人工知能(AI)の急速な進化は新たなビジネスモデルを創出し、ベンチャーの創業や既存企業の成長戦略の転換を促しています。AIの進化はヒトの働き方も大きく変え、生成AIやAIエージェントを活用することで情報の収集や分析、プログラミング、資料作成などの業務が大幅に効率化されています。翻って学生の皆さんはどれくらいAIを利用しているでしょうか？学生の生成AI利用状況に関するデータサイエンティスト協会の調査でも、ChatGPT公開から約1年後の2023年12月時点における生成AIの利用率は29%でしたが、その1年後の2024年12月時点では47%にまで上昇しており、生成AIが学生にとってより身近な存在となっていることが示されています。
 AIは経済・社会に大きな変革をもたらしていますが、AIの研究力に関するランキング（https://airankings.org/）を見てみると、1位はアメリカ、2位は中国であり、日本は10位と大きく後れを取っています。こうした中、日本政府は2019年に策定された「AI戦略2019」において、社会におけるAI活用方針の包括的整理や大学におけるAIカリキュラムの標準化を目指すとしています。2025年には「AI活用推進法」が制定されるなど、「AI活用の推進」と「信頼性の確保」を中心とした取り組みを進められています。
 働き方が多様化する現代、AIが人間の業務を代替する可能性はますます高まっており、労働市場の構造も大きく変わりつつあります。今後、どの仕事がAIに置き換えられ、人間に何が求められるのかを見極めることは、学生のみなさんにとって重要な課題であるといえるでしょう。例えば、米国では新卒学生の就職難が深刻化しており、特に営業、事務、コンサルタントなどの職種におけるエントリーレベルの従業員の採用が減少しています。背景にはAIによる業務の自動化があり、企業は経験者を優先する傾向を強めています。マイクロソフトも2025年に営業・マーケティング部門を中心に約9,000人の人員削減を発表しており、この動きは今後日本にも及ぶ可能性があります。
-このような状況下において、大学在学中からAIの現状を理解し、その動向に敏感になる姿勢を養うことは、将来のキャリア形成や就職活動においても大きな強みとなるでしょう。本講座では、AI製品の開発で実績を持つ株式会社PKUTECHが、ビジネスにおけるAI活用に必要な素養の習得を目的として、現代社会におけるAIの全体像を概観する内容を扱います。講師には、PKUTECHの社員に加え業界の第一線で活躍する専門家を迎え、AIに関する幅広いテーマを取り上げて実施する予定です。",AIを使える能力」と「ChatGPTを使うこと」は異なるものであるという意識を持ち、AIの利活用を主体的に検討・実践できるようになることを目指します。具体的な到達目標としては以下になります。,•　　各回の講義において、適宜資料等を配付するので、事前に目を通してください。また取り上げられたトピックに関し自分の興味のある分野（例：アニメ、ドラマ、映画、音楽、写真など）においてAIがどのように活用されているかを調べ、可能であれば、そのAI技術を実際に自分で利用してみることが期待されます。,"1:
-第１回: ガイダンス - AI概論
+このような状況下において、大学在学中からAIの現状を理解し、その動向に敏感になる姿勢を養うことは、将来のキャリア形成や就職活動においても大きな強みとなるでしょう。本講座では、AI製品の開発で実績を持つ株式会社PKUTECHが、ビジネスにおけるAI活用に必要な素養の習得を目的として、現代社会におけるAIの全体像を概観する内容を扱います。講師には、PKUTECHの社員に加え業界の第一線で活躍する専門家を迎え、AIに関する幅広いテーマを取り上げて実施する予定です。
+※この科目は当該授業内容に関する実務の経験を有する教員等がその実務経験を活かして講義等を行う科目です。",AIを使える能力」と「ChatGPTを使うこと」は異なるものであるという意識を持ち、AIの利活用を主体的に検討・実践できるようになることを目指します。具体的な到達目標としては以下になります。,•　　各回の講義において、適宜資料等を配付するので、事前に目を通してください。また取り上げられたトピックに関し自分の興味のある分野（例：アニメ、ドラマ、映画、音楽、写真など）においてAIがどのように活用されているかを調べ、可能であれば、そのAI技術を実際に自分で利用してみることが期待されます。,"1:
+第１回（10月2日）: ガイダンス - AI概論
 商学学術院 教授
 横山将義・梁取 美夫
 株式会社PKUTECH 代表取締役社長
 劉 甚秋
 2:
-第２回: AIの進化（研究から応用まで）
+第２回（10月9日）: AIの進化（研究から応用まで）
 株式会社PKUTECH DXコンサルティング室 AIモデル開発室 室長
 杠 涼太
 3:
-第３回: AIで使われる主要な技術
+第３回（10月16日）: AIで使われる主要な技術
 株式会社PKUTECH DXコンサルティング室 AIモデル開発室 室長
 杠 涼太
 4:
-第４回: 世界のAI企業と主要サービス
+第４回（10月23日）: AIによるデータ活用・実践
 株式会社PKUTECH DXコンサルティング室 AIモデル開発室
 杉本 陽祐
 5:
-第５回: AIによるデータ活用・実践
-株式会社PKUTECH DXコンサルティング室 AIモデル開発室
-杉本 陽祐
+第５回（10月30日）: 米国のAI主要企業及び応用事例
+日本アイ・ビー・エム株式会社 テクノロジー事業本部 エコシステム共創本部 テクノロジー・アライアンス事業部 部長
 6:
-第６回: 次世代AI概論（仮）
-株式会社三菱総合研究所 研究理事　比屋根 一雄
-7:
-第７回: 中国のAI技術と主要企業
+第６回（11月13日）: 中国のAI技術と主要企業
 北京天公瑞豊科技有限公司 社長
 李 亦工
+株式会社PKUTECH DXコンサルティング室 AIモデル開発室
+呉 一郎
+7:
+第７回（11月20日）: 経営のDX・AI活用の実現
+株式会社三菱総合研究所 AIコンサルティング本部 本部長
+清水 浩行
 8:
-第８回: 米国のAI主要企業及び応用事例
-日本アイ・ビー・エム株式会社株式会社 <役職>
-未定
+第８回（11月27日）: 日本企業のAI活用事例
+NTT東日本株式会社 デジタル革新本部 デジタルイノベーション部 デジタル推進第一部門 販売系システム推進担当 担当課長
+見村 行昌
 9:
-第９回:
-NTT東日本株式会社 <役職>
-未定
-日本生命保険相互会社 <役職>
-未定
+第９回（12月4日）: システム開発の革命：AI駆動型開発
+日本アイ・ビー・エム株式会社　テクノロジー事業本部　AI製品主管　張 重陽
 10:
-第１０回: 日本企業のAI活用事例
-ペガジャパン株式会社 <役職>
-未定
-アピアンジャパン合同会社 <役職>
-未定
+第１０回（12月11日）: AIの未来
+株式会社三菱総合研究所 研究理事
+比屋根 一雄
 11:
-第１１回: 最終課題の説明とグループワーク
+第１１回（12月18日）: 最終課題の説明とグループワーク
 株式会社PKUTECH DXコンサルティング室 AIモデル開発室
 笹原 優大
 12:
-第１２回: グループワーク
+第１２回（1月8日）: グループワーク（最終課題）
+株式会社PKUTECH DXコンサルティング室
+臼井 誉高
 商学学術院 教授
 梁取 美夫
 13:
-第１３回: AIと社会：セキュリティ、倫理、そして法
-日本アイ・ビー・エム株式会社 法務コンプライアンス部門 <仮>
-荒井　亜弥<仮>
+第１３回（1月15日）: AIと社会：セキュリティ・倫理・法とどう向き合うか
+株式会社PKUTECH クラウド＆セキュリティ事業部
+釜石 智史
 14:
-第１４回: 課題の発表と授業の振り返り
+第１４回（1月22日）: 成果発表と授業の振り返り
 商学学術院 教授
 横山 将義・梁取 美夫
 株式会社PKUTECH 代表取締役社長
-劉 甚秋
-株式会社PKUTECH DXコンサルティング室 AIモデル開発室
-笹原 優大",特にありません。必要に応じて資料を配布します。,G検定の各学習書籍,"割合
+劉 甚秋",特にありません。必要に応じて資料を配布します。,G検定の各学習書籍,"割合
 評価基準
 レポート:
 40％
@@ -33067,7 +33455,7 @@ PC
 PKUTECH
 ホームページ：
 https://pkutech.co.jp/",MANX131L,経営学,経営学,経営戦略,初級レベル（入門・導入）,専門教育科目　寄附講座等系,１年以上,2,日本語,【対面】
-2026,MANX181L,株式会社東京商工リサーチ寄附講座　企業データと社会実務の交差　１,宮川　大介／久保　克行,商学,秋学期,金４時限,教室未定,※2026年2月17日時点での情報です。各回の講義タイトルおよび講師は変更となるこ......,1600004K490120261600004K4916,,"※2026年2月17日時点での情報です。各回の講義タイトルおよび講師は変更となることがあります。随時更新していきます。
+2026,MANX181L,株式会社東京商工リサーチ寄附講座　企業データと社会実務の交差　１,宮川　大介／久保　克行,商学,秋学期,金４時限,教室未定,※2026年8月29日時点での情報です。各回の講義タイトルおよび講師は変更となるこ......,1600004K490120261600004K4916,,"※2026年8月29日時点での情報です。各回の講義タイトルおよび講師は変更となることがあります。随時更新していきます。
 ------------------------------------------------------------------------------------------------
 本講義では、株式会社東京商工リサーチ（TSR）のご協力を受けることで、企業を対象としたマイクロデータの収集とその利用について実務的な知見を含めた学習を進めます。
 企業や個人といった経済主体毎に計測されたいわゆるマイクロデータは、実証的な学術研究だけではなく、様々な企業実務（例：金融機関における企業の貸し出し判断、事業会社における営業先の選定）や政策実務（例：補助金プログラムの政策評価）における重要な分析の素材として用いられています。こうしたデータが、どのように構築され、どのように利用されているかについて実例を通して学ぶことは、現代的なビジネスにおける必須の能力であるデータ分析力を身につけるために効果的であるだけでなく、新しいビジネスや政策の企画立案を行う際の地力をつける上でも有効です。
@@ -33078,106 +33466,135 @@ https://pkutech.co.jp/",MANX131L,経営学,経営学,経営戦略,初級レベ�
 商学学術院 教授 久保 克行
 2:
 第２回（10月9日）：マイクロデータの種別
-2026年度に調整予定
+東京商工リサーチ　経営企画部
 3:
 第３回（10月16日）：マイクロデータの収集
-2026年度に調整予定
+東京商工リサーチ　調査部　木村麻美氏
 4:
 第４回（10月23日）：マイクロデータの利用
-講師選定中
+電通
+田嶋優樹氏
 5:
 第５回（10月30日）：マイクロデータの利用
-2026年度に調整予定
+三井住友ファイナンス＆リース（SMFL）
 6:
 第６回（11月13日）：マイクロデータの利用
-2026年度に調整予定
+丸紅
 7:
 第７回（11月20日）：マイクロデータの利用
-講師選定中
+あずさ監査法人　宇宿哲平氏
 8:
 第８回（11月27日）：マイクロデータの利用 政策評価・ＥＢＰＭ
-講師選定中
+経済産業省
+森本要氏
 9:
 第９回（12月4日）：マイクロデータの利用
-大阪大学 講師 川窪　悦章
-東北大学 講師 矢ケ崎　将之
+東京商工リサーチ　情報部
+原田三寛氏
+TSR
+東京商工リサーチ　市場調査部
+進拓治氏
+TSR
 10:
 第１０回（12月11日）：マイクロデータの利用
-講師選定中
+商学学術院 教授 山野井 順一
 11:
 第１１回（12月18日）：サーベイ調査
-講師選定中
+中小企業庁　鈴木望氏
 12:
 第１２回（1月8日）：定性調査
-2026年度に調整予定
+東北大学
+矢ケ崎将之氏
+大阪大学
+川窪悦章氏
 13:
 第１３回（1月15日）：人事関連情報
-講師選定中
+早稲田大学政治経済学部　大湾秀雄氏
 14:
 第１４回（1月22日）：理解度の確認（期末試験）
 商学学術院 教授 宮川 大介
-商学学術院 教授 久保 克行",講義マテリアル（文献、ノート、スライド）を主として使いますが、参考文献については各回の授業で必要に応じて提示します。,,"割合
+商学学術院 教授 久保 克行",各回の講義前に講義マテリアル（文献、ノート、スライド）を配布した上で、このマテリアルの事前学習を前提として講義を運営します。特定の教科書はしてしませんが、参考文献がある場合には、配布する講義マテリアル内で紹介します。,,"割合
 評価基準
 試験:
 30％
-期末試験（第１４回の講義時間中に実施）
+第１４回目の授業時間中に理解度の確認を行う。ただし、未済試験は実施しません。
 レポート:
 30％
-各回の講義内容の要約を提出。
+各回の講義内容についてMoodleで提出する要約をレポート課題として課します。
 平常点評価:
 40％
-3回休んだら単位が出ない。発言したらボーナス。",,MANX181L,経営学,経営学,その他,初級レベル（入門・導入）,専門教育科目　寄附講座等系,１年以上,2,日本語,【対面】
-2026,MANX121L,デロイト トーマツ寄附講座　企業戦略としての組織・人事デザイン　１,梁取　美夫,商学,秋学期,木２時限,教室未定,※ 2026年1月時点の情報です。本講座は2026年秋学期に新たに開講されるため、講......,1600004K500120261600004K5016,,"※ 2026年1月時点の情報です。本講座は2026年秋学期に新たに開講されるため、講義タイトルおよび講師の詳細については未定の部分があります。随時、情報を更新していきます。
+授業後に、各回の内容に関する質問や感想等をMoodleに提出してもらいます。これは出欠の確認も兼ねています。これを１４回分で、計25％分の成績評価割合とします。成績評価の前提として、全講義（１４回）の２/３（１０回）以上の出席が必須です。出席については、各自が自身で記録しておくこと。出席回数等の問い合わせは受け付けませんので注意してください。講義運営に貢献する発言を歓迎します。",,MANX181L,経営学,経営学,その他,初級レベル（入門・導入）,専門教育科目　寄附講座等系,１年以上,2,日本語,【対面】
+2026,MANX121L,デロイト トーマツ寄附講座　企業戦略としての組織・人事デザイン　１,梁取　美夫,商学,秋学期,木２時限,教室未定,※ 2026年9月2日時点の情報です。本講座は2026年秋学期に新たに開講されるため、......,1600004K500120261600004K5016,,"※ 2026年9月2日時点の情報です。本講座は2026年秋学期に新たに開講されるため、講義タイトルおよび講師の詳細については未定の部分があります。随時、情報を更新していきます。
 現代の企業経営では、組織・人事の在り方がかつてないスピードで変化しています。グローバル化やAIをはじめとするテクノロジーの進展、ダイバーシティの重視、価値観の多様化に対応するため、企業には組織構造と人材戦略の抜本的な再設計が求められています。加えて、ESGなどの社会的要請が高まる中、従来型の組織・人事管理だけでは、持続的な成長や競争力の維持が難しくなっています。
 本講義では、理論と実践の双方を統合し、組織・人事領域のプロフェッショナルが、組織カルチャー、リーダーシップ改革、オペレーションモデルや最新の組織デザイン、人材要件・評価・処遇制度、コーポレート・ガバナンス、HRテクノロジーに関するテーマを横断的に扱います。
 さらに、多様な先進企業の事例を用いて、現場で直面する具体的な課題とその対応策を検討し、実務に直結する意思決定や変革を推進するための実装力を養います。本講座の受講を通じて、未来志向の組織・人事の在り方を自ら構想し、現場で実装まで導くための基礎力と実践力を身につけることを目指します。また今後のキャリア形成に資する、汎用性の高い思考枠組みとツールも提供します。",・ 組織・人事に関する理論が実務でどのように応用されているか、実例を通じた理解ができる,企業事例として取り上げる企業に関するビジネス理解、組織・人事に関する情報（人事戦略、取り組み施策等）を、企業の統合報報告書や有価証券報告書等から調べ、理解しておくことを推奨します。詳細は第1回ガイダンスで説明します。,"1:
 第１回: ガイダンス
 商学学術院 教授
 梁取 美夫
-合同会社デロイト トーマツ 執行役員/パートナー　淺井 優
+合同会社デロイト トーマツ　パートナー　淺井 優
 2:
 第２回: AIの活用による組織・人事の高度化
-合同会社デロイト トーマツ 執行役員/パートナー　古澤　哲也
+合同会社デロイト トーマツ　パートナー
+古澤 哲也
+合同会社デロイト トーマツ　ディレクター
+嶋田 聰
 3:
-第３回: 企業事例①
-TBA: 確定次第アップデートします。
+第３回: 結果を出す組織の本質
+レーシングドライバー　佐藤 琢磨
+合同会社デロイト トーマツ　パートナー
+デロイト トーマツ グループ CPPO　神山 友佑
+合同会社デロイト トーマツ　パートナー　淺井 優
+合同会社デロイト トーマツ　マネージングディレクター　竹井 昭人
 4:
 第４回: HRテクノロジーの活用およびデータドリブンHR
-合同会社デロイト トーマツ 執行役員/パートナー　全　大忠
+合同会社デロイト トーマツ パートナー　全　大忠
 5:
-第４回: 企業事例②
-株式会社SmartHR　代表取締役CEO　芹澤　雅人
-株式会社カオナビ　代表取締役社長CEO　佐藤　寛之
+第５回: HRテック企業の挑戦とイノベーション
+株式会社SmartHR　代表取締役CEO
+芹澤 雅人
+株式会社カオナビ　代表取締役社長 CEO　佐藤 寛之
+合同会社デロイト トーマツ　パートナー
+全 大忠
 6:
 第６回: 経営戦略と人材戦略
-合同会社デロイト トーマツ 執行役員/パートナー　淺井　優
+合同会社デロイト トーマツ　パートナー
+淺井 優
+合同会社デロイト トーマツ　シニアマネジャー　田村 征継
+合同会社デロイト トーマツ　シニアマネジャー　細水 太津彦
 7:
 第７回: オペレーションモデルと組織デザイン
-合同会社デロイト トーマツ 執行役員/パートナー　北郷　聡
+合同会社デロイト トーマツ　パートナー　北郷 聡
+合同会社デロイト トーマツ　シニアマネジャー　菅沼 諒
 8:
-第８回: 企業事例③
+第８回: 組織に込められた「経営の意思」を知る
 塩野義製薬株式会社　人事部長　河本 高歩
 9:
 第９回: コーポレート・ガバナンスと次世代リーダー育成
-合同会社デロイト トーマツ 執行役員/パートナー　今野　靖秀
+合同会社デロイト トーマツ　パートナー
+今野 靖秀
 10:
-第１０回: 企業事例④
+第１０回: 持続的な企業価値向上のために人事部門が果たす役割
 味の素株式会社　執行役　栢原 紫野
 11:
 第１１回: 組織カルチャー変革とリーダーシップ開発
-合同会社デロイト トーマツ 執行役員/パートナー
-山本　啓二
+合同会社デロイト トーマツ　パートナー
+山本 啓二
+合同会社デロイト トーマツ　ディレクター
+伊藤 拓哉
 12:
-第１２回: 企業事例⑤
-パナソニック コネクト株式会社　（講師TBA)
+第１２回: 風土改革
+パナソニック コネクト株式会社　執行役員 SVP CHRO　新家 伸浩
 13:
-第１３回: TBA
-合同会社デロイト トーマツ 執行役員/パートナー　村中　靖
+第１３回: M&A組織再編人事
+合同会社デロイト トーマツ　パートナー
+村中 靖
+合同会社デロイト トーマツ　ディレクター
+渡邉 武広
 14:
-第１４回: 授業の振り返り
-商学学術院 教授
-梁取 美夫
-合同会社デロイト トーマツ 執行役員/パートナー 淺井 優",教科書は不使用。必要に応じて参考資料等を配布します。,必要に応じて授業にて指示,"割合
+第１４回: 総括
+商学学術院 教授　梁取 美夫
+合同会社デロイト トーマツ　パートナー　淺井 優
+合同会社デロイト トーマツ　シニアコンサルタント　本白水 ナナ",教科書は不使用。必要に応じて参考資料等を配布します。,必要に応じて授業にて指示,"割合
 評価基準
 レポート:
 30％
@@ -33593,10 +34010,10 @@ Students are required to submit an individual report that is based on the group 
 Contribution to class discussion
 その他:
 30％
-Quality of research is evaluated",,MANX421S,経営学,経営学,人的資源管理,総仕上げ,専門教育科目演習・論文,３年以上,2,日・英併用,【対面】
+Quality of research is evaluated",,MANX421S,経営学,経営学,人的資源管理,総仕上げ,専門教育科目演習・論文,３年以上,2,英語,【対面】
 2026,MANX421S,Managing Human Resources IIＢ,梁取　美夫,商学,秋学期,火４時限,教室未定,We investigate how organizations effectively manage their workforces to ac......,1600007189012026160000718916,,"We investigate how organizations effectively manage their workforces to achieve their goals. Our interests go beyond national boundaries and consider various management practices (e.g., recruitment and selection, compensation) adopted in organizations around the world.
 Activities will be structured so that they have a good balance between research and practice. Students will learn how to (1) read and understand academic research articles, (2) apply research findings to organizational management practices, and (3) conduct research to answer their own business questions.
-Fourth-year students are expected to complete their theses through activities in this zemi.",Complete thesis that makes good contributions to theory and practice in the field of management.,Reading assigned materials in advance is required. Students should expect about two hours of work per week outside of class.,"Each week, a few students share their progress and receive feedback from other students. In Week 12, they formally present their theses to the 3rd year students and the alumni of this zemi.",No textbook. Reading may be accessed through university databases.,,100% based on contribution to zemi activities,,MANX421S,経営学,経営学,人的資源管理,総仕上げ,専門教育科目演習・論文,３年以上,2,日・英併用,【対面】
+Fourth-year students are expected to complete their theses through activities in this zemi.",Complete thesis that makes good contributions to theory and practice in the field of management.,Reading assigned materials in advance is required. Students should expect about two hours of work per week outside of class.,"Each week, a few students share their progress and receive feedback from other students. In Week 12, they formally present their theses to the 3rd year students and the alumni of this zemi.",No textbook. Reading may be accessed through university databases.,,100% based on contribution to zemi activities,,MANX421S,経営学,経営学,人的資源管理,総仕上げ,専門教育科目演習・論文,３年以上,2,英語,【対面】
 2026,LAWB411S,民法研究IＢ,新井　剛,商学,秋学期,木３時限,教室未定,(1)　授業の趣旨と目的 最近になって、民法は色々な分野で改正がなされている......,1600007191012026160000719116,,"(1)　授業の趣旨と目的
 最近になって、民法は色々な分野で改正がなされている。
 そこで、本授業は、その改正の内容を検討し、現在における民法の到達点を理解することを目的とするものである。
@@ -33664,7 +34081,7 @@ http://www.courts.go.jp/
 http://www.moj.go.jp/
 日本弁護士連合会ホームページ：
 https://www.nichibenren.or.jp/",LAWB411S,法学,民事法,民法,総仕上げ,専門教育科目演習・論文,３年以上,2,日本語,【対面】
-2026,LAWB411S,民法研究IIＢ,新井　剛,商学,秋学期,月３時限,教室未定,(1)　授業の趣旨　本研究の総まとめとして、ゼミ生各自が設定したテーマに関し......,1600007193012026160000719316,,"(1)　授業の趣旨
+2026,LAWB411S,民法研究IIＢ,新井　剛,商学,秋学期,月２時限,教室未定,(1)　授業の趣旨　本研究の総まとめとして、ゼミ生各自が設定したテーマに関し......,1600007193012026160000719316,,"(1)　授業の趣旨
 本研究の総まとめとして、ゼミ生各自が設定したテーマに関して研究を深め、卒業論文を作成する。
 (2)　授業の方法
 報告担当のゼミ生は、卒業論文の中間報告を本授業内でおこなう。
@@ -33941,7 +34358,7 @@ Various forms of contribution to the Seminar.
 その他:
 50％
 Achievement on the Dissertation.",,ACCX401S,会計学,会計学,会計学,総仕上げ,専門教育科目演習・論文,３年以上,2,英語,【対面】
-2026,ACCX481S,会計・監査実務研究IＢ,関根　愛子,商学,秋学期,金４時限,教室未定,会計や監査は実務に直結した学問といえ、それを将来活かしていくためには、基本......,1600007389012026160000738916,,"会計や監査は
+2026,ACCX481S,会計・監査実務研究IＢ,関根　愛子,商学,秋学期,火４時限,教室未定,会計や監査は実務に直結した学問といえ、それを将来活かしていくためには、基本......,1600007389012026160000738916,,"会計や監査は
 実務に直結した学問
 といえ、それを将来活かしていくためには、基本的な内容や考え方を学ぶとともに、
 どのように実務で使われているのか
@@ -34014,7 +34431,7 @@ Achievement on the Dissertation.",,ACCX401S,会計学,会計学,会計学,総仕
 企業訪問を予定しており、記載したスケジュールは予定であり、授業時間外に行う場合もあります。これらは皆様の予定を別途調整して行いますので、それにより上記スケジュールが変更になることがあります。
 資料の配布、気づき・疑問点等の提出はWaseda Moodle を使用します。
 課題として提出して頂いた内容については、主に次の演習で議論し検討します。",ACCX481S,会計学,会計学,その他,総仕上げ,専門教育科目演習・論文,３年以上,2,日本語,【対面】
-2026,ACCX481S,会計・監査実務研究IIＢ,関根　愛子,商学,秋学期,金５時限,教室未定,本演習では、実務直結した学問といえる会計や監査の実務研究を行います。4年次......,1600007391012026160000739116,,本演習では、実務直結した学問といえる会計や監査の実務研究を行います。4年次春に検討した、卒業論文のアウトラインをもとに、グループやゼミ全体で議論をしながら卒業論文を作成していきます。,会計・監査がどのように実務で使われているかを知り、どのように使われていくべきか、今後どのように対応していくべきかを考え、判断し、それを伝達していく能力を獲得することを目指します。,卒業論文作成にあたって、幅広く資料を収集し、論文執筆の準備を行うことが必要です。,"1:
+2026,ACCX481S,会計・監査実務研究IIＢ,関根　愛子,商学,秋学期,火５時限,教室未定,本演習では、実務直結した学問といえる会計や監査の実務研究を行います。4年次......,1600007391012026160000739116,,本演習では、実務直結した学問といえる会計や監査の実務研究を行います。4年次春に検討した、卒業論文のアウトラインをもとに、グループやゼミ全体で議論をしながら卒業論文を作成していきます。,会計・監査がどのように実務で使われているかを知り、どのように使われていくべきか、今後どのように対応していくべきかを考え、判断し、それを伝達していく能力を獲得することを目指します。,卒業論文作成にあたって、幅広く資料を収集し、論文執筆の準備を行うことが必要です。,"1:
 第１回
 ガイダンス及び卒業論文アウトラインフォロー
 2:
