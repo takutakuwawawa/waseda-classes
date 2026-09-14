@@ -157,7 +157,25 @@ export function PlannerClient() {
 
       <div className="hidden gap-5 md:grid lg:grid-cols-[1.4fr_0.9fr]">
         <section className="rounded-md border border-[var(--line)] bg-[var(--surface)] p-4">
-          <h2 className="mb-4 text-sm font-bold text-[var(--text)]">時間割プレビュー</h2>
+          <div className="mb-4 flex items-center justify-between gap-4">
+            <h2 className="text-sm font-bold text-[var(--text)]">時間割プレビュー</h2>
+            <div
+              className="flex items-center gap-3 rounded-full border border-[var(--line-strong)] bg-[var(--accent-soft)] px-3 py-1.5 shadow-[0_8px_24px_rgba(0,0,0,0.16)]"
+              aria-label={`現在の総単位数 ${formatCredits(stats.totalCredits)}単位`}
+              aria-live="polite"
+              role="status"
+            >
+              <span className="text-[10px] font-semibold tracking-[0.08em] text-[var(--text-muted)]">
+                現在の総単位数
+              </span>
+              <span className="text-lg font-bold tabular-nums leading-none text-[var(--text)]">
+                {formatCredits(stats.totalCredits)}
+                <span className="ml-1 text-[10px] font-semibold text-[var(--text-muted)]">
+                  単位
+                </span>
+              </span>
+            </div>
+          </div>
           <div className="overflow-x-auto">
             <div className="min-w-[860px]">
               <div className={`grid ${TIMETABLE_GRID} border-b border-[var(--line)] text-center text-xs font-semibold text-[var(--text-muted)]`}>
@@ -241,8 +259,11 @@ export function PlannerClient() {
                   >
                     {klass.name}
                   </Link>
-                  <div className="mt-1 text-xs text-[var(--text-muted)]">
-                    {klass.teacher ?? "教員未定"} / {klass.faculty}
+                  <div className="mt-1 flex items-center justify-between gap-2">
+                    <span className="min-w-0 text-xs text-[var(--text-muted)]">
+                      {klass.teacher ?? "教員未定"} / {klass.faculty}
+                    </span>
+                    <CreditBadge credits={klass.credits} />
                   </div>
                   <button
                     type="button"
@@ -323,10 +344,35 @@ function ClassTile({ klass }: { klass: ClassWithSlots }) {
       <div className="line-clamp-2 font-semibold text-[var(--text)]">
         {klass.name}
       </div>
-      <div className="mt-1 text-[var(--text-faint)]">
-        {klass.teacher ?? "教員未定"}
+      <div className="mt-1 flex items-center justify-between gap-1.5">
+        <span className="min-w-0 flex-1 truncate text-[var(--text-faint)]">
+          {klass.teacher ?? "教員未定"}
+        </span>
+        <CreditBadge credits={klass.credits} compact />
       </div>
     </Link>
+  );
+}
+
+function CreditBadge({
+  credits,
+  compact = false,
+}: {
+  credits: number | null;
+  compact?: boolean;
+}) {
+  if (credits == null) return null;
+
+  return (
+    <span
+      className={`shrink-0 rounded-full border border-[var(--line-strong)] bg-[var(--accent-soft)] font-bold tabular-nums text-[var(--text)] ${
+        compact
+          ? "px-1.5 py-0.5 text-[9px] leading-none"
+          : "px-2 py-1 text-[10px] leading-none"
+      }`}
+    >
+      {formatCredits(credits)}単位
+    </span>
   );
 }
 
